@@ -1,0 +1,1707 @@
+[
+    {
+        "product_id": 2626,
+        "category_id": 0,
+        "product_name": "Countdown Fresh Fillets Snapper Skinned & Boned per kg",
+        "product_price": {
+            "normal_price": "46.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2627,
+        "category_id": 1,
+        "product_name": "Countdown Fresh Fillets Skinned Boned Tarakihi per kg",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": "32.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2628,
+        "category_id": 2,
+        "product_name": "Countdown Fresh Fillets Monkfish per kg",
+        "product_price": {
+            "normal_price": "35.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2629,
+        "category_id": 3,
+        "product_name": "Countdown Fresh Fillets Hoki In Mediterranean Glaze prepacked",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": "8.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2630,
+        "category_id": 4,
+        "product_name": "Countdown Fresh Fillets Tarakihi per kg",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": "32.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2631,
+        "category_id": 5,
+        "product_name": "Countdown Fresh Fillets Gurnard per kg",
+        "product_price": {
+            "normal_price": "40.00",
+            "offer_price": "38.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2632,
+        "category_id": 6,
+        "product_name": "Countdown Fresh Fillets Trevally per kg",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2633,
+        "category_id": 7,
+        "product_name": "Regal Fresh Fillets Salmon per kg",
+        "product_price": {
+            "normal_price": "40.00",
+            "offer_price": "32.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2634,
+        "category_id": 8,
+        "product_name": "Countdown Salmon Fillets Atlantic  Chilli thawed 285g",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2635,
+        "category_id": 9,
+        "product_name": "Regal Salmon Fillets Bone In Skin On per kg",
+        "product_price": {
+            "normal_price": "38.00",
+            "offer_price": "32.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2636,
+        "category_id": 10,
+        "product_name": "Countdown Salmon Fillets In Lemongrass Glaze prepacked",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2637,
+        "category_id": 11,
+        "product_name": "Countdown Salmon Fillets Atlantic Huan per kg",
+        "product_price": {
+            "normal_price": "30.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2638,
+        "category_id": 12,
+        "product_name": "Countdown Salmon Fillets Side Atlantic Huon",
+        "product_price": {
+            "normal_price": "30.00",
+            "offer_price": "28.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2639,
+        "category_id": 13,
+        "product_name": "Regal Fresh Cuts Salmon Loin 250g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2640,
+        "category_id": 14,
+        "product_name": "Regal Fresh Cuts Salmon Pieces Stir Fry 275g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2641,
+        "category_id": 15,
+        "product_name": "Ocean Blue Salmon Portions Skin On 800g",
+        "product_price": {
+            "normal_price": "30.00",
+            "offer_price": "25.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2642,
+        "category_id": 16,
+        "product_name": "Regal Wood Roasted Smoked Salmon Hot Smoked  Portions 200g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": "16.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2643,
+        "category_id": 17,
+        "product_name": "Sovereign Smoked Salmon Shavings 100g",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2644,
+        "category_id": 18,
+        "product_name": "Ocean Blue Smoked Salmon Hot Smoked Pepper 180g",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2645,
+        "category_id": 19,
+        "product_name": "Southern Ocean Smoked Salmon Pieces twin pack 100g",
+        "product_price": {
+            "normal_price": "9.30",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2646,
+        "category_id": 20,
+        "product_name": "Ocean Blue Smoked Salmon Hot Smoked Natural 180g",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2647,
+        "category_id": 21,
+        "product_name": "Ocean Blue Smoked Salmon Slices 100g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2648,
+        "category_id": 22,
+        "product_name": "Ocean Blue Smoked Salmon Slices 180g",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2649,
+        "category_id": 23,
+        "product_name": "Regal Smoked Salmon Portion Tomato & Basil 200g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": "16.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "product_id": 2650,
+        "category_id": 0,
+        "product_name": "Regal Smoked Salmon Sliced 2 X 50g Pks 100g",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2651,
+        "category_id": 1,
+        "product_name": "Clearly Premium Smoked Salmon Superior Sliced 200g",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2652,
+        "category_id": 2,
+        "product_name": "Countdown Smoked Salmon Atlantic Hot Smoked Nibbles per kg",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2653,
+        "category_id": 3,
+        "product_name": "Regal Smoked Salmon Nz King Sliced 2 x 100g pks 200g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2654,
+        "category_id": 4,
+        "product_name": "Clearly Premium Smoked Salmon Superior Sliced 100g",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2655,
+        "category_id": 5,
+        "product_name": "Ocean Blue Smoked Salmon 300g",
+        "product_price": {
+            "normal_price": "16.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2656,
+        "category_id": 6,
+        "product_name": "Regal Smoked Salmon Salsa Nibbles 200g",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2657,
+        "category_id": 7,
+        "product_name": "Ocean Blue Smoked Salmon Lemon Chilli 180g",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2658,
+        "category_id": 8,
+        "product_name": "Regal Smoked Salmon Portions Mixed Peppers 200g",
+        "product_price": {
+            "normal_price": "18.00",
+            "offer_price": "16.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2659,
+        "category_id": 9,
+        "product_name": "Ocean Blue Smoked Salmon Hot Smoked Natural 125g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2660,
+        "category_id": 10,
+        "product_name": "Sea Treasure Prawns Whole Butterfly 1kg",
+        "product_price": {
+            "normal_price": "35.00",
+            "offer_price": "26.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2661,
+        "category_id": 11,
+        "product_name": "Seafood Bar Prawns Jumbo Cooked 500g",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": "18.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2662,
+        "category_id": 12,
+        "product_name": "Talleys Mussels Lime & Coriander pottle 375g",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2663,
+        "category_id": 13,
+        "product_name": "Sealord Mussels Nz Garlic Smoked 180g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2664,
+        "category_id": 14,
+        "product_name": "Talleys Mussels Cooked & Marinated Plain pottle 375g",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2665,
+        "category_id": 15,
+        "product_name": "Countdown Mussels Marinated pottle 1kg",
+        "product_price": {
+            "normal_price": "16.00",
+            "offer_price": "14.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2666,
+        "category_id": 16,
+        "product_name": "Talleys Mussels Chilli Marinated pottle 375g",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2667,
+        "category_id": 17,
+        "product_name": "Sealord Mussels Nz Chilli Smoked 180g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2668,
+        "category_id": 18,
+        "product_name": "Talleys Mussels Cooked Garlic Marinated pottle 375g",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2669,
+        "category_id": 19,
+        "product_name": "Countdown Mussels Marinated Garlic pottle 375g",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2670,
+        "category_id": 20,
+        "product_name": "Sealord Mussels Nz Mediterranean Smoked 180g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2671,
+        "category_id": 21,
+        "product_name": "Seafood Bar Platter Prawns Surimi Salmon",
+        "product_price": {
+            "normal_price": "35.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2672,
+        "category_id": 22,
+        "product_name": "Countdown Prawns Cooked Cutlets Thawed pre-packed per kg",
+        "product_price": {
+            "normal_price": "29.00",
+            "offer_price": "22.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2673,
+        "category_id": 23,
+        "product_name": "Sea Cuisine Prawns Cooked Cutlets frozen 500g",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=2"
+    },
+    {
+        "product_id": 2674,
+        "category_id": 0,
+        "product_name": "Countdown Prawns Raw Banana Aust Thawed prepacked per kg",
+        "product_price": {
+            "normal_price": "33.00",
+            "offer_price": "26.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2675,
+        "category_id": 1,
+        "product_name": "Countdown Prawns Raw Banana Thawed loose per kg",
+        "product_price": {
+            "normal_price": "33.00",
+            "offer_price": "26.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2676,
+        "category_id": 2,
+        "product_name": "Sea Cuisine Prawns Cooked Cutlets frozen 1kg",
+        "product_price": {
+            "normal_price": "28.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2677,
+        "category_id": 3,
+        "product_name": "Sea Cuisine Prawns Cooked & Peeled frozen 800g",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2678,
+        "category_id": 4,
+        "product_name": "Sea Cuisine Prawns Raw Meat frozen 300g",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2679,
+        "category_id": 5,
+        "product_name": "Countdown Prawns Cutlets Raw Thawed pre-packed per kg",
+        "product_price": {
+            "normal_price": "22.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2680,
+        "category_id": 6,
+        "product_name": "Countdown Prawns Vannamei Whole Cooked frozen 1kg pack",
+        "product_price": {
+            "normal_price": "30.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2681,
+        "category_id": 7,
+        "product_name": "Pacific West Prawns Beer Battered Torpedos frozen 300g",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2682,
+        "category_id": 8,
+        "product_name": "Sea Cuisine Prawns Raw Black Tiger 800g",
+        "product_price": {
+            "normal_price": "35.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2683,
+        "category_id": 9,
+        "product_name": "Sea Cuisine Prawns Cutlets Raw frozen 500g",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2684,
+        "category_id": 10,
+        "product_name": "Countdown Prawns Vannamei Cooked Thawed 1kg",
+        "product_price": {
+            "normal_price": "30.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2685,
+        "category_id": 11,
+        "product_name": "Ocean Pearl Prawns Whole Raw Banana frozen 800g",
+        "product_price": {
+            "normal_price": "27.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2686,
+        "category_id": 12,
+        "product_name": "Countdown Prawns Cooked Cutlets Thawed per kg",
+        "product_price": {
+            "normal_price": "29.00",
+            "offer_price": "22.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2687,
+        "category_id": 13,
+        "product_name": "Sea Cuisine Shrimps Cooked & Peeled frozen 300g",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2688,
+        "category_id": 14,
+        "product_name": "United Fish Co Fish Bites Tuna Croquettes 320g",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2689,
+        "category_id": 15,
+        "product_name": "Countdown Fish Bites Southern Fried 1kg",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2690,
+        "category_id": 16,
+        "product_name": "Countdown Fish Bites Southern Style 1kg",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2691,
+        "category_id": 17,
+        "product_name": "Countdown Fish Bites Crumbed Hoki 1kg",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2692,
+        "category_id": 18,
+        "product_name": "Countdown Fish Bites Crumbed Hoki per kg",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2693,
+        "category_id": 19,
+        "product_name": "United Fish Co Fish Cakes Thai 320g",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2694,
+        "category_id": 20,
+        "product_name": "Countdown Fish Cakes Crumbed 960g 12pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2695,
+        "category_id": 21,
+        "product_name": "Youngs Fish Fillets Breaded 400g 4pk",
+        "product_price": {
+            "normal_price": "6.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2696,
+        "category_id": 22,
+        "product_name": "Countdown Fish Fillets Basa Frozen prepacked 1kg",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2697,
+        "category_id": 23,
+        "product_name": "Pacific West Fish Fillets Snapper In Beer Batter frozen 320g",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=3"
+    },
+    {
+        "product_id": 2698,
+        "category_id": 0,
+        "product_name": "Sealord Fish Fillets Hoki In Pub Style Batter 450g 6pk",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": "6.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2699,
+        "category_id": 1,
+        "product_name": "United Food Co Fish Fillets Crumbed Whiting frozen 1kg",
+        "product_price": {
+            "normal_price": "19.00",
+            "offer_price": "12.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2700,
+        "category_id": 2,
+        "product_name": "Youngs Fish Fillets Chip Shop 400g 4pk",
+        "product_price": {
+            "normal_price": "6.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2701,
+        "category_id": 3,
+        "product_name": "Countdown Fish Fillets Crumbed 680g 8pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2702,
+        "category_id": 4,
+        "product_name": "Countdown Fish Fingers Crumbed 600g 24pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2703,
+        "category_id": 5,
+        "product_name": "Caper Merchant Prawns Bangkok Firecracker 250g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2704,
+        "category_id": 6,
+        "product_name": "Shore Mariner Prawns Large Twisters frozen 400g",
+        "product_price": {
+            "normal_price": "13.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2705,
+        "category_id": 7,
+        "product_name": "Sea Cuisine Prawns Vannamei Raw Cutlets frozen 1kg",
+        "product_price": {
+            "normal_price": "19.00",
+            "offer_price": "16.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2706,
+        "category_id": 8,
+        "product_name": "Sea Cuisine Prawns Cooked Cutlets ring (frozen) 400g",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2707,
+        "category_id": 9,
+        "product_name": "Sea Cuisine Squid Tubes Frozen frozen 500g",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2708,
+        "category_id": 10,
+        "product_name": "Pacific West Squid Salt & Pepper frozen 360g",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2709,
+        "category_id": 11,
+        "product_name": "Shore Mariner Squid Rings Crumbed frozen 500g",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": "6.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2710,
+        "category_id": 12,
+        "product_name": "Countdown Surimi Mix prepacked 1kg",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2711,
+        "category_id": 13,
+        "product_name": "Heinz Seriously Good Aioli Garlic Lovers 500ml",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": "6.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2712,
+        "category_id": 14,
+        "product_name": "Heinz Seriously Good Aioli Squeeze 295ml",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2713,
+        "category_id": 15,
+        "product_name": "Heinz Seriously Good Aioli Squeezy 500ml",
+        "product_price": {
+            "normal_price": "7.50",
+            "offer_price": "6.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2714,
+        "category_id": 16,
+        "product_name": "Heinz Aioli Lite squeeze bottle 295ml",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2715,
+        "category_id": 17,
+        "product_name": "Praise Deli Style Aioli Classic squeeze bottle 250ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2716,
+        "category_id": 18,
+        "product_name": "Praise Deli Style Aioli Chipotle squeeze bottle 250ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2717,
+        "category_id": 19,
+        "product_name": "Heinz Seriously Good Aioli Squeezy Garlic Lovers 295ml",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2718,
+        "category_id": 20,
+        "product_name": "Heinz Seriously Good Aioli Garlic jar 460g",
+        "product_price": {
+            "normal_price": "5.60",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2719,
+        "category_id": 21,
+        "product_name": "Just Foods Aioli 250ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2720,
+        "category_id": 22,
+        "product_name": "Praise Deli Style Aioli Garlic squeeze bottle 250ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2721,
+        "category_id": 23,
+        "product_name": "Eta Thick N Creamy Aioli 375ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=4"
+    },
+    {
+        "product_id": 2722,
+        "category_id": 0,
+        "product_name": "Alfa One Aioli Creamy Garlic squeeze bottle 295ml",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2723,
+        "category_id": 1,
+        "product_name": "Eta Upside Down Aioli Thick N Creamy 295ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2724,
+        "category_id": 2,
+        "product_name": "Fogdog Batter Mix Beer Lemon Pepper resealable bag 190g",
+        "product_price": {
+            "normal_price": "7.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2725,
+        "category_id": 3,
+        "product_name": "Fogdog Batter Mix Tasty Tempura Gluten Free resealable bag 190g",
+        "product_price": {
+            "normal_price": "7.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2726,
+        "category_id": 4,
+        "product_name": "Sun Valley Foods Bread Crumbs White 400g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2727,
+        "category_id": 5,
+        "product_name": "Mrs Rogers Bread Crumbs Italian Garlic 170g",
+        "product_price": {
+            "normal_price": "4.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2728,
+        "category_id": 6,
+        "product_name": "Sun Valley Foods Bread Crumbs Wholegrain 400g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2729,
+        "category_id": 7,
+        "product_name": "Mrs Rogers Bread Crumbs Panko 190g",
+        "product_price": {
+            "normal_price": "4.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2730,
+        "category_id": 8,
+        "product_name": "Fogdog Bread Crumbs Premium Gluten Free resealable bag 250g",
+        "product_price": {
+            "normal_price": "7.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2731,
+        "category_id": 9,
+        "product_name": "Free From Gluten Bread Crumbs 350g",
+        "product_price": {
+            "normal_price": "5.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2732,
+        "category_id": 10,
+        "product_name": "Fogdog Bread Crumbs Premium Panko resealable bag 200g",
+        "product_price": {
+            "normal_price": "7.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2733,
+        "category_id": 11,
+        "product_name": "Nisshin Bread Crumbs Panko 200g",
+        "product_price": {
+            "normal_price": "4.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2734,
+        "category_id": 12,
+        "product_name": "Obento Bread Crumbs Panko 200g",
+        "product_price": {
+            "normal_price": "3.59",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2735,
+        "category_id": 13,
+        "product_name": "Mrs Rogers Bread Crumbs Lemon Pepper 170g",
+        "product_price": {
+            "normal_price": "4.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2736,
+        "category_id": 14,
+        "product_name": "Fogdog Coating Mix Shake & Bake Gluten Free resealable pouch 190g",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2737,
+        "category_id": 15,
+        "product_name": "Trident Coconut Cream can 400ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2738,
+        "category_id": 16,
+        "product_name": "Fia Fia Coconut Cream can 400ml",
+        "product_price": {
+            "normal_price": "2.89",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2739,
+        "category_id": 17,
+        "product_name": "Kara Coconut Cream Natural uht carton 500ml",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2740,
+        "category_id": 18,
+        "product_name": "Kara Coconut Cream Natural uht 1000ml",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2741,
+        "category_id": 19,
+        "product_name": "Essentials Coconut Cream 400ml",
+        "product_price": {
+            "normal_price": "1.20",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2742,
+        "category_id": 20,
+        "product_name": "Palm Island Coconut Cream 400ml",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2743,
+        "category_id": 21,
+        "product_name": "Pacific Crown Coconut Cream can 400ml",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2744,
+        "category_id": 22,
+        "product_name": "Essentials Coconut Cream Lite Reduced Fat 400ml",
+        "product_price": {
+            "normal_price": "1.20",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2745,
+        "category_id": 23,
+        "product_name": "Trident Coconut Cream Premium 165ml",
+        "product_price": {
+            "normal_price": "1.39",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=5"
+    },
+    {
+        "product_id": 2746,
+        "category_id": 0,
+        "product_name": "Mae Ploy Coconut Cream 400ml",
+        "product_price": {
+            "normal_price": "2.79",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2747,
+        "category_id": 1,
+        "product_name": "Ayam Coconut Cream Light can 270ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2748,
+        "category_id": 2,
+        "product_name": "Ayam Coconut Cream Premium can 270ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2749,
+        "category_id": 3,
+        "product_name": "Trident Coconut Cream Lite 400ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2750,
+        "category_id": 4,
+        "product_name": "Solos Choice Coconut Cream can 400ml",
+        "product_price": {
+            "normal_price": "1.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2751,
+        "category_id": 5,
+        "product_name": "Fogdog Fritter Mix Perfect 190g",
+        "product_price": {
+            "normal_price": "7.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2752,
+        "category_id": 6,
+        "product_name": "Fresh Produce Lemons prepacked 1kg",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2753,
+        "category_id": 7,
+        "product_name": "Fresh Produce Lemons Imported loose per kg",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2754,
+        "category_id": 8,
+        "product_name": "Fresh Produce Limes loose per kg",
+        "product_price": {
+            "normal_price": "18.90",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2755,
+        "category_id": 9,
+        "product_name": "Eta Seafood Dressing jar 400ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2756,
+        "category_id": 10,
+        "product_name": "Praise Seafood Dressing Sauce squeeze bottle 250ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2757,
+        "category_id": 11,
+        "product_name": "Kikkoman Soy Sauce 250ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2758,
+        "category_id": 12,
+        "product_name": "Highmark Soy Sauce Salt Reduced 300ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2759,
+        "category_id": 13,
+        "product_name": "Highmark Soy Sauce Dark 550ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2760,
+        "category_id": 14,
+        "product_name": "Lee Kum Kee Soy Sauce Premium 500ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2761,
+        "category_id": 15,
+        "product_name": "Kikkoman Soy Sauce 150ml",
+        "product_price": {
+            "normal_price": "4.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2762,
+        "category_id": 16,
+        "product_name": "Highmark Soy Sauce Golden 550ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2763,
+        "category_id": 17,
+        "product_name": "Pearl River Soy Sauce Light 500ml",
+        "product_price": {
+            "normal_price": "2.79",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2764,
+        "category_id": 18,
+        "product_name": "Highmark Soy Sauce Golden 300ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2765,
+        "category_id": 19,
+        "product_name": "Countdown Soy Sauce 500ml",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2766,
+        "category_id": 20,
+        "product_name": "Eta Tartare Sauce jar 400ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2767,
+        "category_id": 21,
+        "product_name": "Eta Upside Down Tartare Sauce 295ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2768,
+        "category_id": 22,
+        "product_name": "Heinz Seriously Good Tartare Sauce Squeezy 295ml",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2769,
+        "category_id": 23,
+        "product_name": "Praise Tartare Sauce squeeze bottle 250ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=6"
+    },
+    {
+        "product_id": 2770,
+        "category_id": 0,
+        "product_name": "Praise Thousand Island Dressing squeeze bottle 330ml",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2771,
+        "category_id": 1,
+        "product_name": "Eta Gourmet Thousand Island Dressing 250ml",
+        "product_price": {
+            "normal_price": "3.20",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2772,
+        "category_id": 2,
+        "product_name": "United Food Co Asian Banquet Mixed Platter frozen 750g",
+        "product_price": {
+            "normal_price": "9.99",
+            "offer_price": "9.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2773,
+        "category_id": 3,
+        "product_name": "United Food Co Dim Sum Prawn Hargow frozen 300g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2774,
+        "category_id": 4,
+        "product_name": "United Food Co Dim Sum Mixed Prawn frozen 300g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2775,
+        "category_id": 5,
+        "product_name": "Leanne's Kitchen Dumplings Vegetarian frozen 250g",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2776,
+        "category_id": 6,
+        "product_name": "Leanne's Kitchen Dumplings Chicken & Prawn frozen 250g",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2777,
+        "category_id": 7,
+        "product_name": "United Food Co Dumplings Ginger Prawn frozen 300g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2778,
+        "category_id": 8,
+        "product_name": "Leanne's Kitchen Dumplings Chicken & Veges frozen 250g",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2779,
+        "category_id": 9,
+        "product_name": "Leanne's Kitchen Dumplings Pork & Prawn frozen 250g",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    },
+    {
+        "product_id": 2780,
+        "category_id": 10,
+        "product_name": "Leanne's Kitchen Dumplings Pork & Cabbage frozen 250g",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood?page=7"
+    }
+]

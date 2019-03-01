@@ -1,0 +1,5348 @@
+[
+    {
+        "product_id": 2781,
+        "category_id": 0,
+        "product_name": "Baby U Nappy Bags Sacks 200pk",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2782,
+        "category_id": 1,
+        "product_name": "Friends Nappy Bags Odourised box 50pk",
+        "product_price": {
+            "normal_price": "2.49",
+            "offer_price": "2.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2783,
+        "category_id": 2,
+        "product_name": "Huggies Drynites Bed Wetting Boy 2-4 Yrs 11pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2784,
+        "category_id": 3,
+        "product_name": "Huggies Drynites Bed Wetting Boy 4-7 Yrs 10pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2785,
+        "category_id": 4,
+        "product_name": "Huggies Drynites Bed Wetting Girl 2-4 Yrs 11pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2786,
+        "category_id": 5,
+        "product_name": "Huggies Drynites Bed Wetting Boy 8-15 Yrs 9pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2787,
+        "category_id": 6,
+        "product_name": "Huggies Drynites Bed Wetting Girl 8-15 Yrs 9pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2788,
+        "category_id": 7,
+        "product_name": "Huggies Drynites Bed Wetting Girl 4-7 Yrs 10pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2789,
+        "category_id": 8,
+        "product_name": "Littlies Crawler Nappies 44pk",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2790,
+        "category_id": 9,
+        "product_name": "Homebrand Crawler Nappies 6-11kg 56pk",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2791,
+        "category_id": 10,
+        "product_name": "Huggies Essentials Crawler Nappies Unisex 6-11kgs Size 3 jumbo pack 52pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2792,
+        "category_id": 11,
+        "product_name": "Huggies Ultra Dry Crawler Boy Nappies 6-11kg Size 3 bulk pack 44pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2793,
+        "category_id": 12,
+        "product_name": "Homebrand Crawler Nappies 6-11kg 16pk",
+        "product_price": {
+            "normal_price": "5.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2794,
+        "category_id": 13,
+        "product_name": "Treasures Comfort Crawler Nappies 6-11kg bulk pack 40pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2795,
+        "category_id": 14,
+        "product_name": "Treasures Comfort Crawler Nappies 6-11kg 20pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2796,
+        "category_id": 15,
+        "product_name": "Treasures Comfort Crawler Nappies 6-11kg jumbo pack 76pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2797,
+        "category_id": 16,
+        "product_name": "Huggies Ultra Dry Crawler Girl Nappies 6-11kg Size 3 jumbo pack 90pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2798,
+        "category_id": 17,
+        "product_name": "Huggies Ultimate Crawler Boy Nappies 6-11kg Size 3 jumbo pack 72pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2799,
+        "category_id": 18,
+        "product_name": "Huggies Ultra Dry Crawler Girl Nappies  6-11kg Size 3 22pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2800,
+        "category_id": 19,
+        "product_name": "Huggies Ultra Dry Crawler Boy Nappies 6-11kg Size 3 22pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2801,
+        "category_id": 20,
+        "product_name": "Huggies Ultra Dry Infant 4-8kg Size 2 jumbo pack 96pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2802,
+        "category_id": 21,
+        "product_name": "Huggies Essentials Infant Nappies Unisex 4-8kgs  Size 2 jumbo pack 54pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2803,
+        "category_id": 22,
+        "product_name": "Treasures Comfort Infant Nappies 4-7kg jumbo pack 84pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2804,
+        "category_id": 23,
+        "product_name": "Huggies Ultra Dry Infant 4-8kg Size 2 bulk pack 48pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "product_id": 2805,
+        "category_id": 0,
+        "product_name": "Huggies Infant Nappies Size 2 24pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2806,
+        "category_id": 1,
+        "product_name": "Treasures Comfort Infant Nappies 4-7kg 22pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2807,
+        "category_id": 2,
+        "product_name": "Treasures Comfort Infant Nappies 4-7kg bulk pack 46pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2808,
+        "category_id": 3,
+        "product_name": "Huggies Ultra Dry Junior Boy Nappies 16kg+ Size 6 14pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2809,
+        "category_id": 4,
+        "product_name": "Treasures Junior Nappies 14pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2810,
+        "category_id": 5,
+        "product_name": "Huggies Ultra Dry Junior Boy Nappies 16kg+ Size 6 bulk pack 30pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2811,
+        "category_id": 6,
+        "product_name": "Huggies Essentials Junior Nappies Unisex 16+kgs Size 6 jumbo pack 40pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2812,
+        "category_id": 7,
+        "product_name": "Treasures Comfort Junior Nappies 16kg And Over jumbo pack 52pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2813,
+        "category_id": 8,
+        "product_name": "Huggies Ultra Dry Junior Girl Nappies 16kg+ Size 6 14pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2814,
+        "category_id": 9,
+        "product_name": "Treasures Comfort Junior Nappies 16kg And Over bulk pack 28pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2815,
+        "category_id": 10,
+        "product_name": "Littlies Junior Nappies 30pk",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2816,
+        "category_id": 11,
+        "product_name": "Homebrand Nappy Liners 100pk",
+        "product_price": {
+            "normal_price": "5.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2817,
+        "category_id": 12,
+        "product_name": "Treasures Comfort Nappy Pants Toddler 10-15kg bulk pack 32pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2818,
+        "category_id": 13,
+        "product_name": "Huggies Ultra Dry Nappy Pants Walker Boy Size 5 bulk pack 30pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2819,
+        "category_id": 14,
+        "product_name": "Huggies Ultra Dry Nappy Pants Walker Girl Size 5 bulk pack 30pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2820,
+        "category_id": 15,
+        "product_name": "Huggies Ultra Dry Nappy Pants Junior Girl Size 6 bulk pack 28pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2821,
+        "category_id": 16,
+        "product_name": "Huggies Ultra Dry Nappy Pants Boy 12-17kgs Size 5 18pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2822,
+        "category_id": 17,
+        "product_name": "Treasures Comfort Nappy Pants Junior 16kgs And Over 16pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2823,
+        "category_id": 18,
+        "product_name": "Huggies Ultra Dry Nappy Pants Girl 12-17kgs Size 5 18pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2824,
+        "category_id": 19,
+        "product_name": "Treasures Comfort Nappy Pants Walker 13-18kg 16pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2825,
+        "category_id": 20,
+        "product_name": "Huggies Ultra Dry Nappy Pants Girl 15+ Kgs Size 6 16pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2826,
+        "category_id": 21,
+        "product_name": "Huggies Ultra Dry Nappy Pants Boy 15+ Kgs Size 6 16pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2827,
+        "category_id": 22,
+        "product_name": "Huggies Ultra Dry Nappy Pants Boy 9-14 Kgs Size 4 20pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2828,
+        "category_id": 23,
+        "product_name": "Treasures Comfort Nappy Pants Junior 16kgs And Over bulk pack 26pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=2"
+    },
+    {
+        "product_id": 2829,
+        "category_id": 0,
+        "product_name": "Huggies Ultra Dry Nappy Pants Girl 9-14kgs Size 4 20pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2830,
+        "category_id": 1,
+        "product_name": "Treasures Comfort Nappy Pants Walker 13-18kg bulk pack 28pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2831,
+        "category_id": 2,
+        "product_name": "Huggies Ultimate Newborn Nappies Size 1 28pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2832,
+        "category_id": 3,
+        "product_name": "Huggies Ultimate Newborn Nappies Up To 5kg Size 1 jumbo pack 108pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2833,
+        "category_id": 4,
+        "product_name": "Treasures Comfort Newborn Nappies Up To 5kg jumbo pack 92pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2834,
+        "category_id": 5,
+        "product_name": "Treasures Comfort Newborn Nappies Up To 5kgs 26pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2835,
+        "category_id": 6,
+        "product_name": "Treasures Comfort Newborn Nappies Up To 5kgs bulk pack 52pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2836,
+        "category_id": 7,
+        "product_name": "Huggies Ultimate Newborn Nappies Up To 5kg Size 1 bulk pack 54pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2837,
+        "category_id": 8,
+        "product_name": "Huggies Swimmers Nappies Large 15+kg 10pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2838,
+        "category_id": 9,
+        "product_name": "Huggies Swimmers Nappies Med 11-15kg 11pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2839,
+        "category_id": 10,
+        "product_name": "Huggies Swimmers Nappies Small 7-12kg 12pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2840,
+        "category_id": 11,
+        "product_name": "Huggies Ultra Dry Toddler Girl Nappies 10-15kg Size 4 18pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2841,
+        "category_id": 12,
+        "product_name": "Treasures Comfort Toddler Nappies 10-15kg jumbo pack 66pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2842,
+        "category_id": 13,
+        "product_name": "Huggies Ultra Dry Toddler Girl Nappies 10-15kg Size 4 bulk pack 36pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2843,
+        "category_id": 14,
+        "product_name": "Homebrand Toddler Nappies 10-15kg 14pk",
+        "product_price": {
+            "normal_price": "5.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2844,
+        "category_id": 15,
+        "product_name": "Huggies Ultra Dry Toddler Girl Nappies 10-15kg Size 4 jumbo pack 72pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2845,
+        "category_id": 16,
+        "product_name": "Treasures Comfort Toddler Nappies 10-15kg 16pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2846,
+        "category_id": 17,
+        "product_name": "Huggies Ultra Dry Toddler Boy Nappies 10-15kg Size 4 bulk pack 36pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2847,
+        "category_id": 18,
+        "product_name": "Huggies Essentials Toddler Nappies Unisex 10-15kgs Size 4 jumbo pack 46pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2848,
+        "category_id": 19,
+        "product_name": "Homebrand Toddler Nappies 10-15kg 50pk",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2849,
+        "category_id": 20,
+        "product_name": "Littlies Toddler Nappies 36pk",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2850,
+        "category_id": 21,
+        "product_name": "Treasures Comfort Toddler Nappies 10-15kg bulk pack 34pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2851,
+        "category_id": 22,
+        "product_name": "Huggies Ultra Dry Toddler Boy Nappies 10-15kg Size 4 jumbo pack 72pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2852,
+        "category_id": 23,
+        "product_name": "Huggies Ultra Dry Toddler Boy Nappies 10-15kg Size 4 18pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=3"
+    },
+    {
+        "product_id": 2853,
+        "category_id": 0,
+        "product_name": "Littlies Walker Nappies 13-18kg 32pk",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2854,
+        "category_id": 1,
+        "product_name": "Huggies Ultra Dry Walker Boy Nappies 13-18kg Size 5 bulk pack 32pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2855,
+        "category_id": 2,
+        "product_name": "Treasures Comfort Walker Nappies 13-18kg bulk pack 30pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2856,
+        "category_id": 3,
+        "product_name": "Huggies Essentials Walker Nappies Unisex 13-18kgs Size 5 jumbo pack 44pk",
+        "product_price": {
+            "normal_price": "17.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2857,
+        "category_id": 4,
+        "product_name": "Huggies Ultra Dry Walker Girl Nappies 13-18kg Size 5 bulk pack 32pk",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2858,
+        "category_id": 5,
+        "product_name": "Huggies Ultra Dry Walker Girl Nappies 13-18kg Size 5 jumbo pack 64pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2859,
+        "category_id": 6,
+        "product_name": "Treasures Comfort Walker Nappies 13-18kg 14pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2860,
+        "category_id": 7,
+        "product_name": "Huggies Ultra Dry Walker Boy Nappies 13-18kg Size 5 jumbo pack 64pk",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2861,
+        "category_id": 8,
+        "product_name": "Huggies Ultra Dry Walker Girl Nappies 13-18kg Size 5 16pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2862,
+        "category_id": 9,
+        "product_name": "Huggies Ultra Dry Walker Boy Nappies 13-18kg Size 5 16pk",
+        "product_price": {
+            "normal_price": "11.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2863,
+        "category_id": 10,
+        "product_name": "Treasures Comfort Walker Nappies 13-18kg jumbo pack 58pk",
+        "product_price": {
+            "normal_price": "26.00",
+            "offer_price": "20.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2864,
+        "category_id": 11,
+        "product_name": "Kiwi Bubba Baby Bibs Pink 2pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2865,
+        "category_id": 12,
+        "product_name": "Kiwi Bubba Baby Bibs Blue 2pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2866,
+        "category_id": 13,
+        "product_name": "Coral Fleece Baby Blanket",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2867,
+        "category_id": 14,
+        "product_name": "Kiwi Bubba Baby Blanket Polar Fleece 1pk",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2868,
+        "category_id": 15,
+        "product_name": "Tommee Tippee Baby Bottle Promo 3pk",
+        "product_price": {
+            "normal_price": "10.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2869,
+        "category_id": 16,
+        "product_name": "Tommee Tippee Baby Bottle Novelty 250ml 1ea",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2870,
+        "category_id": 17,
+        "product_name": "Close To Nature Baby Bottle 260ml 2pk",
+        "product_price": {
+            "normal_price": "25.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2871,
+        "category_id": 18,
+        "product_name": "Avent Baby Bottle Twin Pack 260ml",
+        "product_price": {
+            "normal_price": "26.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2872,
+        "category_id": 19,
+        "product_name": "Closer To Nature Baby Bottle 150ml 1pk",
+        "product_price": {
+            "normal_price": "11.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2873,
+        "category_id": 20,
+        "product_name": "Philips Avent Baby Bottle Feeding 330ml",
+        "product_price": {
+            "normal_price": "18.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2874,
+        "category_id": 21,
+        "product_name": "Nuby Baby Bottle Single Printed Bottle 240ml",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2875,
+        "category_id": 22,
+        "product_name": "Tommee Tippee Baby Bottle Wide Neck 250ml 2pk",
+        "product_price": {
+            "normal_price": "16.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2876,
+        "category_id": 23,
+        "product_name": "Avent Baby Bottle 260ml",
+        "product_price": {
+            "normal_price": "15.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=4"
+    },
+    {
+        "product_id": 2877,
+        "category_id": 0,
+        "product_name": "Nuby Baby Bottle Standard Neck 1pk",
+        "product_price": {
+            "normal_price": "14.99",
+            "offer_price": "11.24"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2878,
+        "category_id": 1,
+        "product_name": "Nuby Baby Bowl Fun Feeding Section Plate 6m+",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2879,
+        "category_id": 2,
+        "product_name": "Nuby Baby Bowl Fun Feeding 6 Months +",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2880,
+        "category_id": 3,
+        "product_name": "Huggies Baby Change Mats 48 X 76cm 4pk",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2881,
+        "category_id": 4,
+        "product_name": "Baby U Baby Change Mats Disposable 10pk",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2882,
+        "category_id": 5,
+        "product_name": "Tommee Tippee Baby Cutlery Heat Sensor Weaning Spoons 4pk",
+        "product_price": {
+            "normal_price": "11.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2883,
+        "category_id": 6,
+        "product_name": "First Set Baby Cutlery",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2884,
+        "category_id": 7,
+        "product_name": "Tommee Tippee Baby Cutlery Food Pouch Spoon 2pk",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2885,
+        "category_id": 8,
+        "product_name": "Nuby Baby Cutlery Starter Fork & Spoon Set",
+        "product_price": {
+            "normal_price": "8.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2886,
+        "category_id": 9,
+        "product_name": "Nuby Baby Cutlery Hot Safe Spoons 2pk",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2887,
+        "category_id": 10,
+        "product_name": "Sistema Dinkee Drinkee Baby Drinking Cup Trainer",
+        "product_price": {
+            "normal_price": "3.30",
+            "offer_price": "2.56"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2888,
+        "category_id": 11,
+        "product_name": "Dinkee Drinkee Baby Drinking Cup Sipper Mini 250ml",
+        "product_price": {
+            "normal_price": "3.30",
+            "offer_price": "2.56"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2889,
+        "category_id": 12,
+        "product_name": "Tommee Tippee Baby Drinking Cup Transition Cup",
+        "product_price": {
+            "normal_price": "16.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2890,
+        "category_id": 13,
+        "product_name": "Avent Baby Drinking Cup 260ml No Handles",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2891,
+        "category_id": 14,
+        "product_name": "Tommee Tippee Discovera Baby Drinking Cup Active Tipper 12month 350ml",
+        "product_price": {
+            "normal_price": "15.95",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2892,
+        "category_id": 15,
+        "product_name": "Nuby Baby Drinking Cup Flip & Sip each 240ml",
+        "product_price": {
+            "normal_price": "15.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2893,
+        "category_id": 16,
+        "product_name": "Avent Baby Drinking Cup 200ml With Handle 200ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2894,
+        "category_id": 17,
+        "product_name": "Nuby Baby Drinking Cup Basic 360 300ml",
+        "product_price": {
+            "normal_price": "9.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2895,
+        "category_id": 18,
+        "product_name": "Tommee Tippee Discovera Baby Drinking Cup 2 Stage 24 Months 400ml",
+        "product_price": {
+            "normal_price": "15.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2896,
+        "category_id": 19,
+        "product_name": "Nuby Baby Drinking Cup Twin Handle No Spill 207ml",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2897,
+        "category_id": 20,
+        "product_name": "Philips Avent Baby Drinking Cup 260ml",
+        "product_price": {
+            "normal_price": "16.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2898,
+        "category_id": 21,
+        "product_name": "Nuby Baby Drinking Cup Super Spout Gripper Cup 300ml",
+        "product_price": {
+            "normal_price": "11.99",
+            "offer_price": "8.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2899,
+        "category_id": 22,
+        "product_name": "Kiwi Bubba Baby Face Washers Blue 6pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2900,
+        "category_id": 23,
+        "product_name": "Kiwi Bubba Baby Face Washers Pink 6pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=5"
+    },
+    {
+        "product_id": 2901,
+        "category_id": 0,
+        "product_name": "Tommee Tippee Baby Feeding System Fresh Food Feeder 1pk",
+        "product_price": {
+            "normal_price": "11.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2902,
+        "category_id": 1,
+        "product_name": "Avent Baby Formula Dispenser",
+        "product_price": {
+            "normal_price": "16.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2903,
+        "category_id": 2,
+        "product_name": "Aveeno Baby Lotion Calming 226ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "11.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2904,
+        "category_id": 3,
+        "product_name": "Dream Baby Baby Safety Latch 6pk",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2905,
+        "category_id": 4,
+        "product_name": "Nuby Baby Teether Bug-a-loop 1pk",
+        "product_price": {
+            "normal_price": "14.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2906,
+        "category_id": 5,
+        "product_name": "Nuby Baby Teether Ring Teether each",
+        "product_price": {
+            "normal_price": "8.99",
+            "offer_price": "6.74"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2907,
+        "category_id": 6,
+        "product_name": "Kiwi Bubba Baby Towel Plush Hooded 1pk",
+        "product_price": {
+            "normal_price": "12.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2908,
+        "category_id": 7,
+        "product_name": "Playgro Munchimal Baby Toys Morty Moose",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2909,
+        "category_id": 8,
+        "product_name": "Tommee Tippee Baby Toys Munchkin Bath Squirts",
+        "product_price": {
+            "normal_price": "15.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2910,
+        "category_id": 9,
+        "product_name": "Playgro Baby Toys Assorted Bath Ducks each",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2911,
+        "category_id": 10,
+        "product_name": "Playgro Baby Toys Bath Squirtees 2 Assorted 3pk",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2912,
+        "category_id": 11,
+        "product_name": "Kiwi Bubba Baby Toys Snuggle Toy",
+        "product_price": {
+            "normal_price": "8.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2913,
+        "category_id": 12,
+        "product_name": "Playgro Baby Toys Stacking Fun Cups 2 Asstd",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2914,
+        "category_id": 13,
+        "product_name": "Playgro Baby Toys Zebra Links",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2915,
+        "category_id": 14,
+        "product_name": "Playgro Munchimal Baby Toys Zoe Zebra",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2916,
+        "category_id": 15,
+        "product_name": "Kiwi Bubba Baby Wrap Blue Muslin 1pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2917,
+        "category_id": 16,
+        "product_name": "Kiwi Bubba Baby Wrap Muslin Pink 1pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2918,
+        "category_id": 17,
+        "product_name": "Muslin Baby Wrap 1 Plain 1 Star Print",
+        "product_price": {
+            "normal_price": "15.00",
+            "offer_price": "5.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2919,
+        "category_id": 18,
+        "product_name": "Dream Baby Car Sign Baby On Board",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2920,
+        "category_id": 19,
+        "product_name": "Avent Comforter Clip",
+        "product_price": {
+            "normal_price": "10.49",
+            "offer_price": "9.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2921,
+        "category_id": 20,
+        "product_name": "Avent Comforters 0-6 Months Translucent 2pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2922,
+        "category_id": 21,
+        "product_name": "Tommee Tippee Closer To Nature Comforters Fun Style Soother 0-6m 2pk",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2923,
+        "category_id": 22,
+        "product_name": "Avent Comforters Silicon Ortho Fashion 6-18mnth 2pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2924,
+        "category_id": 23,
+        "product_name": "Avent Comforters Night 6-18mth 2pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=6"
+    },
+    {
+        "product_id": 2925,
+        "category_id": 0,
+        "product_name": "Avent Comforters 6-18 Months Translucent 2pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2926,
+        "category_id": 1,
+        "product_name": "Tommee Tippee Comforters Cherry Latex 0-6 Month 2pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2927,
+        "category_id": 2,
+        "product_name": "Tommee Tippee Closer To Nature Comforters Fun Style Soother 6-18m 2pk",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2928,
+        "category_id": 3,
+        "product_name": "Tommee Tippee Comforters Cherry Latex 6-18 Month 2pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2929,
+        "category_id": 4,
+        "product_name": "Avent Comforters Fashion 0-6 Months 2pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2930,
+        "category_id": 5,
+        "product_name": "Avent Comforters Night Pink 6-18 Months 2pk",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2931,
+        "category_id": 6,
+        "product_name": "Avent Comforters 18 Months",
+        "product_price": {
+            "normal_price": "14.00",
+            "offer_price": "12.59"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2932,
+        "category_id": 7,
+        "product_name": "Dream Baby Power Outlet Covers 12pk",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2933,
+        "category_id": 8,
+        "product_name": "Nuby Teats Standard Silicon 2pk",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": "5.24"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2934,
+        "category_id": 9,
+        "product_name": "Closer To Nature Teats Fast Flow 2pk",
+        "product_price": {
+            "normal_price": "11.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2935,
+        "category_id": 10,
+        "product_name": "Avent Teats Medium Flow 2pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2936,
+        "category_id": 11,
+        "product_name": "Avent Teats Fast Flow 2pk",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2937,
+        "category_id": 12,
+        "product_name": "Tommee Tippee Teats Fast Flow Toddler 2pk",
+        "product_price": {
+            "normal_price": "10.20",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2938,
+        "category_id": 13,
+        "product_name": "Closer To Nature Teats Medium Flow 2pk",
+        "product_price": {
+            "normal_price": "11.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2939,
+        "category_id": 14,
+        "product_name": "Pur Teats Standard Medium Flow 2pk",
+        "product_price": {
+            "normal_price": "9.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2940,
+        "category_id": 15,
+        "product_name": "Play Gro Teether Assorted",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2941,
+        "category_id": 16,
+        "product_name": "Heinz Organic Baby Food Apple, Banana Avocado pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2942,
+        "category_id": 17,
+        "product_name": "Heinz Organic Baby Food Sweet Baby Vegetables pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2943,
+        "category_id": 18,
+        "product_name": "Heinz Organic Baby Food Apple,raspbry, Blackbry pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2944,
+        "category_id": 19,
+        "product_name": "Heinz Organic Baby Food Banana & Mango pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2945,
+        "category_id": 20,
+        "product_name": "Heinz Organic Baby Food Apple Berry Blush 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2946,
+        "category_id": 21,
+        "product_name": "Only Organic Stage 1 Baby Food Banana Kumara & Quinoa pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2947,
+        "category_id": 22,
+        "product_name": "Only Organic Stage 1 Baby Food Pear Purp Carrot Blubry Quinoa 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2948,
+        "category_id": 23,
+        "product_name": "Only Organic Stage 1 Baby Food Apricot Peach & Apple squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=7"
+    },
+    {
+        "product_id": 2949,
+        "category_id": 0,
+        "product_name": "Only Organic Stage 1 Baby Food Mango, Sweet Potato & Quinoa squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2950,
+        "category_id": 1,
+        "product_name": "Only Organic Stage 1 Baby Food Carrot, Pumpkin & Apple pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2951,
+        "category_id": 2,
+        "product_name": "Only Organic Stage 1 Baby Food Sweet Potato & Apple pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2952,
+        "category_id": 3,
+        "product_name": "Only Organic Stage 1 Baby Food Banana & Apple squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2953,
+        "category_id": 4,
+        "product_name": "Only Organic Stage 1 Baby Food Pear & Mango pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2954,
+        "category_id": 5,
+        "product_name": "Only Organic Stage 2 Baby Food Baby Rice 200g",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": "5.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2955,
+        "category_id": 6,
+        "product_name": "Raffertys Baby Food Banana Pear Mango 4 Month+ squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2956,
+        "category_id": 7,
+        "product_name": "Raffertys Baby Food Banana Apple & Blueberry 4m+ squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2957,
+        "category_id": 8,
+        "product_name": "Raffertys Baby Food Sweet Potato Carrot Apple 4m+ squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2958,
+        "category_id": 9,
+        "product_name": "Raffertys Garden Baby Food Pumpkin, Apple & Sweetcorn squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2959,
+        "category_id": 10,
+        "product_name": "Raffertys Garden Baby Food Pear & Superberries squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2960,
+        "category_id": 11,
+        "product_name": "Raffertys Organic Baby Food Rice Cereal From 4 Months 125g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2961,
+        "category_id": 12,
+        "product_name": "Watties First Tastes Stage 1 Baby Food Yellow Veggies pouch 90g",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2962,
+        "category_id": 13,
+        "product_name": "Watties First Tastes Stage 1 Baby Food Green Veggies pouch 90g",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2963,
+        "category_id": 14,
+        "product_name": "Watties First Tastes Stage 1 Baby Food Pear pouch 90g",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2964,
+        "category_id": 15,
+        "product_name": "Watties First Tastes Stage 1 Baby Food Apple pouch 90g",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2965,
+        "category_id": 16,
+        "product_name": "Watties First Tastes Stage 1 Baby Food Orange Veggies pouch 90g",
+        "product_price": {
+            "normal_price": "1.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2966,
+        "category_id": 17,
+        "product_name": "Watties Stage 1 Baby Food Pears 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2967,
+        "category_id": 18,
+        "product_name": "Watties Stage 1 Baby Food Pear, Guava & Strawberry pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2968,
+        "category_id": 19,
+        "product_name": "Watties Stage 1 Baby Food Pear, Banana & Apple pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2969,
+        "category_id": 20,
+        "product_name": "Watties Stage 1 Baby Food Pumpkin, Kumara & Carrot pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2970,
+        "category_id": 21,
+        "product_name": "Watties Stage 1 Baby Food Apples 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2971,
+        "category_id": 22,
+        "product_name": "Watties Stage 1 Baby Food Apple & Peach 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2972,
+        "category_id": 23,
+        "product_name": "Watties Stage 1 Baby Food Apple, Peach & Mango pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=8"
+    },
+    {
+        "product_id": 2973,
+        "category_id": 0,
+        "product_name": "Farex Breakfast On The Go Baby Food Apple Oatmeal 6month pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2974,
+        "category_id": 1,
+        "product_name": "Farex Breakfast On The Go Baby Food Creamy Apple Porridge squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2975,
+        "category_id": 2,
+        "product_name": "Heinz Organic Baby Food Beef, Pumpkin, Spinach, Rice pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2976,
+        "category_id": 3,
+        "product_name": "Heinz Organic Stage 2 Baby Food Creamy Oats With Fig & Sultana jar 170g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2977,
+        "category_id": 4,
+        "product_name": "Heinz Organic Stage 2 Baby Food Pumpkin Zucchini & Quinoa pouch 120g",
+        "product_price": {
+            "normal_price": "2.09",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2978,
+        "category_id": 5,
+        "product_name": "Little Bellies Fiddlesticks Baby Snacks Tomato 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2979,
+        "category_id": 6,
+        "product_name": "Little Bellies Fiddlesticks Baby Snacks Cheese & Herb 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2980,
+        "category_id": 7,
+        "product_name": "Natureland Baby Food Banana Berry Puree 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2981,
+        "category_id": 8,
+        "product_name": "Natureland Baby Food Apple & Banana Baby Rice pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2982,
+        "category_id": 9,
+        "product_name": "Natureland Baby Food Chocolate Custard pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2983,
+        "category_id": 10,
+        "product_name": "Natureland Baby Food Chicken Pasta & Veges 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2984,
+        "category_id": 11,
+        "product_name": "Natureland Baby Food Roasted Pear & Apricot Puree pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2985,
+        "category_id": 12,
+        "product_name": "Natureland Baby Food Banana Custard 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2986,
+        "category_id": 13,
+        "product_name": "Natureland Baby Food Sherperds Pie & Mash 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2987,
+        "category_id": 14,
+        "product_name": "Natureland Baby Food Vanilla Custard pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2988,
+        "category_id": 15,
+        "product_name": "Natureland Baby Food Banana & Plum Poridge pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2989,
+        "category_id": 16,
+        "product_name": "Natureland Baby Food Banana & Mango 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2990,
+        "category_id": 17,
+        "product_name": "Natureland Baby Food Mixed Berry Custard pouch 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2991,
+        "category_id": 18,
+        "product_name": "Natureland Baby Food Pumpkin, Potato & Beef 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2992,
+        "category_id": 19,
+        "product_name": "Natureland Baby Food Kumara Sweetcorn Baby Rice 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2993,
+        "category_id": 20,
+        "product_name": "Natureland Baby Food Mango & Apple 120g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2994,
+        "category_id": 21,
+        "product_name": "Only Organic Stage 2 Baby Food Mango Chicken 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2995,
+        "category_id": 22,
+        "product_name": "Only Organic Stage 2 Baby Food Banana Blueberry & Quinoa squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2996,
+        "category_id": 23,
+        "product_name": "Only Organic Stage 2 Baby Food Mango Custard squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=9"
+    },
+    {
+        "product_id": 2997,
+        "category_id": 0,
+        "product_name": "Only Organic Stage 2 Baby Food Apple, Banana & Mango squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 2998,
+        "category_id": 1,
+        "product_name": "Only Organic Stage 2 Baby Food Pumpkin Potato & Beef 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 2999,
+        "category_id": 2,
+        "product_name": "Only Organic Stage 2 Baby Food Wild Rice Risotto & Lamb pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3000,
+        "category_id": 3,
+        "product_name": "Only Organic Stage 2 Baby Food Vanilla Bean Custard squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3001,
+        "category_id": 4,
+        "product_name": "Only Organic Stage 2 Baby Food Cauliflower, Broccoli, Cheddar pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3002,
+        "category_id": 5,
+        "product_name": "Only Organic Stage 2 Baby Food Pear, Apple & Banana squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3003,
+        "category_id": 6,
+        "product_name": "Only Organic Stage 2 Baby Food Apple Custard 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3004,
+        "category_id": 7,
+        "product_name": "Only Organic Stage 2 Baby Food Pasta  Bolognse 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3005,
+        "category_id": 8,
+        "product_name": "Only Organic Stage 3 Baby Food Banana Poridge 200g",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": "5.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3006,
+        "category_id": 9,
+        "product_name": "Raffertys Garden Baby Cereal Multigrain Banana Apricot 125g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3007,
+        "category_id": 10,
+        "product_name": "Raffertys Garden Baby Food Chocoate Custard 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3008,
+        "category_id": 11,
+        "product_name": "Raffertys Garden Baby Food Vanilla Custard pouch bag 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3009,
+        "category_id": 12,
+        "product_name": "Raffertys Garden Baby Food Organic Banana Porridge 125g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": "3.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3010,
+        "category_id": 13,
+        "product_name": "Raffertys Garden Baby Food Apricot Chicken 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3011,
+        "category_id": 14,
+        "product_name": "Raffertys Garden Bangers Baby Food Mash & Vegetables 120g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3012,
+        "category_id": 15,
+        "product_name": "Watties Baby Food Pear Apple & Kiwifruit squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3013,
+        "category_id": 16,
+        "product_name": "Watties For Baby Baby Food Apple Kumara & Mango pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3014,
+        "category_id": 17,
+        "product_name": "Watties For Baby Baby Food Banana Mango Courgette & Peas pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3015,
+        "category_id": 18,
+        "product_name": "Watties Stage 2 Baby Food Custard With Bananas pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3016,
+        "category_id": 19,
+        "product_name": "Watties Stage 2 Baby Food Pasta, Vegetables & Beef 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3017,
+        "category_id": 20,
+        "product_name": "Watties Stage 2 Baby Food Vanilla Custard pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3018,
+        "category_id": 21,
+        "product_name": "Watties Stage 2 Baby Food Vanilla Custard 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3019,
+        "category_id": 22,
+        "product_name": "Watties Stage 2 Baby Food Banana & Apple Porridge pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3020,
+        "category_id": 23,
+        "product_name": "Watties Stage 2 Baby Food Custard With Banana 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=10"
+    },
+    {
+        "product_id": 3021,
+        "category_id": 0,
+        "product_name": "Watties Stage 2 Baby Food Chicken, Sweetcorn & Mango 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3022,
+        "category_id": 1,
+        "product_name": "Watties Stage 2 Baby Food Lamb, Veges & Polenta pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3023,
+        "category_id": 2,
+        "product_name": "Watties Stage 2 Baby Food Pumpkin Potato & Beef 120g",
+        "product_price": {
+            "normal_price": "1.25",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3024,
+        "category_id": 3,
+        "product_name": "Watties Stage 2 Baby Food Apple Pear & Berries squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3025,
+        "category_id": 4,
+        "product_name": "Watties Stage 2 Baby Food Beef Bolognaise & Veges pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3026,
+        "category_id": 5,
+        "product_name": "Watties Stage 2 Baby Food Pear Banana Berry Yoghurt 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3027,
+        "category_id": 6,
+        "product_name": "Watties Stage 2 Baby Food Harvest Vegetables & Chicken 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3028,
+        "category_id": 7,
+        "product_name": "Watties Stage 2 Baby Food Apple, Blueberry & Strawberry 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3029,
+        "category_id": 8,
+        "product_name": "Heinz Little Kids Cereal Bars Wholegrain Apple/blueberry 90g 15g bars 6pk",
+        "product_price": {
+            "normal_price": "4.41",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3030,
+        "category_id": 9,
+        "product_name": "Heinz Organic Stage 3 Baby Food Spring Lamb & Baby Vegetables jar 170g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3031,
+        "category_id": 10,
+        "product_name": "Heinz Organic Stage 3 Baby Food Butternut Pumpkin Pilaf jar 170g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3032,
+        "category_id": 11,
+        "product_name": "Heinz Organic Stage 3 Baby Food Pumpkin, Ricotta & Spinach jar 170g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3033,
+        "category_id": 12,
+        "product_name": "Heinz Organic Stage 3 Baby Food Tender Beef & Vegetable Mash jar 170g",
+        "product_price": {
+            "normal_price": "2.19",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3034,
+        "category_id": 13,
+        "product_name": "Little Bellies 9m Baby Snacks Blueberry Puffs 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3035,
+        "category_id": 14,
+        "product_name": "Little Bellies Baby Puffs Baby Snacks Apple & Cinnamon Corn Puffs 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3036,
+        "category_id": 15,
+        "product_name": "Little Bellies Round Abouts Baby Snacks Super Sweetcorn Corn Cakes 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3037,
+        "category_id": 16,
+        "product_name": "Little Bellies Round Abouts Baby Snacks Perfectly Pumpkin Corn Puffs 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3038,
+        "category_id": 17,
+        "product_name": "Only Organic 8 Months + Baby Food Mango & Rice Pudding squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3039,
+        "category_id": 18,
+        "product_name": "Only Organic 8 Months + Baby Snacks Bluebry Prple Carrot Rice Cake 40g",
+        "product_price": {
+            "normal_price": "3.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3040,
+        "category_id": 19,
+        "product_name": "Only Organic 8 Months + Baby Food Creamy Rice Pudding squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3041,
+        "category_id": 20,
+        "product_name": "Only Organic Stage 3 Baby Snacks Banana Biscotti 8+ Months 100g",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3042,
+        "category_id": 21,
+        "product_name": "Only Organic Stage 3 Baby Food Kumara Carrot & Coconut Rice squeeze pouch 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3043,
+        "category_id": 22,
+        "product_name": "Only Organic Stage 3 Baby Food Peas, Blackcurrant & Lamb squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3044,
+        "category_id": 23,
+        "product_name": "Only Organic Stage 3 Baby Food Banana, Raspberry & Vanilla pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=11"
+    },
+    {
+        "product_id": 3045,
+        "category_id": 0,
+        "product_name": "Only Organic Stage 3 Baby Food Banana Berries & Yoghurt pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3046,
+        "category_id": 1,
+        "product_name": "Only Organic Stage 3 Baby Food Mango Yoghurt Brekkie squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3047,
+        "category_id": 2,
+        "product_name": "Only Organic Stage 3 Baby Food Chicken Bolognese 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3048,
+        "category_id": 3,
+        "product_name": "Only Organic Stage 3 Baby Food Vegetable Lasagne 170g",
+        "product_price": {
+            "normal_price": "2.70",
+            "offer_price": "2.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3049,
+        "category_id": 4,
+        "product_name": "Only Organic Stage 3 Baby Food Cacao  & Berry Custard squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3050,
+        "category_id": 5,
+        "product_name": "Only Organic Stage 3 Baby Food Carrots, Red Lentils, Cheddar squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3051,
+        "category_id": 6,
+        "product_name": "Raffertys Garden Baby Food Chicken Sweet Corn With Barley 120g",
+        "product_price": {
+            "normal_price": "2.20",
+            "offer_price": "1.80"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3052,
+        "category_id": 7,
+        "product_name": "Raffertys Garden Happy Tummies Baby Food Vegetable Rissoto 120g",
+        "product_price": {
+            "normal_price": "2.20",
+            "offer_price": "1.80"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3053,
+        "category_id": 8,
+        "product_name": "Raffertys Garden Happy Tummies Baby Food W/meal Macaroni Cheese & V... 120g",
+        "product_price": {
+            "normal_price": "2.20",
+            "offer_price": "1.80"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3054,
+        "category_id": 9,
+        "product_name": "Watties Baby Food Apple Strawberry Passionfruit squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3055,
+        "category_id": 10,
+        "product_name": "Watties Baby Food Mango Vanilla Custard squeeze pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3056,
+        "category_id": 11,
+        "product_name": "Watties For Baby Baby Food Strawberry & Vanilla Custard pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3057,
+        "category_id": 12,
+        "product_name": "Watties For Baby Baby Food Pear Orange & Pineapple pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3058,
+        "category_id": 13,
+        "product_name": "Watties Smoothies Stage 3 Baby Food Berry Nice Pear pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3059,
+        "category_id": 14,
+        "product_name": "Watties Smoothies Stage 3 Baby Food Oatilicious Brekky pouch 120g",
+        "product_price": {
+            "normal_price": "1.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3060,
+        "category_id": 15,
+        "product_name": "Watties Stage 3 Baby Food Chicken & Vege Risotto 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3061,
+        "category_id": 16,
+        "product_name": "Watties Stage 3 Baby Food Creamy Tuna & Veg Pasta 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3062,
+        "category_id": 17,
+        "product_name": "Watties Stage 3 Baby Food Beef Brown Rice & Vegetables 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3063,
+        "category_id": 18,
+        "product_name": "Watties Stage 3 Baby Food Alphaghetti Tomato & Beef 170g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3064,
+        "category_id": 19,
+        "product_name": "Heinz Little Kids Kids Meal Bolognese Vege Spiral Pasta 200g",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": "2.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3065,
+        "category_id": 20,
+        "product_name": "Heinz Little Kids Toddler Snacks Tomato Corn Cakes 40g",
+        "product_price": {
+            "normal_price": "3.89",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3066,
+        "category_id": 21,
+        "product_name": "Heinz Little Kids Toddler Snacks Muesli Apple Blkcurnt/yoghurt 15g bars 6pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3067,
+        "category_id": 22,
+        "product_name": "Heinz Little Kids Kids Meal Lamb Casserole 200g",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": "2.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3068,
+        "category_id": 23,
+        "product_name": "Little Bellies Toddler Biscuits Animals 12 Month+ 100g",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=12"
+    },
+    {
+        "product_id": 3069,
+        "category_id": 0,
+        "product_name": "Little Bellies Minis Toddler Biscuits Mini Gingerbread Men 12mths + 100g",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3070,
+        "category_id": 1,
+        "product_name": "Little Bellies Softcorn Toddler Snacks Berry & Apple 8g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3071,
+        "category_id": 2,
+        "product_name": "Little Bellies Softcorn Toddler Snacks Banana 8g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3072,
+        "category_id": 3,
+        "product_name": "Little Quacker Organic Toddler Biscuits Banana Rice 40g",
+        "product_price": {
+            "normal_price": "2.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3073,
+        "category_id": 4,
+        "product_name": "Little Quacker Organic Toddler Biscuits Strawberry Rice 40g",
+        "product_price": {
+            "normal_price": "2.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3074,
+        "category_id": 5,
+        "product_name": "Only Organic Kids Meal Banana Vanilla & Greek Yoghurt squeeze pouch 100g",
+        "product_price": {
+            "normal_price": "2.29",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3075,
+        "category_id": 6,
+        "product_name": "Only Organic Kids Meal Mango, Goji Berries & Yoghurt squeeze pouch 100g",
+        "product_price": {
+            "normal_price": "2.29",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3076,
+        "category_id": 7,
+        "product_name": "Only Organic Kids Meal Coconut Banana & Acai Smoothie squeeze pouch 100g",
+        "product_price": {
+            "normal_price": "2.29",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3077,
+        "category_id": 8,
+        "product_name": "Only Organic Junior Toddler Snacks Yoghurt Rice Cakes 60g",
+        "product_price": {
+            "normal_price": "4.29",
+            "offer_price": "3.60"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3078,
+        "category_id": 9,
+        "product_name": "Only Organic Kindy Kids Meal Vegetable Chicken Risotto pouch 220g",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": "2.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3079,
+        "category_id": 10,
+        "product_name": "Only Organic Kindy Kids Meal Strawberry Goji Smoothie pouch 100g",
+        "product_price": {
+            "normal_price": "2.29",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3080,
+        "category_id": 11,
+        "product_name": "Only Organic Kindy Kids Meal Beef Bolognese Pasta pouch 220g",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": "2.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3081,
+        "category_id": 12,
+        "product_name": "Only Organic Kindy Kids Meal Macaroni & Cheese Pasta pouch 220g",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": "2.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3082,
+        "category_id": 13,
+        "product_name": "Raffertys Garden Toddler Snacks Yoghurt Berry Buttons 28g",
+        "product_price": {
+            "normal_price": "4.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3083,
+        "category_id": 14,
+        "product_name": "Raffertys Garden Fruit Snack Bar Blueberry Banana Apple Bars 128g 8pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3084,
+        "category_id": 15,
+        "product_name": "Raffertys Garden Baby Food Shepherds Pie 170g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3085,
+        "category_id": 16,
+        "product_name": "Raffertys Garden Fruit Snack Bar Fruit Apple & Raspberry 128g 8pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3086,
+        "category_id": 17,
+        "product_name": "Raffertys Garden Fruit Snack Bar Fruit Apple 128g 8pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3087,
+        "category_id": 18,
+        "product_name": "Raffertys Garden Baby Food Bolognese Wiith Macaroni 170g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3088,
+        "category_id": 19,
+        "product_name": "Raffertys Garden Baby Food Italian Lasagne 170g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3089,
+        "category_id": 20,
+        "product_name": "Raffertys Garden Baby Food Chicken Basil Pasta 170g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3090,
+        "category_id": 21,
+        "product_name": "Raffertys Garden Baby Food Risoni Pasta & Garden Veggies 170g",
+        "product_price": {
+            "normal_price": "3.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3091,
+        "category_id": 22,
+        "product_name": "Watties Little Kids Stage 4 Kids Meal Spaghetti Bolognese 220g",
+        "product_price": {
+            "normal_price": "2.15",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3092,
+        "category_id": 23,
+        "product_name": "Watties Little Kids Stage 4 Kids Meal Hearty Beef Casserole 220g",
+        "product_price": {
+            "normal_price": "2.15",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=13"
+    },
+    {
+        "product_id": 3093,
+        "category_id": 0,
+        "product_name": "Watties Little Kids Stage 4 Kids Meal Savoury Rice & Beef 220g",
+        "product_price": {
+            "normal_price": "2.15",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3094,
+        "category_id": 1,
+        "product_name": "Watties Little Kids Stage 4 Kids Meal Cheesy Ravioli 220g",
+        "product_price": {
+            "normal_price": "2.15",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3095,
+        "category_id": 2,
+        "product_name": "Watties Little Kids Stage 4 Kids Meal Chicken & Pumpkin Risotto 220g",
+        "product_price": {
+            "normal_price": "2.15",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3096,
+        "category_id": 3,
+        "product_name": "S26 Progress Gold Follow On From 6 Months Formula Step 2 900g",
+        "product_price": {
+            "normal_price": "29.99",
+            "offer_price": "25.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3097,
+        "category_id": 4,
+        "product_name": "Aptamil Gold+ Stage 2 Follow On From 6 Months Formula 6-12 Months 900g",
+        "product_price": {
+            "normal_price": "27.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3098,
+        "category_id": 5,
+        "product_name": "Anmum Neopro 2 Follow On From 6 Months Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "25.50",
+            "offer_price": "22.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3099,
+        "category_id": 6,
+        "product_name": "Karicare Stage 2 Follow On From 6 Months Formula 900g",
+        "product_price": {
+            "normal_price": "20.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3100,
+        "category_id": 7,
+        "product_name": "Aptamil Profutura Follow On From 6 Months Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "38.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3101,
+        "category_id": 8,
+        "product_name": "S26 Original Follow On From 6 Months Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "19.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3102,
+        "category_id": 9,
+        "product_name": "Aptamil Gold+ Stage 2 Follow On From 6 Months Formula 6-12 Months sachets 4pk",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3103,
+        "category_id": 10,
+        "product_name": "Blackmores Follow On From 6 Months Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "25.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3104,
+        "category_id": 11,
+        "product_name": "Karicare Gold+ 2 Follow On From 6 Months Formula 900g",
+        "product_price": {
+            "normal_price": "25.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3105,
+        "category_id": 12,
+        "product_name": "A2 Platinum Premium Follow On From 6 Months Stage 2 Formula 900g",
+        "product_price": {
+            "normal_price": "42.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3106,
+        "category_id": 13,
+        "product_name": "S26 Pro A Two Follow On From 6 Months A2 Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "42.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3107,
+        "category_id": 14,
+        "product_name": "Heinz Nurture Gold Follow On From 6 Months Formula 2 900g",
+        "product_price": {
+            "normal_price": "23.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3108,
+        "category_id": 15,
+        "product_name": "Karicare Stage 2 Follow On From 6 Months Formula 6-12 Months sachets 4pk",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3109,
+        "category_id": 16,
+        "product_name": "Aptamil Gold+ Stage 2 Follow On From 6 Months Allerpro Baby Formula 900g",
+        "product_price": {
+            "normal_price": "31.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3110,
+        "category_id": 17,
+        "product_name": "Heinz Nurture Follow On From 6 Months Formula Stage 2 900g",
+        "product_price": {
+            "normal_price": "21.50",
+            "offer_price": "17.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3111,
+        "category_id": 18,
+        "product_name": "Nestle Nan Supreme Follow On From 6 Months Formula Stage 2 800g",
+        "product_price": {
+            "normal_price": "31.50",
+            "offer_price": "29.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3112,
+        "category_id": 19,
+        "product_name": "S26 Gold Specialty Formula Soy Milk From Birth 900g",
+        "product_price": {
+            "normal_price": "28.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3113,
+        "category_id": 20,
+        "product_name": "Fresco Gold Plus Specialty Formula Goats Milk From Birth 900g",
+        "product_price": {
+            "normal_price": "38.00",
+            "offer_price": "36.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3114,
+        "category_id": 21,
+        "product_name": "Karicare Stage 3 Specialty Formula Goats Milk From 1 Year 900g",
+        "product_price": {
+            "normal_price": "43.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3115,
+        "category_id": 22,
+        "product_name": "Karicare Stage 2 Specialty Formula Goats Milk From 6 Months 900g",
+        "product_price": {
+            "normal_price": "43.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3116,
+        "category_id": 23,
+        "product_name": "Fresco Gold Plus Specialty Formula Goats Milk From 1 Year 900g",
+        "product_price": {
+            "normal_price": "38.00",
+            "offer_price": "36.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=14"
+    },
+    {
+        "product_id": 3117,
+        "category_id": 0,
+        "product_name": "Karicare Stage 1 Specialty Formula Goats Milk Birth - 6 Months 900g",
+        "product_price": {
+            "normal_price": "43.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3118,
+        "category_id": 1,
+        "product_name": "Karicare + Soy Specialty Formula Soy Milk For All Ages 900g",
+        "product_price": {
+            "normal_price": "27.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3119,
+        "category_id": 2,
+        "product_name": "S26 Pro A Two Starter From Birth A2 Formula Stage 1 900g",
+        "product_price": {
+            "normal_price": "42.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3120,
+        "category_id": 3,
+        "product_name": "Aptamil Gold+ Anti Reflux Starter From Birth Formula 0-12 Months 900g",
+        "product_price": {
+            "normal_price": "25.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3121,
+        "category_id": 4,
+        "product_name": "Karicare Stage 1 Starter From Birth Formula 900g",
+        "product_price": {
+            "normal_price": "20.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3122,
+        "category_id": 5,
+        "product_name": "Anmum Neopro 1 Starter From Birth Formula Stage 1 900g",
+        "product_price": {
+            "normal_price": "25.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3123,
+        "category_id": 6,
+        "product_name": "Heinz Nurture Gold Starter From Birth Infant Formula 1 900g",
+        "product_price": {
+            "normal_price": "23.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3124,
+        "category_id": 7,
+        "product_name": "Heinz Nurture Starter From Birth Infant Formula 1 900g",
+        "product_price": {
+            "normal_price": "21.50",
+            "offer_price": "17.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3125,
+        "category_id": 8,
+        "product_name": "Aptamil Profutura Starter From Birth Stage 1 Formula 900g",
+        "product_price": {
+            "normal_price": "38.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3126,
+        "category_id": 9,
+        "product_name": "Heinz Nurture Gold Plus Starter From Birth Infant Formula All Ages 900g",
+        "product_price": {
+            "normal_price": "20.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3127,
+        "category_id": 10,
+        "product_name": "S26 Stage 1 Starter From Birth Infant Formula 900g",
+        "product_price": {
+            "normal_price": "19.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3128,
+        "category_id": 11,
+        "product_name": "Karicare Stage 1 Starter From Birth Formula 0-6 Months sachets 5pk",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3129,
+        "category_id": 12,
+        "product_name": "Blackmores Starter From Birth Formula Stage 1 900g",
+        "product_price": {
+            "normal_price": "25.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3130,
+        "category_id": 13,
+        "product_name": "Aptamil Gold+ Starter From Birth Formula 0-12 Months 900g",
+        "product_price": {
+            "normal_price": "29.90",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3131,
+        "category_id": 14,
+        "product_name": "Karicare Gold+ 1 Starter From Birth Infant Formula 900g",
+        "product_price": {
+            "normal_price": "25.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3132,
+        "category_id": 15,
+        "product_name": "Aptamil Gold+ Stage 1 Starter From Birth Formula 0-6 Months 900g",
+        "product_price": {
+            "normal_price": "27.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3133,
+        "category_id": 16,
+        "product_name": "Aptamil Gold+ Stage 1 Starter From Birth Formula 0-6 Months sachets 5pk",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3134,
+        "category_id": 17,
+        "product_name": "S26 Gold Starter From Birth Lactose Free 900g",
+        "product_price": {
+            "normal_price": "31.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3135,
+        "category_id": 18,
+        "product_name": "Aptamil Gold+ Stage 1 Starter From Birth Allerpro Baby Formula 900g",
+        "product_price": {
+            "normal_price": "31.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3136,
+        "category_id": 19,
+        "product_name": "S26 Gold Newborn Starter From Birth Formula Step 1 900g",
+        "product_price": {
+            "normal_price": "29.99",
+            "offer_price": "25.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3137,
+        "category_id": 20,
+        "product_name": "Nestle Nan Supreme Starter From Birth Formula Stage 1 800g",
+        "product_price": {
+            "normal_price": "31.50",
+            "offer_price": "29.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3138,
+        "category_id": 21,
+        "product_name": "Nestle Nan Supreme Toddler Formula Stage 3 800g",
+        "product_price": {
+            "normal_price": "29.00",
+            "offer_price": "26.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3139,
+        "category_id": 22,
+        "product_name": "S26 Pro A Two Toddler From 1 Year A2 Formula Stage 3 900g",
+        "product_price": {
+            "normal_price": "35.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3140,
+        "category_id": 23,
+        "product_name": "Karicare Stage 3 Toddler From 1 Year Formula 900g",
+        "product_price": {
+            "normal_price": "20.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=15"
+    },
+    {
+        "product_id": 3141,
+        "category_id": 0,
+        "product_name": "Anmum Pediapro 3 Toddler From 1 Year Formula Stage 3 900g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3142,
+        "category_id": 1,
+        "product_name": "Aptamil Gold+ Stage 3 Toddler From 1 Year Formula 900g",
+        "product_price": {
+            "normal_price": "24.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3143,
+        "category_id": 2,
+        "product_name": "S26 Gold Toddler From 1 Year Formula Step 3 900g",
+        "product_price": {
+            "normal_price": "21.99",
+            "offer_price": "17.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3144,
+        "category_id": 3,
+        "product_name": "Aptamil Profutura Toddler From 1 Year Formula Stage 3 900g",
+        "product_price": {
+            "normal_price": "34.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3145,
+        "category_id": 4,
+        "product_name": "Heinz Nurture Gold 3 Toddler From 1 Year Milk Drink Formula 900g",
+        "product_price": {
+            "normal_price": "18.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3146,
+        "category_id": 5,
+        "product_name": "Karicare Stage 3 Toddler From 1 Year Formula sachets 4pk",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3147,
+        "category_id": 6,
+        "product_name": "Aptamil Gold+ Stage 3 Toddler From 1 Year Formula 4pk",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3148,
+        "category_id": 7,
+        "product_name": "Karicare Gold+ 3 Toddler From 1 Year Nutritional Supplement 900g",
+        "product_price": {
+            "normal_price": "22.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3149,
+        "category_id": 8,
+        "product_name": "A2 Platinum Premium Toddler From 1 Year Stage 3 Formula 900g",
+        "product_price": {
+            "normal_price": "36.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3150,
+        "category_id": 9,
+        "product_name": "Blackmores Toddler From 1 Year Formula Stage 3 900g",
+        "product_price": {
+            "normal_price": "22.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3151,
+        "category_id": 10,
+        "product_name": "Heinz Nurture 3 Toddler From 1 Year 900g",
+        "product_price": {
+            "normal_price": "17.49",
+            "offer_price": "14.50"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3152,
+        "category_id": 11,
+        "product_name": "Karicare Stage 4 Two Years Plus Junior Formula 900g",
+        "product_price": {
+            "normal_price": "20.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3153,
+        "category_id": 12,
+        "product_name": "A2 Platinum Premium Two Years Plus Junior Stage 4 Formula 900g",
+        "product_price": {
+            "normal_price": "36.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3154,
+        "category_id": 13,
+        "product_name": "Karicare Gold+ 4 Two Years Plus Junior Nutritional Supplement 900g",
+        "product_price": {
+            "normal_price": "22.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3155,
+        "category_id": 14,
+        "product_name": "Heinz Nurture Gold 4 Two Years Plus Junior Formula 900g",
+        "product_price": {
+            "normal_price": "20.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3156,
+        "category_id": 15,
+        "product_name": "S26 Gold Stage 4 Two Years Plus Junior 900g",
+        "product_price": {
+            "normal_price": "22.99",
+            "offer_price": "19.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3157,
+        "category_id": 16,
+        "product_name": "Aveeno Baby Baby Bath Creamy Soothing Relief 236ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "11.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3158,
+        "category_id": 17,
+        "product_name": "Johnsons Baby Baby Bath Bedtime 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3159,
+        "category_id": 18,
+        "product_name": "Cetaphil Baby Bath Ultra Moisturising Wash 230ml",
+        "product_price": {
+            "normal_price": "10.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3160,
+        "category_id": 19,
+        "product_name": "Johnsons Baby Baby Bath Soap Free 200ml",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3161,
+        "category_id": 20,
+        "product_name": "Earthwise Baby Bath Soap 80g",
+        "product_price": {
+            "normal_price": "2.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3162,
+        "category_id": 21,
+        "product_name": "Johnsons Baby Baby Bath Milk Plus Rice 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3163,
+        "category_id": 22,
+        "product_name": "Earthwise Baby Bath Goats Milk Body Wash 275ml",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3164,
+        "category_id": 23,
+        "product_name": "Aveeno Baby Baby Bath Wash & Shampoo 236ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "11.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=16"
+    },
+    {
+        "product_id": 3165,
+        "category_id": 0,
+        "product_name": "Johnsons Baby Bath Bubble 443ml",
+        "product_price": {
+            "normal_price": "8.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3166,
+        "category_id": 1,
+        "product_name": "Ecostore Baby Bath Sleepytime 200ml",
+        "product_price": {
+            "normal_price": "8.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3167,
+        "category_id": 2,
+        "product_name": "Ecostore Baby Bath Body Wash bottle 200ml",
+        "product_price": {
+            "normal_price": "8.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3168,
+        "category_id": 3,
+        "product_name": "Earthwise Baby Bath 275ml",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3169,
+        "category_id": 4,
+        "product_name": "Johnsons Baby Baby Bath Top To Toe 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3170,
+        "category_id": 5,
+        "product_name": "Johnsons Baby Baby Bath Bedtime 200ml",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": "4.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3171,
+        "category_id": 6,
+        "product_name": "Silk Baby Body Wash 200ml",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3172,
+        "category_id": 7,
+        "product_name": "Tommee Tippee Baby Bowl Stickee",
+        "product_price": {
+            "normal_price": "17.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3173,
+        "category_id": 8,
+        "product_name": "Aveeno Baby Baby Cream Soothing Moisture 140g",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "11.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3174,
+        "category_id": 9,
+        "product_name": "Sudocreme Baby Cream tube 30g",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3175,
+        "category_id": 10,
+        "product_name": "Ecostore Baby Cream Nappy Balm 60ml",
+        "product_price": {
+            "normal_price": "8.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3176,
+        "category_id": 11,
+        "product_name": "Bepanthen Baby Cream Antiseptic 100g",
+        "product_price": {
+            "normal_price": "22.99",
+            "offer_price": "15.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3177,
+        "category_id": 12,
+        "product_name": "M & C Baby Cream Zinc & Castor Oil 200g",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3178,
+        "category_id": 13,
+        "product_name": "Bepanthen Baby Cream 100g",
+        "product_price": {
+            "normal_price": "19.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3179,
+        "category_id": 14,
+        "product_name": "Sudocream Baby Cream Healing Cream 250g",
+        "product_price": {
+            "normal_price": "19.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3180,
+        "category_id": 15,
+        "product_name": "Aveeno Baby Baby Lotion Daily Moisture 227ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": "11.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3181,
+        "category_id": 16,
+        "product_name": "Johnsons Baby Baby Lotion Bedtime 200ml",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": "4.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3182,
+        "category_id": 17,
+        "product_name": "Johnsons Baby Baby Lotion Original 200ml",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3183,
+        "category_id": 18,
+        "product_name": "Cetaphil Baby Lotion Daily 400ml",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3184,
+        "category_id": 19,
+        "product_name": "Earthwise Baby Lotion 275ml",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3185,
+        "category_id": 20,
+        "product_name": "Ecostore Baby Lotion Moisturiser 200ml",
+        "product_price": {
+            "normal_price": "9.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3186,
+        "category_id": 21,
+        "product_name": "Silk Baby Oil 500ml",
+        "product_price": {
+            "normal_price": "3.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3187,
+        "category_id": 22,
+        "product_name": "Silk Baby Oil 200ml",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3188,
+        "category_id": 23,
+        "product_name": "Ecostore Baby Oil pump 125ml",
+        "product_price": {
+            "normal_price": "8.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=17"
+    },
+    {
+        "product_id": 3189,
+        "category_id": 0,
+        "product_name": "Johnsons Baby Baby Oil 200ml",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3190,
+        "category_id": 1,
+        "product_name": "Johnsons Baby Baby Oil Aloe Vera 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3191,
+        "category_id": 2,
+        "product_name": "Johnsons Baby Oil Massage Oil 125ml",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": "3.69"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3192,
+        "category_id": 3,
+        "product_name": "Silk Baby Powder 400g",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3193,
+        "category_id": 4,
+        "product_name": "Johnsons Baby Shampoo 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3194,
+        "category_id": 5,
+        "product_name": "Ecostore Baby Shampoo Chamomile & Lavender 200ml",
+        "product_price": {
+            "normal_price": "8.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3195,
+        "category_id": 6,
+        "product_name": "Earthwise Baby Shampoo Goats Milk 275ml",
+        "product_price": {
+            "normal_price": "7.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3196,
+        "category_id": 7,
+        "product_name": "Johnsons Baby Baby Shampoo Original btl 200ml",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3197,
+        "category_id": 8,
+        "product_name": "Johnsons Baby Baby Shampoo & Conditioner 500ml",
+        "product_price": {
+            "normal_price": "8.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3198,
+        "category_id": 9,
+        "product_name": "Johnsons Baby Baby Shampoo & Conditioner 200ml",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3199,
+        "category_id": 10,
+        "product_name": "Ecostore Baby Soap Goats Milk & Lavender bar 80g",
+        "product_price": {
+            "normal_price": "2.49",
+            "offer_price": "1.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3200,
+        "category_id": 11,
+        "product_name": "Baby U Baby Wash Goat Milk 250ml",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3201,
+        "category_id": 12,
+        "product_name": "Cetaphil Baby Wash & Shampoo 230ml",
+        "product_price": {
+            "normal_price": "10.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3202,
+        "category_id": 13,
+        "product_name": "Little Genie Baby Wipes Thick Fragrance Free 80pk",
+        "product_price": {
+            "normal_price": "2.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3203,
+        "category_id": 14,
+        "product_name": "Johnsons Baby Baby Wipes Skincare Fragrance Free 240pk",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3204,
+        "category_id": 15,
+        "product_name": "Precious Baby Wipes Travel Pack 10pk",
+        "product_price": {
+            "normal_price": "1.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3205,
+        "category_id": 16,
+        "product_name": "Huggies Baby Wipes Unscented Refill 240pk",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3206,
+        "category_id": 17,
+        "product_name": "Little Ones Baby Wipes Hand & Face 30pk",
+        "product_price": {
+            "normal_price": "1.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3207,
+        "category_id": 18,
+        "product_name": "Treasures Baby Wipes soft pack 80pk",
+        "product_price": {
+            "normal_price": "3.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3208,
+        "category_id": 19,
+        "product_name": "Little Genie Baby Wipes Thick Fragrance 80pk",
+        "product_price": {
+            "normal_price": "2.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3209,
+        "category_id": 20,
+        "product_name": "Johnsons Baby Baby Wipes Skincare Refill 80pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3210,
+        "category_id": 21,
+        "product_name": "Little Ones Baby Wipes Unscented 80pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3211,
+        "category_id": 22,
+        "product_name": "Waterwipes Baby Wipes 60pk",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3212,
+        "category_id": 23,
+        "product_name": "Huggies Baby Wipes Cucumber & Aloe 240pk",
+        "product_price": {
+            "normal_price": "13.00",
+            "offer_price": "10.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=18"
+    },
+    {
+        "product_id": 3213,
+        "category_id": 0,
+        "product_name": "Silk Baby Wipes Fragranced 80pk",
+        "product_price": {
+            "normal_price": "2.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3214,
+        "category_id": 1,
+        "product_name": "Huggies Baby Wipes Fragrance Free Tub tub 80pk",
+        "product_price": {
+            "normal_price": "5.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3215,
+        "category_id": 2,
+        "product_name": "Precious Baby Wipes Flushable 50pk",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3216,
+        "category_id": 3,
+        "product_name": "Johnsons Baby Baby Wipes Fragrance Free 80pk",
+        "product_price": {
+            "normal_price": "4.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3217,
+        "category_id": 4,
+        "product_name": "Silk Baby Wipes Ultimate 72pk",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3218,
+        "category_id": 5,
+        "product_name": "Huggies Baby Wipes Unscented Refill 80pk",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3219,
+        "category_id": 6,
+        "product_name": "Huggies Baby Wipes Aloe & Cucumber 80pk",
+        "product_price": {
+            "normal_price": "4.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3220,
+        "category_id": 7,
+        "product_name": "Baby U Baby Wipes Dry 100pk",
+        "product_price": {
+            "normal_price": "6.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3221,
+        "category_id": 8,
+        "product_name": "Little Genie Baby Wipes Biodegradable Frag Free 80pk",
+        "product_price": {
+            "normal_price": "5.49",
+            "offer_price": "5.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3222,
+        "category_id": 9,
+        "product_name": "Silk Baby Wipes Fragrance Free 80pk",
+        "product_price": {
+            "normal_price": "2.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3223,
+        "category_id": 10,
+        "product_name": "Ecostore Bubble Bath Baby 500ml",
+        "product_price": {
+            "normal_price": "14.99",
+            "offer_price": "13.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3224,
+        "category_id": 11,
+        "product_name": "Swisspers Cotton Buds Baby Contour Tips 40pk",
+        "product_price": {
+            "normal_price": "2.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3225,
+        "category_id": 12,
+        "product_name": "Aveeno Baby Dermexa Moisturising Lotion 206g",
+        "product_price": {
+            "normal_price": "22.99",
+            "offer_price": "19.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3226,
+        "category_id": 13,
+        "product_name": "Vaseline Petroleum Jelly 100g",
+        "product_price": {
+            "normal_price": "5.89",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3227,
+        "category_id": 14,
+        "product_name": "Vaseline Petroleum Jelly White 50g",
+        "product_price": {
+            "normal_price": "3.79",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3228,
+        "category_id": 15,
+        "product_name": "Johnsons Baby Powder Pure Cornstarch, Aloe & Vit E 255g",
+        "product_price": {
+            "normal_price": "5.29",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3229,
+        "category_id": 16,
+        "product_name": "Silk Shampoo & Conditioner 2 In 1 200ml",
+        "product_price": {
+            "normal_price": "2.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3230,
+        "category_id": 17,
+        "product_name": "Johnsons Baby Talcum Powder 400g",
+        "product_price": {
+            "normal_price": "4.50",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3231,
+        "category_id": 18,
+        "product_name": "Johnsons Baby Talcum Powder 200g",
+        "product_price": {
+            "normal_price": "3.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3232,
+        "category_id": 19,
+        "product_name": "Avent Bottle Brush each",
+        "product_price": {
+            "normal_price": "14.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3233,
+        "category_id": 20,
+        "product_name": "Tommee Tippee Bottle Brush & Teat",
+        "product_price": {
+            "normal_price": "12.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3234,
+        "category_id": 21,
+        "product_name": "Dettol Glen 20 Disinfectant Spray Surface Citrus Breeze spray 300g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3235,
+        "category_id": 22,
+        "product_name": "Dettol Glen 20 Disinfectant Spray Surface Lavender spray 300g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3236,
+        "category_id": 23,
+        "product_name": "Dettol Laundry Soaker Sanitising 1.25l",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=19"
+    },
+    {
+        "product_id": 3237,
+        "category_id": 0,
+        "product_name": "Vanish Napisan Oxi Action Laundry Soaker Fabric Stain Remover Powder 1kg",
+        "product_price": {
+            "normal_price": "10.00",
+            "offer_price": "8.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3238,
+        "category_id": 1,
+        "product_name": "Dettol Spray Cleaner Surface Cleanser - Original trigger 500ml",
+        "product_price": {
+            "normal_price": "4.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3239,
+        "category_id": 2,
+        "product_name": "Milton Steriliser Tablets 30pk",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3240,
+        "category_id": 3,
+        "product_name": "Lansinoh Breast Cream For Breast Feeding 15g",
+        "product_price": {
+            "normal_price": "15.99",
+            "offer_price": "14.90"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3241,
+        "category_id": 4,
+        "product_name": "Johnsons Nursing Pads Ivory 24pk",
+        "product_price": {
+            "normal_price": "7.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3242,
+        "category_id": 5,
+        "product_name": "Little Genie Bio Nursing Pads 24pk",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": "5.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3243,
+        "category_id": 6,
+        "product_name": "First Response Pregnancy Test Kit",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3244,
+        "category_id": 7,
+        "product_name": "Pregnosis Pregnancy Test Kit Mid Stream 3 each",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3245,
+        "category_id": 8,
+        "product_name": "Pregnosis Pregnancy Test Kit Dip & Read 2pk",
+        "product_price": {
+            "normal_price": "10.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3246,
+        "category_id": 9,
+        "product_name": "First Response Pregnancy Test Kit Instream 3pk",
+        "product_price": {
+            "normal_price": "17.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3247,
+        "category_id": 10,
+        "product_name": "Clear Blue Pregnancy Test Kit Digital 1pk",
+        "product_price": {
+            "normal_price": "19.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3248,
+        "category_id": 11,
+        "product_name": "Clearblue Plus Pregnancy Test Kit 1pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3249,
+        "category_id": 12,
+        "product_name": "Pregnosis Pregnancy Test Kit Mid Stream 1 each",
+        "product_price": {
+            "normal_price": "8.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3250,
+        "category_id": 13,
+        "product_name": "Betadine Antiseptic Ointment 25g",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "0.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3251,
+        "category_id": 14,
+        "product_name": "Vicks Baby Balsam Chest Rub 50g",
+        "product_price": {
+            "normal_price": "8.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3252,
+        "category_id": 15,
+        "product_name": "Tommee Tippee Baby Thermometer Digital each",
+        "product_price": {
+            "normal_price": "19.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3253,
+        "category_id": 16,
+        "product_name": "Dream Baby Nasal Aspirator",
+        "product_price": {
+            "normal_price": "9.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3254,
+        "category_id": 17,
+        "product_name": "Sleepdrops Sleep Assistance For Babies 25ml",
+        "product_price": {
+            "normal_price": "24.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3255,
+        "category_id": 18,
+        "product_name": "Bonjela Teething Gel Sugar Free 15g",
+        "product_price": {
+            "normal_price": "7.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3256,
+        "category_id": 19,
+        "product_name": "Only Organic Baby Snacks Apple & Cinnamon Biscotti 100g",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3257,
+        "category_id": 20,
+        "product_name": "Little Bellies 9m Snacks Carrot Puffs 12g",
+        "product_price": {
+            "normal_price": "1.80",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3258,
+        "category_id": 21,
+        "product_name": "Little Bellies 9m Snacks Banana Hoops 50g",
+        "product_price": {
+            "normal_price": "3.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3259,
+        "category_id": 22,
+        "product_name": "Baby Mum Mum Teething Rusks Rice Original 36g 9pk",
+        "product_price": {
+            "normal_price": "2.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3260,
+        "category_id": 23,
+        "product_name": "Only Organic Stage 2 Teething Rusks 100g",
+        "product_price": {
+            "normal_price": "4.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=20"
+    },
+    {
+        "product_id": 3261,
+        "category_id": 0,
+        "product_name": "Baby Mum Mum Teething Rusks Rice Vegetable 36g 9pk",
+        "product_price": {
+            "normal_price": "2.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    },
+    {
+        "product_id": 3262,
+        "category_id": 1,
+        "product_name": "Farex Teething Rusks From 6 Months 100g",
+        "product_price": {
+            "normal_price": "4.25",
+            "offer_price": "3.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    },
+    {
+        "product_id": 3263,
+        "category_id": 2,
+        "product_name": "Only Organic Kindy Toddler Snacks Orange Yoghurt Rice Cakes 60g",
+        "product_price": {
+            "normal_price": "4.29",
+            "offer_price": "3.60"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    },
+    {
+        "product_id": 3264,
+        "category_id": 3,
+        "product_name": "Only Organic Toddler Snacks Carrot & Apple Rice Cakes 40g",
+        "product_price": {
+            "normal_price": "3.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    },
+    {
+        "product_id": 3265,
+        "category_id": 4,
+        "product_name": "Only Organic Stage 3 Toddler Snacks Apple Rice Cakes 40g",
+        "product_price": {
+            "normal_price": "3.69",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    },
+    {
+        "product_id": 3266,
+        "category_id": 5,
+        "product_name": "Only Organic Stage 3 Toddler Snacks Strawberry Yoghurt Rice Cakes 60g",
+        "product_price": {
+            "normal_price": "4.29",
+            "offer_price": "3.60"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care?page=21"
+    }
+]

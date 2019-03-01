@@ -1,0 +1,127 @@
+[
+    {
+        "_id": 0,
+        "category_name": "Bakery",
+        "url": "https://shop.countdown.co.nz/shop/browse/bakery"
+    },
+    {
+        "_id": 1,
+        "category_name": "Deli & Chilled Foods",
+        "url": "https://shop.countdown.co.nz/shop/browse/deli-chilled-foods"
+    },
+    {
+        "_id": 2,
+        "category_name": "Easter",
+        "url": "https://shop.countdown.co.nz/shop/browse/easter"
+    },
+    {
+        "_id": 3,
+        "category_name": "Fruit & Vegetables",
+        "url": "https://shop.countdown.co.nz/shop/browse/fruit-vegetables"
+    },
+    {
+        "_id": 4,
+        "category_name": "Meat",
+        "url": "https://shop.countdown.co.nz/shop/browse/meat"
+    },
+    {
+        "_id": 5,
+        "category_name": "Seafood",
+        "url": "https://shop.countdown.co.nz/shop/browse/seafood"
+    },
+    {
+        "_id": 6,
+        "category_name": "Baby Care",
+        "url": "https://shop.countdown.co.nz/shop/browse/baby-care"
+    },
+    {
+        "_id": 7,
+        "category_name": "Baking & Cooking",
+        "url": "https://shop.countdown.co.nz/shop/browse/baking-cooking"
+    },
+    {
+        "_id": 8,
+        "category_name": "Biscuits & Crackers",
+        "url": "https://shop.countdown.co.nz/shop/browse/biscuits-crackers"
+    },
+    {
+        "_id": 9,
+        "category_name": "Breakfast Foods",
+        "url": "https://shop.countdown.co.nz/shop/browse/breakfast-foods"
+    },
+    {
+        "_id": 10,
+        "category_name": "Canned & Prepared Foods",
+        "url": "https://shop.countdown.co.nz/shop/browse/canned-prepared-foods"
+    },
+    {
+        "_id": 11,
+        "category_name": "Chocolate, Sweets & Snacks",
+        "url": "https://shop.countdown.co.nz/shop/browse/chocolate-sweets-snacks"
+    },
+    {
+        "_id": 12,
+        "category_name": "Cleaning & Homecare",
+        "url": "https://shop.countdown.co.nz/shop/browse/cleaning-homecare"
+    },
+    {
+        "_id": 13,
+        "category_name": "Clothing & Manchester",
+        "url": "https://shop.countdown.co.nz/shop/browse/clothing-manchester"
+    },
+    {
+        "_id": 14,
+        "category_name": "Drinks - Hot & Cold",
+        "url": "https://shop.countdown.co.nz/shop/browse/drinks-hot-cold"
+    },
+    {
+        "_id": 15,
+        "category_name": "Frozen Foods",
+        "url": "https://shop.countdown.co.nz/shop/browse/frozen-foods"
+    },
+    {
+        "_id": 16,
+        "category_name": "Health & Wellness",
+        "url": "https://shop.countdown.co.nz/shop/browse/health-wellness"
+    },
+    {
+        "_id": 17,
+        "category_name": "Home & Kitchenware",
+        "url": "https://shop.countdown.co.nz/shop/browse/home-kitchenware"
+    },
+    {
+        "_id": 18,
+        "category_name": "Liquor - Beer & Cider",
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider"
+    },
+    {
+        "_id": 19,
+        "category_name": "Liquor - Wine",
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-wine"
+    },
+    {
+        "_id": 20,
+        "category_name": "Meal Ingredients",
+        "url": "https://shop.countdown.co.nz/shop/browse/meal-ingredients"
+    },
+    {
+        "_id": 21,
+        "category_name": "Office & Entertainment",
+        "url": "https://shop.countdown.co.nz/shop/browse/office-entertainment"
+    },
+    {
+        "_id": 22,
+        "category_name": "Personal Care",
+        "url": "https://shop.countdown.co.nz/shop/browse/personal-care"
+    },
+    {
+        "_id": 23,
+        "category_name": "Pet Care",
+        "url": "https://shop.countdown.co.nz/shop/browse/pet-care"
+    },
+    {
+        "_id": 24,
+        "category_name": "Toys & Party Needs",
+        "url": "https://shop.countdown.co.nz/shop/browse/toys-party-needs"
+    }
+]
