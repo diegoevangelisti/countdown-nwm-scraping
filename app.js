@@ -25,7 +25,7 @@ const processCategories = async () => {
 
     try {
       const pages = await Promise.all(
-        [...Array(parseInt(pageLimit - 1))].map(async (item, i) => {
+        [...Array(parseInt(pageLimit))].map(async (item, i) => {
           const pageUrl = category.url + "?page=" + i;
           try {
             const response = await axios.get(pageUrl);
