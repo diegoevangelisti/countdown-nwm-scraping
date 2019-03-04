@@ -1,0 +1,28 @@
+{
+  "name": "countdown-scraping",
+  "version": "1.0.0",
+  "description": "scraping countdown prices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoevangelisti/countdown-scraping.git"
+  },
+  "author": "Diego Evangelisti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoevangelisti/countdown-scraping/issues"
+  },
+  "homepage": "https://github.com/diegoevangelisti/countdown-scraping#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cron": "^1.6.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.11"
+  }
+}
