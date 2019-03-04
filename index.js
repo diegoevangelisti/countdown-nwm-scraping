@@ -36,7 +36,7 @@ cron.schedule("* 1 * * *", async function() {
   console.log("Importing products");
 });
 
-app.listen(3000, async function() {
+app.listen(8080, async function() {
   //
   // Initial run
   //
