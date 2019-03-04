@@ -1,70 +1,60 @@
-//Get all categories
+var express = require("express");
+var app = express();
+const cron = require("node-cron");
 
-// External dependencies
-const axios = require("axios");
-const cheerio = require("cheerio");
-const fs = require("fs");
-const chalk = require("chalk");
+app.set("view engine", "ejs");
 
-const cat_url = "https://shop.countdown.co.nz/shop/";
+//
+// Routes
+//
 
-const outputFile = "categories.json";
+app.get("/categories", function(req, res) {
+  const categories = require("./json/categories.json");
+  res.render("categories/index", { categories: categories });
+});
 
-//Variables declaration
-const parsedCategories = [];
+app.get("/products", function(req, res) {
+  const products = require("./json/categories/" + req.query.category_id);
+  res.render("products/index", { products: products });
+});
 
-let IDCount = 0;
+//
+// Jobs
+//
+cron.schedule("* 1 * * *", async function() {
+  const { scrapCategories } = require("./categories.js");
+  const cat_url = "https://shop.countdown.co.nz/shop/";
 
-//STEP 1
+  const scrappedCategories = await scrapCategories(cat_url);
+  console.log("Importing categories");
+});
 
-console.log(
-  chalk.yellow.bgBlue(
-    `\n  Scraping of ${chalk.underline.bold(cat_url)} initiated...\n`
-  )
-);
+cron.schedule("* 1 * * *", async function() {
+  const { scrapProducts } = require("./products.js");
+  const scrappedProducts = await scrapProducts();
+  res.send("SAVED TO JSON");
+  console.log("Importing products");
+});
 
-const getWebsiteContent = async cat_url => {
+app.listen(8080, async function() {
+  //
+  // Initial run
+  //
+
+  console.log("listening on port 3000");
+
+  const { scrapCategories } = require("./categories.js");
+  const cat_url = "https://shop.countdown.co.nz/shop/";
+
   try {
-    const response = await axios.get(cat_url);
-    const $ = cheerio.load(response.data);
+    console.log("Importing categories");
+    const categories = await scrapCategories(cat_url);
 
-    // New Lists
-    $("#BrowseSlideBox a.toolbar-slidebox-link").map((i, el) => {
-      category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
-      const count = IDCount++;
-      const category_n = $(el)
-        .text()
-        .trim();
-      const category = {
-        category_id: count,
-        category_name: category_n,
-        url: category_url
-      };
-      parsedCategories.push(category);
-    });
-
-    exportResults(parsedCategories);
-    return false;
-  } catch (error) {
-    exportResults(parsedCategories);
-    console.error(error);
+    const { scrapProducts } = require("./products.js");
+    console.log("Importing products");
+    await scrapProducts(categories);
+  } catch (e) {
+    console.log(e);
+    console.log("Error importing");
   }
-};
-
-const exportResults = parsedCategories => {
-  fs.writeFile(outputFile, JSON.stringify(parsedCategories, null, 4), err => {
-    if (err) {
-      console.log(err);
-    }
-    console.log(
-      chalk.yellow.bgBlue(
-        `\n ${chalk.underline.bold(
-          parsedCategories.length
-        )} Results exported successfully to ${chalk.underline.bold(
-          outputFile
-        )}\n`
-      )
-    );
-  });
-};
-getWebsiteContent(cat_url);
+});

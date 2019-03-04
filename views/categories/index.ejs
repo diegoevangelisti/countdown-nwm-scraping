@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body class="container">
+    <header>
+      <% include ../partials/header %>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <h3>Categories</h3>
+        <p>List of categories</p>
+      </div>
+      <% categories.map((category) => { %>
+        <p>
+          Name: <%= category.category_name %> (ID: <%= category.category_id %>)<br />
+          Url: <%= category.url %><br />
+          <a href="/products?category_id=<%= category.category_id %>">
+            View
+          </a>
+        </p>
+        <hr />
+      <% }) %>
+    </main>
+
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+  </body>
+</html>

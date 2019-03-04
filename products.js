@@ -4,9 +4,7 @@ const fs = require("fs");
 const chalk = require("chalk");
 const _ = require("lodash");
 
-var categories = require("./categories.json");
-
-const processCategories = async () => {
+const scrapProducts = async categories => {
   categories.forEach(async category => {
     let pageCounter = 0;
     let pageLimit = 1;
@@ -23,27 +21,22 @@ const processCategories = async () => {
       .text()
       .trim();
 
-    try {
-      const pages = await Promise.all(
-        [...Array(parseInt(pageLimit))].map(async (item, i) => {
-          const pageUrl = category.url + "?page=" + i;
-          try {
-            const response = await axios.get(pageUrl);
-            console.log(
-              `Processing ${category.category_name}: ${i} out of ${pageLimit}`
-            );
+    const pages = await Promise.all(
+      [...Array(parseInt(pageLimit))].map(async (item, i) => {
+        const p = i + 1;
+        const pageUrl = category.url + "?page=" + p;
+        const response = await axios.get(pageUrl);
+        console.log(
+          `Processing ${category.category_name}: ${i} out of ${pageLimit}`
+        );
+        if (!response.ok) {
+          return null;
+        }
 
-            return parsePage(response, category, pageUrl);
-          } catch (e) {
-            console.info(e);
-            return null;
-          }
-        })
-      );
-      exportResults(category, pages);
-    } catch (error) {
-      console.info(error);
-    }
+        return parsePage(response, category, pageUrl);
+      })
+    );
+    exportResults(category, pages);
   });
 };
 
@@ -82,6 +75,9 @@ function parsePage(response, category, pageUrl) {
         }
       }
       return new Product(
+        product_id = Math.random()
+        .toString(36)
+        .substr(2, 9),
         category.category_id,
         name,
         normal_price,
@@ -94,7 +90,7 @@ function parsePage(response, category, pageUrl) {
 }
 
 const exportResults = (category, pages) => {
-  const fileName = `categories/${category.category_name}.json`;
+  const fileName = `json/categories/${category.category_id}.json`;
   console.info(`Saving ${fileName}`);
 
   // We flatten the array because we ended up with an array of arrays
@@ -111,9 +107,7 @@ class Product {
     measure_unit,
     url
   ) {
-    this.product_id = Math.random()
-      .toString(36)
-      .substr(2, 9);
+    this.product_id = product_id;
     this.category_id = category_id;
     this.product_name = product_name;
     this.product_price = new ProductPrice(normal_price, offer_price);
@@ -129,4 +123,6 @@ class ProductPrice {
   }
 }
 
-processCategories();
+module.exports = {
+  scrapProducts: scrapProducts
+};
