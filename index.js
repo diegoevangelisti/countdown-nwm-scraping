@@ -55,5 +55,5 @@ cron.schedule("* 1 * * *", async function() {
 });
 
 app.listen(process.env.PORT || 5000, async function() {
-  console.log("listening on port 8080");
+  console.log("listening on port " + (process.env.PORT || 5000));
 });
