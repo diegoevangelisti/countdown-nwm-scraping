@@ -23,7 +23,8 @@ const scrapProducts = async categories => {
 
     const pages = await Promise.all(
       [...Array(parseInt(pageLimit))].map(async (item, i) => {
-        const pageUrl = category.url + "?page=" + i;
+        const p = i + 1;
+        const pageUrl = category.url + "?page=" + p;
         const response = await axios.get(pageUrl);
         console.log(
           `Processing ${category.category_name}: ${i} out of ${pageLimit}`
@@ -74,6 +75,9 @@ function parsePage(response, category, pageUrl) {
         }
       }
       return new Product(
+        product_id = Math.random()
+        .toString(36)
+        .substr(2, 9),
         category.category_id,
         name,
         normal_price,
@@ -103,9 +107,7 @@ class Product {
     measure_unit,
     url
   ) {
-    this.product_id = Math.random()
-      .toString(36)
-      .substr(2, 9);
+    this.product_id = product_id;
     this.category_id = category_id;
     this.product_name = product_name;
     this.product_price = new ProductPrice(normal_price, offer_price);
