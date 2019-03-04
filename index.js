@@ -54,6 +54,6 @@ cron.schedule("* 1 * * *", async function() {
   console.log("Importing products");
 });
 
-app.listen(8080, async function() {
+app.listen(process.env.PORT || 5000, async function() {
   console.log("listening on port 8080");
 });
