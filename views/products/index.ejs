@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body class="container">
+    <header>
+      <% include ../partials/header %>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <h3>Products</h3>
+        <p>List of products</p>
+      </div>
+      <% products.map((product) => { %>
+        <p>
+          Name: <%= product.product_name %> (ID: <%= product.product_id %>)<br />
+          Category: <%= product.category_id %><br />
+          Price: <%= product.normal_price %> (Offer: <%= product.offer_price %>)<br />
+          Measure Unit: <%= product.measure_unit %>
+        </p>
+        <hr />
+      <% }) %>
+    </main>
+
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+  </body>
+</html>

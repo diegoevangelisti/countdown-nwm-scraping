@@ -4,9 +4,7 @@ const fs = require("fs");
 const chalk = require("chalk");
 const _ = require("lodash");
 
-var categories = require("./categories.json");
-
-const processCategories = async () => {
+const scrapProducts = async categories => {
   categories.forEach(async category => {
     let pageCounter = 0;
     let pageLimit = 1;
@@ -23,27 +21,21 @@ const processCategories = async () => {
       .text()
       .trim();
 
-    try {
-      const pages = await Promise.all(
-        [...Array(parseInt(pageLimit))].map(async (item, i) => {
-          const pageUrl = category.url + "?page=" + i;
-          try {
-            const response = await axios.get(pageUrl);
-            console.log(
-              `Processing ${category.category_name}: ${i} out of ${pageLimit}`
-            );
+    const pages = await Promise.all(
+      [...Array(parseInt(pageLimit))].map(async (item, i) => {
+        const pageUrl = category.url + "?page=" + i;
+        const response = await axios.get(pageUrl);
+        console.log(
+          `Processing ${category.category_name}: ${i} out of ${pageLimit}`
+        );
+        if (!response.ok) {
+          return null;
+        }
 
-            return parsePage(response, category, pageUrl);
-          } catch (e) {
-            console.info(e);
-            return null;
-          }
-        })
-      );
-      exportResults(category, pages);
-    } catch (error) {
-      console.info(error);
-    }
+        return parsePage(response, category, pageUrl);
+      })
+    );
+    exportResults(category, pages);
   });
 };
 
@@ -94,7 +86,7 @@ function parsePage(response, category, pageUrl) {
 }
 
 const exportResults = (category, pages) => {
-  const fileName = `categories/${category.category_name}.json`;
+  const fileName = `json/categories/${category.category_id}.json`;
   console.info(`Saving ${fileName}`);
 
   // We flatten the array because we ended up with an array of arrays
@@ -129,4 +121,6 @@ class ProductPrice {
   }
 }
 
-processCategories();
+module.exports = {
+  scrapProducts: scrapProducts
+};
