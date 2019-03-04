@@ -18,6 +18,24 @@ app.get("/products", function(req, res) {
   res.render("products/index", { products: products });
 });
 
+app.get("/scrap", async function(req, res) {
+  const { scrapCategories } = require("./categories.js");
+  const cat_url = "https://shop.countdown.co.nz/shop/";
+
+  try {
+    console.log("Importing categories");
+    const categories = await scrapCategories(cat_url);
+
+    const { scrapProducts } = require("./products.js");
+    console.log("Importing products");
+    await scrapProducts(categories);
+    res.send("PROCESSING");
+  } catch (e) {
+    console.log(e);
+    res.send(e);
+  }
+});
+
 //
 // Jobs
 //
@@ -36,25 +54,6 @@ cron.schedule("* 1 * * *", async function() {
   console.log("Importing products");
 });
 
-app.listen(8080, async function() {
-  //
-  // Initial run
-  //
-
-  console.log("listening on port 3000");
-
-  const { scrapCategories } = require("./categories.js");
-  const cat_url = "https://shop.countdown.co.nz/shop/";
-
-  try {
-    console.log("Importing categories");
-    const categories = await scrapCategories(cat_url);
-
-    const { scrapProducts } = require("./products.js");
-    console.log("Importing products");
-    await scrapProducts(categories);
-  } catch (e) {
-    console.log(e);
-    console.log("Error importing");
-  }
+app.listen(process.env.PORT || 5000, async function() {
+  console.log("listening on port " + (process.env.PORT || 5000));
 });
