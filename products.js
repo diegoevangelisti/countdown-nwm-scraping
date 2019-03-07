@@ -14,12 +14,12 @@ const scrapProducts = async categories => {
     const response_p = await axios.get(url);
 
     const $ = cheerio.load(response_p.data);
-    pageLimit = $("ul.paging.pull-left.hidden-phone")
+    /*pageLimit = $("ul.paging.pull-left.hidden-phone")
       .find("li.page-number")
       .last()
       .find("a._jumpTop")
       .text()
-      .trim();
+      .trim();*/
 
     const pages = await Promise.all(
       [...Array(parseInt(pageLimit))].map(async (item, i) => {
