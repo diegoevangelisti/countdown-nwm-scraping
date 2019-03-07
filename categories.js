@@ -8,7 +8,7 @@ const chalk = require("chalk");
 
 const cat_url = "https://shop.countdown.co.nz/shop/";
 
-const outputFile = "json/categories.json";
+const outputFile = "./json/categories.json";
 
 //Variables declaration
 const parsedCategories = [];
@@ -20,9 +20,9 @@ const scrapCategories = async cat_url => {
   const $ = cheerio.load(response.data);
   
   // New Lists
-  $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0,2).map((i, el) => {
-    category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
-    const count = IDCount++;
+  $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0,2).map((item, el) => {
+    category_url = "https://shop.countdown.co.nz" + $(el).attr("href"); 
+    count = item;
     const category_n = $(el)
       .text()
       .trim();

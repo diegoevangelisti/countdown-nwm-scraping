@@ -1,17 +1,29 @@
 var express = require("express");
 var app = express();
 const cron = require("node-cron");
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+
 
 app.set("view engine", "ejs");
+
+mongoose.connect("mongodb://localhost/SSA");
 
 //
 // Routes
 //
 
+
+//New
+const scrapingRoutes = require('./api/routes/scrap');
+app.use('/scrap', scrapingRoutes);
+
+
 app.get("/categories", function(req, res) {
   const categories = require("./json/categories.json");
   res.render("categories/index", { categories: categories });
 });
+
 
 app.get("/products", function(req, res) {
   const products = require("./json/categories/" + req.query.category_id);
@@ -30,7 +42,8 @@ app.get("/scrap", async function(req, res) {
     const { scrapProducts } = require("./products.js");
     console.log("Importing products");
     await scrapProducts(categories);
-    res.send("PROCESSING");
+    //res.send("PROCESSING");
+    
   } catch (e) {
     console.log(e);
     res.send(e);
@@ -58,3 +71,5 @@ cron.schedule("* 1 * * *", async function() {
 app.listen(process.env.PORT || 5000, async function() {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
+
+module.exports = app;
