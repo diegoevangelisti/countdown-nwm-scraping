@@ -13,8 +13,6 @@ mongoose.connect("mongodb://localhost/SSA");
 // Routes
 //
 
-
-//New
 const scrapingRoutes = require('./api/routes/scrap');
 app.use('/scrap', scrapingRoutes);
 
@@ -42,7 +40,7 @@ app.get("/scrap", async function(req, res) {
     const { scrapProducts } = require("./products.js");
     console.log("Importing products");
     await scrapProducts(categories);
-    //res.send("PROCESSING");
+    res.send("PROCESSING");
     
   } catch (e) {
     console.log(e);

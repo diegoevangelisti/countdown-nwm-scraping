@@ -22,7 +22,7 @@ const scrapCategories = async cat_url => {
   // New Lists
   $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0,2).map((item, el) => {
     category_url = "https://shop.countdown.co.nz" + $(el).attr("href"); 
-    count = item;
+    var count = item;
     const category_n = $(el)
       .text()
       .trim();
