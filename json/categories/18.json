@@ -1,15 +1,266 @@
 [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+        "product_id": "4p9ra3jzs",
+        "category_id": 18,
+        "product_name": "Tui Beer 330ml Btls 12pk",
+        "product_price": {
+            "normal_price": "17.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "gez7ro4mj",
+        "category_id": 18,
+        "product_name": "Oettinger Beer Pilsner 500ml 500ml cans 6pk",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "ngk8225fm",
+        "category_id": 18,
+        "product_name": "Oettinger Beer Pilsner single can 500ml",
+        "product_price": {
+            "normal_price": "2.29",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "4pqhxxspg",
+        "category_id": 18,
+        "product_name": "Coopers Pale Ale Beer Longneck btl 750ml",
+        "product_price": {
+            "normal_price": "5.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "wjkdmhpsp",
+        "category_id": 18,
+        "product_name": "Krombacher Beer 660ml bottles 12pk",
+        "product_price": {
+            "normal_price": "29.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "ko17yht8o",
+        "category_id": 18,
+        "product_name": "Youngs Special Beer London 500ml bottles 8pk",
+        "product_price": {
+            "normal_price": "69.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "5svw14b1w",
+        "category_id": 18,
+        "product_name": "Asahi Beer Super Dry 330ml bottles 24pk",
+        "product_price": {
+            "normal_price": "42.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "r9eq8gatv",
+        "category_id": 18,
+        "product_name": "Youngs Special London Ale Beer 500ml",
+        "product_price": {
+            "normal_price": "6.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "sckrgw4zg",
+        "category_id": 18,
+        "product_name": "Speights Beer Old Dark 330ml Btls 12pk",
+        "product_price": {
+            "normal_price": "23.49",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "i7x32ikbx",
+        "category_id": 18,
+        "product_name": "Epic Beer Armageddon Ipa single bottle 500ml",
+        "product_price": {
+            "normal_price": "9.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "1z5zrorhh",
+        "category_id": 18,
+        "product_name": "Moa Beer Station Ipa 330ml bottles 12pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "25.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "bpiymavgt",
+        "category_id": 18,
+        "product_name": "Atlas Beer Extra Strength 8.5% single can 500ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "4.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "u8lyrn87f",
+        "category_id": 18,
+        "product_name": "Moa Beer St Josephs single bottle 500ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "7.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "96fsr55ce",
+        "category_id": 18,
+        "product_name": "Peroni Beer Nastro Azzurro 330ml btls 12pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "23.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "uxs8yl6so",
+        "category_id": 18,
+        "product_name": "Lion Brown Beer Draught 330ml cans 18pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "21.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "2jla8xw8i",
+        "category_id": 18,
+        "product_name": "Monteiths Beer Ripa Red Ipa 6x300ml",
+        "product_price": {
+            "normal_price": "13.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "8h1d2tx9j",
+        "category_id": 18,
+        "product_name": "Asahi Beer Super Dry 330ml bottles 12pk",
+        "product_price": {
+            "normal_price": "25.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "xefmh7tsl",
+        "category_id": 18,
+        "product_name": "Hoegaarden Wheat Beer 330ml Btls 4pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "14.99"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "lpgovazp9",
+        "category_id": 18,
+        "product_name": "Corona Extra Beer 355ml Bottles 18pk",
+        "product_price": {
+            "normal_price": "38.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "iz35r9vg4",
+        "category_id": 18,
+        "product_name": "Steinlager Tokyo Beer Dry single can 500ml",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "3.49"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "6vessqaqg",
+        "category_id": 18,
+        "product_name": "Speights Beer 330ml Btls 12pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "19.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "8jlhc1cdv",
+        "category_id": 18,
+        "product_name": "Corona Extra Beer 355ml Bottles 12pk",
+        "product_price": {
+            "normal_price": "0.00",
+            "offer_price": "25.00"
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "sz7y97ev0",
+        "category_id": 18,
+        "product_name": "Macs Beer Sassy Red 330ml bottles 6pk",
+        "product_price": {
+            "normal_price": "14.99",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    },
+    {
+        "product_id": "31c2pv90b",
+        "category_id": 18,
+        "product_name": "Steinlager Tokyo Beer Dry Bottles 330ml bottles 12pk",
+        "product_price": {
+            "normal_price": "22.00",
+            "offer_price": null
+        },
+        "measure_unit": null,
+        "url": "https://shop.countdown.co.nz/shop/browse/liquor-beer-cider?page=1"
+    }
 ]
