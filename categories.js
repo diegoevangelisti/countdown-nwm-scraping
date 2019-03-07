@@ -20,7 +20,7 @@ const scrapCategories = async cat_url => {
   const $ = cheerio.load(response.data);
   
   // New Lists
-  $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0, 2).map((i, el) => {
+  $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0,2).map((i, el) => {
     category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
     const count = IDCount++;
     const category_n = $(el)
@@ -55,7 +55,7 @@ const exportResults = parsedCategories => {
     );
   });
 };
-//Exports
+
 module.exports = {
   scrapCategories: scrapCategories
 };
