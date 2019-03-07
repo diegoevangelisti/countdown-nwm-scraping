@@ -13,12 +13,19 @@
         <h3>Products</h3>
         <p>List of products</p>
       </div>
-      <% products.map((product) => { %>
-        <p>
+      <% products.map((product) => { 
+          categories.map((category) =>{
+            if(product.category_id == category.category_id)
+              category_n = category.category_name
+          })
+          %>
           Name: <%= product.product_name %> (ID: <%= product.product_id %>)<br />
-          Category: <%= product.category_id %><br />
-          Price: <%= product.normal_price %> (Offer: <%= product.offer_price %>)<br />
-          Measure Unit: <%= product.measure_unit %>
+          Category: <%= category_n %><br />
+          <% if(product.product_price.offer_price !== null){ %>
+            Price: $ <%= product.product_price.normal_price %> (Offer: $ <%= product.product_price.offer_price %>)<br />
+            <% }else{ %>
+            Price: $ <%= product.product_price.normal_price %> - No offer price for this product<br />
+          <% } %>
         </p>
         <hr />
       <% }) %>

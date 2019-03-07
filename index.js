@@ -15,7 +15,8 @@ app.get("/categories", function(req, res) {
 
 app.get("/products", function(req, res) {
   const products = require("./json/categories/" + req.query.category_id);
-  res.render("products/index", { products: products });
+  const categories = require("./json/categories.json");
+  res.render("products/index", { products: products, categories: categories});
 });
 
 app.get("/scrap", async function(req, res) {
