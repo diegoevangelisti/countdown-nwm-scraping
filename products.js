@@ -8,7 +8,7 @@ const scrapProducts = async categories => {
   categories.forEach(async category => {
     let pageCounter = 0;
     let pageLimit = 1;
-    const parsedProducts = [];
+    //const parsedProducts = [];
 
     const url = category.url + "?page=" + pageCounter;
     const response_p = await axios.get(url);
@@ -20,6 +20,7 @@ const scrapProducts = async categories => {
       .find("a._jumpTop")
       .text()
       .trim();*/
+  
 
     const pages = await Promise.all(
       [...Array(parseInt(pageLimit))].map(async (item, i) => {

@@ -55,7 +55,7 @@ const exportResults = parsedCategories => {
     );
   });
 };
-
+//Exports
 module.exports = {
   scrapCategories: scrapCategories
 };
