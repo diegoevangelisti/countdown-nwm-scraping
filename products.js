@@ -29,7 +29,7 @@ const scrapProducts = async categories => {
         console.log(
           `Processing ${category.category_name}: ${i} out of ${pageLimit}`
         );
-        if (!response.ok) {
+        if (response.status !== 200) {
           return null;
         }
 
