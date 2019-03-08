@@ -9,7 +9,6 @@ const morgan = require('morgan');
 app.set("view engine", "ejs");
 
 
-
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -27,6 +26,7 @@ const listsRoutes = require('./api/routes/lists');
 const shopsRoutes = require('./api/routes/shops');
 const branchesRoutes = require('./api/routes/branches');
 const scrapingRoutes = require('./api/routes/scrap');
+const landingRoutes = require('./api/routes/landing');
 
 app.use('/products', productsRoutes);
 app.use('/categories', categoriesRoutes);
@@ -35,6 +35,7 @@ app.use('/lists', listsRoutes);
 app.use('/shops', shopsRoutes);
 app.use('/branches', branchesRoutes);
 app.use('/scrap', scrapingRoutes);
+app.use('/', landingRoutes);
 
 
 
@@ -93,13 +94,9 @@ app.listen(process.env.PORT || 5000, async function () {
 //   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //MLAB HEROKU
-
 mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
 
-
-
 //mongoose.connect("mongodb://localhost/SSA");
-
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
