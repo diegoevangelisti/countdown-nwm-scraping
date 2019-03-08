@@ -8,28 +8,27 @@ const Product = require("../models/products");
 //Get all products from a specific category
 
 router.get("/", (req, res, next) => {
-Product.find({
-    category_id: req.query.category_id
-})
-.then(docs => {
-    console.log(docs);
-    if (docs.length >= 0) {
-        res.render("products/index", {
-            docs: docs
+    Product.find({
+            category_id: req.query.category_id
+        })
+        .then(docs => {
+            console.log(docs);
+            if (docs.length >= 0) {
+                res.render("products/index", {
+                    docs: docs
+                });
+            } else {
+                res.status(404).json({
+                    message: 'No entries found'
+                });
+            }
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
         });
-    } else {
-        res.status(404).json({
-            message: 'No entries found'
-        });
-    }
-})
-.catch(err => {
-    console.log(err);
-    res.status(500).json({
-        error: err
-    });
-});
-
 })
 
 
