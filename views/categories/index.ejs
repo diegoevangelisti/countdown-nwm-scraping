@@ -13,11 +13,11 @@
         <h3>Categories</h3>
         <p>List of categories</p>
       </div>
-      <% categories.map((category) => { %>
+      <% docs.map((category) => { %>
         <p>
-          Name: <%= category.category_name %> (ID: <%= category.category_id %>)<br />
+          Name: <%= category.category_name %> (ID: <%= category._id %>)<br />
           Url: <%= category.url %><br />
-          <a href="/products?category_id=<%= category.category_id %>">
+          <a href="/products?category_id=<%= category._id %>">
             View
           </a>
         </p>

@@ -8,13 +8,13 @@ const Category= require("../models/categories");
 
 
 //Get all categories from database
-/*router.get("/", (req, res, next) => {
+router.get("/", (req, res, next) => {
     Category.find()
         .exec()
         .then(docs => {
             console.log(docs);
             if (docs.length >= 0) {
-                res.status(200).json(docs);
+              res.render("categories/index", {docs: docs});
             } else {
                 res.status(404).json({
                     message: 'No entries found'
@@ -27,8 +27,12 @@ const Category= require("../models/categories");
                 error: err
             });
         });
+
+
+  //const categories = require("./json/categories.json");
+  //res.render("categories/index", { categories: categories });
 });
-*/
+
 
 //GET an specific category from database
 router.get("/:categoryId", (req, res, next) => {

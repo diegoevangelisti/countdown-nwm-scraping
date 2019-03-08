@@ -13,14 +13,8 @@
         <h3>Products</h3>
         <p>List of products</p>
       </div>
-      <% products.map((product) => { 
-          categories.map((category) =>{
-            if(product.category_id == category.category_id)
-              category_n = category.category_name
-          })
-          %>
-          Name: <%= product.product_name %> (ID: <%= product.product_id %>)<br />
-          Category: <%= category_n %><br />
+      <% docs.map((product) => { %>
+          Name: <%= product.product_name %> (ID: <%= product._id %>)<br />
           <% if(product.product_price.offer_price !== null){ %>
             Price: $ <%= product.product_price.normal_price %> (Offer: $ <%= product.product_price.offer_price %>)<br />
             <% }else{ %>

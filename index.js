@@ -35,17 +35,6 @@ app.use('/branches',branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 
 
-app.get("/categories", function(req, res) {
-  const categories = require("./json/categories.json");
-  res.render("categories/index", { categories: categories });
-});
-
-
-app.get("/products", function(req, res) {
-  const products = require("./json/categories/" + req.query.category_id);
-  const categories = require("./json/categories.json");
-  res.render("products/index", { products: products, categories: categories});
-});
 
 app.get("/scrap", async function(req, res) {
   const { scrapCategories } = require("./categories.js");

@@ -4,33 +4,37 @@ const mongoose = require("mongoose");
 const Product = require("../models/products");
 
 //Products: Just get all products or get an specific products
-//Not allow to add, edit or delete scraped products
 
+//Get all products from a specific category
 
-//Get all products from database
-/*router.get("/", (req, res, next) => {
-    Product.find()
-        .exec()
-        .then(docs => {
-            console.log(docs);
-            if (docs.length >= 0) {
-                res.status(200).json(docs);
-            } else {
-                res.status(404).json({
-                    message: 'No entries found'
-                });
-            }
-        })
-        .catch(err => {
-            console.log(err);
-            res.status(500).json({
-                error: err
-            });
+router.get("/", (req, res, next) => {
+Product.find({
+    category_id: req.query.category_id
+})
+.then(docs => {
+    console.log(docs);
+    if (docs.length >= 0) {
+        res.render("products/index", {
+            docs: docs
         });
-});*/
+    } else {
+        res.status(404).json({
+            message: 'No entries found'
+        });
+    }
+})
+.catch(err => {
+    console.log(err);
+    res.status(500).json({
+        error: err
+    });
+});
+
+})
 
 
 //GET an specific product from database
+
 
 router.get("/:productId", (req, res, next) => {
     const id = req.params.productId;
