@@ -89,8 +89,13 @@ app.listen(process.env.PORT || 5000, async function () {
 
 //MONGO ATLAS DATABASE
 
-mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
-  '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+// mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
+//   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+
+//MLAB HEROKU
+
+mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
+
 
 
 //mongoose.connect("mongodb://localhost/SSA");
