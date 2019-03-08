@@ -8,7 +8,7 @@ const Category= require("../models/categories");
 
 
 //Get all categories from database
-router.get("/", (req, res, next) => {
+/*router.get("/", (req, res, next) => {
     Category.find()
         .exec()
         .then(docs => {
@@ -28,7 +28,7 @@ router.get("/", (req, res, next) => {
             });
         });
 });
-
+*/
 
 //GET an specific category from database
 router.get("/:categoryId", (req, res, next) => {

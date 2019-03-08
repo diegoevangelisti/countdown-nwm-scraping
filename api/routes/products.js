@@ -8,7 +8,7 @@ const Product = require("../models/products");
 
 
 //Get all products from database
-router.get("/", (req, res, next) => {
+/*router.get("/", (req, res, next) => {
     Product.find()
         .exec()
         .then(docs => {
@@ -27,7 +27,7 @@ router.get("/", (req, res, next) => {
                 error: err
             });
         });
-});
+});*/
 
 
 //GET an specific product from database
