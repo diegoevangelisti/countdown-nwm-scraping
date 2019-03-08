@@ -19,7 +19,7 @@ router.post("/", async function (req, res) {
                 .then(result => {
                     console.log(result);
                     res.status(201).json({
-                        message: "Handling POST requests to /lists",
+                        message: "Handling POST requests to /categories",
                         createdList: result
                     });
                 })

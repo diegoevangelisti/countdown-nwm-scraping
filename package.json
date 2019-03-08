@@ -28,6 +28,7 @@
     "fs": "0.0.1-security",
     "lodash": "^4.17.11",
     "mongoose": "^5.4.17",
+    "morgan": "^1.9.1",
     "node-cron": "^2.0.3"
   }
 }

@@ -3,17 +3,35 @@ var app = express();
 const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const morgan = require('morgan');
 
 
 app.set("view engine", "ejs");
 
 mongoose.connect("mongodb://localhost/SSA");
 
+app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
 //
 // Routes
 //
 
+const productsRoutes = require('./api/routes/products');
+const categoriesRoutes = require('./api/routes/categories');
+const usersRoutes = require('./api/routes/users');
+const listsRoutes = require('./api/routes/lists');
+const shopsRoutes = require('./api/routes/shops');
+const branchesRoutes = require('./api/routes/branches');
 const scrapingRoutes = require('./api/routes/scrap');
+
+app.use('/products', productsRoutes);
+app.use('/categories', categoriesRoutes);
+app.use('/users',usersRoutes);
+app.use('/lists',listsRoutes);
+app.use('/shops',shopsRoutes);
+app.use('/branches',branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 
 
@@ -70,4 +88,25 @@ app.listen(process.env.PORT || 5000, async function() {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
+//MONGO ATLAS DATABASE
+/*
+mongoose.connect('mongodb+srv://diego-re:'+process.env.MONGO_ATLAS_PW+
+'@cluster0-y9ijb.mongodb.net/test?retryWrites=true'
+);*/
+
+
+app.use((req, res, next) => {
+  const error = new Error('Not found');
+  error.status = 404;
+  next(error);
+
+});
+app.use((error, req, res, next) => {
+  res.status(error.status || 500);
+  res.json({
+      error: {
+          message: error.message
+      }
+  })
+});
 module.exports = app;
