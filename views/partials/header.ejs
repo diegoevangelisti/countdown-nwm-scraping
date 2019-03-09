@@ -9,8 +9,13 @@
         <li><a href="#">Settings</a></li>
         <li><a href="https://github.com/diegoevangelisti/countdown-scraping">Git hub repo</a></li>
         <li><a href="https://shop.countdown.co.nz/">Countdown</a></li>
-        <li><a href="/scrap" target="new" id="scrape-now">SCRAPE NOW</a></li>
+        <li> <a href="/scrap/direct" id="scrape-now" onclick="event.preventDefault(); document.getElementById('scraping').submit();">
+            Scrape Now
+          </a></li>
       </ul>
     </div>
   </div>
+  <form id="scraping" action="/scrap/direct" method="POST" style="display: none;">
+    <input type="hidden" name="scrape-now" value="" />
+  </form>
 </nav>
