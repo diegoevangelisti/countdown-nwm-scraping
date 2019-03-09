@@ -179,7 +179,7 @@ router.post("/direct", async function (req, res) {
      }
  });
 
-
+/*
 router.post("/", async function (req, res) {
     try {
         const categories = require("../../json/categories.json");
@@ -239,7 +239,7 @@ router.post("/", async function (req, res) {
         res.send(e);
     }
 });
-
+*/
 router.delete("/deleteall", async function (req,res){
     Category
     .find()
