@@ -37,65 +37,19 @@ app.use('/branches', branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 app.use('/', landingRoutes);
 
-
-
-app.get("/scrap", async function (req, res) {
-  const {
-    scrapCategories
-  } = require("./categories.js");
-  const cat_url = "https://shop.countdown.co.nz/shop/";
-
-  try {
-    console.log("Importing categories");
-    const categories = await scrapCategories(cat_url);
-
-    const {
-      scrapProducts
-    } = require("./products.js");
-    console.log("Importing products");
-    await scrapProducts(categories);
-    res.send("PROCESSING");
-
-  } catch (e) {
-    console.log(e);
-    res.send(e);
-  }
-});
-
-//
-// Jobs
-//
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapCategories
-  } = require("./categories.js");
-  const cat_url = "https://shop.countdown.co.nz/shop/";
-
-  const scrappedCategories = await scrapCategories(cat_url);
-  console.log("Importing categories");
-});
-
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapProducts
-  } = require("./products.js");
-  const scrappedProducts = await scrapProducts();
-  res.send("SAVED TO JSON");
-  console.log("Importing products");
-});
-
 app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
-//MONGO ATLAS DATABASE
-
-// mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
-//   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //MLAB HEROKU
 mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
 
+//MONGO ATLAS DATABASE
+// mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
+//   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+
+//LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");
 
 app.use((req, res, next) => {
@@ -112,4 +66,27 @@ app.use((error, req, res, next) => {
     }
   })
 });
+
+//
+// Jobs
+//
+cron.schedule("* 1 * * *", async function () {
+  const {
+      scrapCategories
+  } = require("./categories.js");
+  const cat_url = "https://shop.countdown.co.nz/shop/";
+
+  const scrappedCategories = await scrapCategories(cat_url);
+  console.log("Importing categories");
+});
+
+cron.schedule("* 1 * * *", async function () {
+  const {
+      scrapProducts
+  } = require("./products.js");
+  const scrappedProducts = await scrapProducts();
+  res.send("SAVED TO JSON");
+  console.log("Importing products");
+});
+
 module.exports = app;

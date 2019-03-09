@@ -19,7 +19,7 @@ const scrapCategories = async cat_url => {
   const response = await axios.get(cat_url);
   const $ = cheerio.load(response.data);
   
-  // New Lists
+  // slice(0,2) to just scrape to categories
   $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0,2).map((item, el) => {
     category_url = "https://shop.countdown.co.nz" + $(el).attr("href"); 
     var count = item;
@@ -31,6 +31,10 @@ const scrapCategories = async cat_url => {
       category_name: category_n,
       url: category_url
     };
+    //Add category directly to database
+    
+
+
     parsedCategories.push(category);
    
   });
