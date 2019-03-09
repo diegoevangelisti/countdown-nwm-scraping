@@ -27,6 +27,7 @@ const shopsRoutes = require('./api/routes/shops');
 const branchesRoutes = require('./api/routes/branches');
 const scrapingRoutes = require('./api/routes/scrap');
 const landingRoutes = require('./api/routes/landing');
+const optionsRoutes = require('./api/routes/options');
 
 app.use('/products', productsRoutes);
 app.use('/categories', categoriesRoutes);
@@ -36,6 +37,7 @@ app.use('/shops', shopsRoutes);
 app.use('/branches', branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 app.use('/', landingRoutes);
+app.use('/options', optionsRoutes);
 
 app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));

@@ -240,4 +240,23 @@ router.post("/", async function (req, res) {
     }
 });
 
+router.delete("/deleteall", async function (req,res){
+    Category
+    .find()
+    .remove()
+    .then(result => {
+        console.log(result);
+        res.status(201).json({
+            message: "Handling POST requests to /products",
+            deleteCategories: result
+        });
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+})
+
 module.exports = router;

@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+  <% include ../partials/head %>
+</head>
+
+<body class="container">
+  <header>
+    <% include ../partials/header %>
+  </header>
+  <main>
+    <div class="jumbotron">
+      <h3>Options</h3>
+      <p>Scraping and delete categories and products</p>
+    </div>
+    <p style="text-align: center; font-size: 18px; margin-bottom: 20px;">WARNING: Don't press this button unless
+      checking before. The scraping section is still under construction. Before scraping all data must be deleted</p>
+    <div class="list-group">
+      <a href="/" class="list-group-item list-group-item-action options-list" id="delete-all">
+        Delete all
+      </a>
+      <a href="/scrap/direct" class="list-group-item list-group-item-action options-list" id="scrape-now" onclick="event.preventDefault(); document.getElementById('scraping').submit();window.open('/');">
+        Scrape Now
+      </a>
+    </div>
+    <form id="scraping" action="/scrap/direct" method="POST" style="display: none;">
+      <input type="hidden" name="scrape-now" value="" />
+    </form>
+
+    <script>
+      var del = document.getElementById('delete-all')
+      del.addEventListener('click', function () {
+
+          fetch('/options/deleteall', {
+              method: 'DELETE'
+            })
+            .then(function (response) {
+              if (response.ok) {
+                console.log('All categories and products deleted');
+                return;
+              }
+              throw new Error('Request failed.');
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+        }
+      );
+    </script>
+  </main>
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+</body>
+
+</html>
