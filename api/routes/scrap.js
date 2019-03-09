@@ -155,7 +155,7 @@ router.post("/direct", async function (req, res) {
 
 })
 
-
+//to scrape and save json files
  router.get("/", async function (req, res) {
      const {
          scrapCategories
