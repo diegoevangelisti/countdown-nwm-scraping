@@ -1,6 +1,0 @@
-{
-    "env": {
-        "MONGO_mLAB_PW": "diego1985",
-        "MONGO_ATLAS_PW": "diego-re"
-    }
-}
