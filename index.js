@@ -46,18 +46,7 @@ app.listen(process.env.PORT || 5000, async function () {
 });
 
 //MLAB HEROKU
-
-
- const options = {
-    autoIndex: false, // Don't build indexes
-    reconnectTries: 2, // Never stop trying to reconnect
-    reconnectInterval: 500, // Reconnect every 500ms
-    poolSize: 10, // Maintain up to 10 socket connections
-    // If not connected, return errors immediately rather than waiting for reconnect
-    bufferMaxEntries: 0
-  };
-
-mongoose.connect("mongodb://diego:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
+mongoose.connect("mongodb://diego-re:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0");
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
