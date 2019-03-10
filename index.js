@@ -45,7 +45,7 @@ app.listen(process.env.PORT || 5000, async function () {
 
 
 //MLAB HEROKU
-mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
+mongoose.connect("mongodb://diego-re:"+ process.env.MONGO_mLAB_PW + "@ds163255.mlab.com:63255/heroku_1b4h2b5x");
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +

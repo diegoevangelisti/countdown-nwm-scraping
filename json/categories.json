@@ -8,5 +8,15 @@
         "category_id": 1,
         "category_name": "Deli & Chilled Foods",
         "url": "https://shop.countdown.co.nz/shop/browse/deli-chilled-foods"
+    },
+    {
+        "category_id": 0,
+        "category_name": "Bakery",
+        "url": "https://shop.countdown.co.nz/shop/browse/bakery"
+    },
+    {
+        "category_id": 1,
+        "category_name": "Deli & Chilled Foods",
+        "url": "https://shop.countdown.co.nz/shop/browse/deli-chilled-foods"
     }
 ]
