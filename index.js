@@ -39,11 +39,6 @@ app.use('/scrap', scrapingRoutes);
 app.use('/', landingRoutes);
 app.use('/options', optionsRoutes);
 
-app.listen(process.env.PORT || 5000, async function () {
-  console.log("listening on port " + (process.env.PORT || 5000));
-});
-
-
 //MLAB HEROKU
 mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b4h2b5x");
 
@@ -53,6 +48,13 @@ mongoose.connect("mongodb://diego-re:diego1985@ds163255.mlab.com:63255/heroku_1b
 
 //LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");
+
+
+app.listen(process.env.PORT || 5000, async function () {
+  console.log("listening on port " + (process.env.PORT || 5000));
+});
+
+
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
