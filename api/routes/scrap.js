@@ -9,6 +9,8 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const chalk = require("chalk");
 const _ = require("lodash");
+var methodOverride = require('method-override');
+router.use(methodOverride('_method'));
 
 const cat_url = "https://shop.countdown.co.nz/shop/";
 
@@ -152,10 +154,12 @@ router.post("/direct", async function (req, res) {
         });
     };
     await scrapeCat(cat_url);
-
+    res.render("views/categories/index");
 })
 
 //to scrape and save json files
+
+/*
  router.get("/", async function (req, res) {
      const {
          scrapCategories
@@ -179,7 +183,7 @@ router.post("/direct", async function (req, res) {
      }
  });
 
-/*
+
 router.post("/", async function (req, res) {
     try {
         const categories = require("../../json/categories.json");
