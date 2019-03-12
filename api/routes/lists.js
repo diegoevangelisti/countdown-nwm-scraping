@@ -2,12 +2,14 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
 const List = require("../models/lists");
+const Product = require("../models/products");
 
 //Lists: Get all, get by specific ID, create, update, destroy
 
 
 //Get - Obtain all lists from database
 router.get("/", (req, res, next) => {
+
     List.find()
         .exec()
         .then(docs => {
@@ -28,11 +30,10 @@ router.get("/", (req, res, next) => {
         });
 });
 
-
 //GET - Obtain an specific list from database
 
 router.get("/:listId", (req, res, next) => {
-    const id = req.params.listId;
+    const id = req.params._id;
     List.findById(id)
         .exec()
         .then(doc => {
@@ -58,28 +59,47 @@ router.get("/:listId", (req, res, next) => {
 //POST - Add new list
 
 router.post("/", (req, res, next) => {
-    const list = new List({
-        _id: Math.random()
-        .toString(36)
-        .substr(2, 9),
-        list_name: req.body.list_name,
-        date_created: new Date().toLocaleString(),
-        date_updated: new Date().toLocaleString()
-    });
-    list
-        .save()
-        .then(result => {
-            console.log(result);
-            res.status(201).json({
-                message: "Handling POST requests to /lists",
-                createdList: result
+
+    //Only add a product if it exists in the
+    Product.findById(req.body.product_id)
+        .then(product => {
+            if (!product) {
+                return res.status(404).json({
+                    message: "Product not found"
+                });
+            }
+            if (product.product_price.offer_price == null) {
+                var price = product.product_price.normal_price * req.body.quantity;
+            } else {
+                var price = product.product_price.offer_price * req.body.quantity;
+            }
+            const list = new List({
+                _id: Math.random()
+                    .toString(36)
+                    .substr(2, 9),
+                list_name: req.body.list_name,
+                date_created: new Date().toLocaleString(),
+                date_updated: new Date().toLocaleString(),
+                products: [{
+                    _id: product._id,
+                    quantity: req.body.quantity,
+                    calculated_price: price,
+                }]
             });
-        })
-        .catch(err => {
-            console.log(err);
-            res.status(500).json({
-                error: err
-            });
+            return list.save()
+                .then(result => {
+                    console.log(result);
+                    res.status(201).json({
+                        message: "Handling POST requests to /lists",
+                        createdList: result
+                    });
+                })
+                .catch(err => {
+                    console.log(err);
+                    res.status(500).json({
+                        error: err
+                    });
+                });
         });
 });
 

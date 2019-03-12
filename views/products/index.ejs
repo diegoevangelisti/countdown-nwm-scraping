@@ -13,6 +13,12 @@
     <div class="jumbotron">
       <h3>Products</h3>
       <p>List of products</p>
+      <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
     </div>
     <% docs.map((product) => { %>
       <div class="list-group-flush" style="width:50%; margin: 5px;">
