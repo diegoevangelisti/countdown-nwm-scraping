@@ -3,11 +3,18 @@ const router = express.Router();
 const mongoose = require("mongoose");
 const Product = require("../models/products");
 
+function isLoggedIn(req, res, next){
+    if(req.isAuthenticated()){
+        return next();
+    }
+    res.redirect("./auth/login");
+}
+
 //Products: Just get all products or get an specific products
 
 //Get all products from a specific category
 
-router.get("/", (req, res, next) => {
+router.get("/", isLoggedIn, (req, res, next) => {
     Product.find({
             category_id: req.query.category_id
         })
@@ -35,7 +42,7 @@ router.get("/", (req, res, next) => {
 //GET an specific product from database
 
 
-router.get("/:productId", (req, res, next) => {
+router.get("/:productId",  (req, res, next) => {
     const id = req.params.productId;
     Product.findById(id)
         .exec()

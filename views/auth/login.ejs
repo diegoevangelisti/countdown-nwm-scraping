@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="container">
+       
+    <main>
+        <div class="jumbotron" style="width: 50%; display: block; margin: auto; text-align: center">
+                <i style="margin-bottom: 20px;" class="fas fa-mug-hot"></i>
+            <!-- <h3>Smart Shopping Application</h3> -->
+            <p> Back office for Smart Shopping Application</p>
+            <p id="register-title" style="font-size: 35px">Login</p>
+
+            <form action="/auth/login" method="POST">
+                <div class="form-group sign-up-form">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="username">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group sign-up-form">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="login" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </main>
+    <!-- <footer>
+    <% include ../partials/footer %>
+  </footer> -->
+</body>
+
+</html>

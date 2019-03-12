@@ -6,9 +6,15 @@ const Category= require("../models/categories");
 //Categories: Just get all products or get an specific products
 //Not allow to add, edit or delete scraped products
 
+function isLoggedIn(req, res, next){
+    if(req.isAuthenticated()){
+        return next();
+    }
+    res.redirect("./auth/login");
+}
 
 //Get all categories from database
-router.get("/", (req, res, next) => {
+router.get("/", isLoggedIn, (req, res, next) => {
     Category.find()
         .exec()
         .then(docs => {

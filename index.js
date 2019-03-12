@@ -1,19 +1,41 @@
 var express = require("express");
 var app = express();
+var passport = require("passport");
+var User = require("./api/models/users");
+var LocalStrategy = require("passport-local");
+var PassportLocalMongoose = require("passport-local-mongoose");
 const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
 
+
+//ejs views
 app.set("view engine", "ejs");
 
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
-  extended: false
+  extended: true
 }));
 app.use(bodyParser.json());
+
+app.use(require("express-session")({
+  secret: "My dear Gandalf from The Lord of the Rings",
+  resave: false,
+  saveUnitialized: false
+}));
+
+
+//Seting Passport up
+app.use(passport.initialize());
+app.use(passport.session());
+
+
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
 
 //
 // Routes
@@ -28,6 +50,9 @@ const branchesRoutes = require('./api/routes/branches');
 const scrapingRoutes = require('./api/routes/scrap');
 const landingRoutes = require('./api/routes/landing');
 const optionsRoutes = require('./api/routes/options');
+const authRoutes = require('./api/routes/auth');
+
+
 
 app.use('/products', productsRoutes);
 app.use('/categories', categoriesRoutes);
@@ -38,6 +63,8 @@ app.use('/branches', branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 app.use('/', landingRoutes);
 app.use('/options', optionsRoutes);
+app.use('/auth', authRoutes);
+
 
 
 
@@ -77,7 +104,7 @@ app.use((error, req, res, next) => {
 //
 cron.schedule("* 1 * * *", async function () {
   const {
-      scrapCategories
+    scrapCategories
   } = require("./categories.js");
   const cat_url = "https://shop.countdown.co.nz/shop/";
 
@@ -87,7 +114,7 @@ cron.schedule("* 1 * * *", async function () {
 
 cron.schedule("* 1 * * *", async function () {
   const {
-      scrapProducts
+    scrapProducts
   } = require("./products.js");
   const scrappedProducts = await scrapProducts();
   res.send("SAVED TO JSON");

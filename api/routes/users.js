@@ -63,6 +63,7 @@ router.post("/", (req, res, next) => {
             .toString(36)
             .substr(2, 9),
         user_name: req.body.user_name,
+        password: req.body.password,
         age: req.body.age,
         gender: req.body.gender,
         nationality: req.body.nationality,
@@ -116,7 +117,7 @@ router.patch("/:userId", (req, res, next) => {
 
 router.delete("/:userId", (req, res, next) => {
     const id = req.params.userId;
-    Product.remove({
+    User.remove({
             _id: id
         })
         .exec()

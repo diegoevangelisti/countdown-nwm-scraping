@@ -15,19 +15,27 @@
       <p>List of products</p>
     </div>
     <% docs.map((product) => { %>
+      <div class="list-group-flush" style="width:50%; margin: 5px;">
     Name:
-    <%= product.product_name %> (ID:
-    <%= product._id %>)<br />
+    <%= product.product_name %> </br>
+    ID:
+    <%= product._id %><br /></br>
     <% if(product.product_price.offer_price !== null){ %>
     Price: $
-    <%= product.product_price.normal_price %> (Offer: $
+    <%= product.product_price.normal_price %> </br>
+    Offer price: $
     <%= product.product_price.offer_price %>)<br />
     <% }else{ %>
     Price: $
-    <%= product.product_price.normal_price %> - No offer price for this product<br />
-    <% } %>
+    <%= product.product_price.normal_price %> </br>
+    Offer price: - <br />
+    <% } %></br>
+    Latest update:
+    <%= product.last_update %></br>
+    <button style="margin-top:10px"; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View in Countdown</a></button>
     </p>
     <hr />
+  </div>
     <% }) %>
   </main>
   <footer>

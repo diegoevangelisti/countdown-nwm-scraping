@@ -5,7 +5,16 @@ const Category= require("../models/categories");
 var methodOverride = require('method-override');
 router.use(methodOverride('_method'));
 
-router.get("/", async function(req,res){
+
+function isLoggedIn(req, res, next){
+    if(req.isAuthenticated()){
+        return next();
+    }
+    res.redirect("./auth/login");
+}
+
+
+router.get("/", isLoggedIn, async function(req,res){
     res.render("options/index");
 });
 

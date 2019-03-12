@@ -13,15 +13,20 @@
         <p>List of categories</p>
       </div>
       <% docs.map((category) => { %>
-        <p>
-          Name: <%= category.category_name %> (ID: <%= category._id %>)<br />
-          Url: <%= category.url %><br />
-          <a href="/products?category_id=<%= category._id %>">
-            View
-          </a>
-        </p>
-        <hr />
+      <div class="list-group-flush"  style="width:50%; margin: 5px;">
+          <p>
+              Name: <%= category.category_name %> </br>
+              ID: <%= category._id %>)<br /></br>
+              URL: <%= category.url %><br/>
+              Latest update:
+              <%= category.last_update %></br>
+              <button style="margin-top:10px"; type="button" class="btn btn-outline-info"><a href="/products?category_id=<%= category._id %>">View</a></button>
+            </p>
+            <hr />      
+      </div>
       <% }) %>
+     
+     
     </main>
 
     <footer>
