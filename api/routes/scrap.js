@@ -113,8 +113,6 @@ router.post("/direct", async function (req, res) {
                                     .trim();
                                 offer_price = (offer_p.replace(/\D+/g, "") / 100).toFixed(2);
                                 normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
-                                offer_price = Number(offer_price);
-                                normal_price= Number(offer_price);
                             }
                         }
                         //SAVE new product here
