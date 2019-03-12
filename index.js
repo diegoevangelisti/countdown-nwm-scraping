@@ -74,8 +74,18 @@ app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
+
+var mongooseOptions = { 
+  reconnectInterval: 10000,
+  reconnectTries: Number.MAX_VALUE 
+};
+
+
 //MLAB HEROKU
-mongoose.connect("mongodb://diego:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0");
+mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", mongooseOptions)
+
+    // what to do here? - process.exit(0); maybe?
+
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
