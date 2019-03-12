@@ -70,6 +70,7 @@ router.post("/", (req, res, next) => {
             }
             if (product.product_price.offer_price == null) {
                 var price = product.product_price.normal_price * req.body.quantity;
+                
             } else {
                 var price = product.product_price.offer_price * req.body.quantity;
             }
