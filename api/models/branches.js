@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Crete mongoose schema
 const branchSchema = mongoose.Schema({
     _id: String,
-    shop_id: Number,
+    shop_id: String,
     branch_name: String,
     address: String,
     location: { lat: String, long: String}

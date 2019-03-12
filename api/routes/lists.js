@@ -60,7 +60,7 @@ router.get("/:listId", (req, res, next) => {
 
 router.post("/", (req, res, next) => {
 
-    //Only add a product if it exists in the
+    //Only add a product if it exists in the database
     Product.findById(req.body.product_id)
         .then(product => {
             if (!product) {
