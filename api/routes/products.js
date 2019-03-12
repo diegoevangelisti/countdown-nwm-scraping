@@ -65,7 +65,7 @@ router.get("/search", (req, res, next) => {
 })
 
 
-//GET an specific product from database
+//GET an specific product 
 
 
 router.get("/:productId", (req, res, next) => {

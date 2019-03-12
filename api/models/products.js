@@ -5,8 +5,8 @@ const productSchema = mongoose.Schema({
     category_id: String,
     product_name: String,
     product_price: {
-        normal_price: String,
-        offer_price: String
+        normal_price: Number,
+        offer_price: Number
     },
     measure_unit: String,
     url: String,
