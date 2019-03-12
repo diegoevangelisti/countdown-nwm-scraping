@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
 const Branch = require("../models/branches");
+const Shop = require("../models/shops");
 
 //Branches: Just get all products or get an specific products
 
@@ -57,32 +58,44 @@ router.get("/:branchId", (req, res, next) => {
 //POST - Add new Branch
 
 router.post("/", (req, res, next) => {
-    const branch = new Branch({
-        _id: Math.random()
-        .toString(36)
-        .substr(2, 9),
-        shop_id: req.body.shop_id,
-        branch_name: req.body.branch_name,
-        address: req.body.address,
-        location: { lat: req.body.lat, long: req.body.long}
-    });
-    branch
-        .save()
-        .then(result => {
-            console.log(result);
-            res.status(201).json({
-                message: "Handling POST requests to /branch",
-                createdBranch: result
+
+    //Check if the shop_id is correct first
+    Shop.findById(req.body.shop_id)
+        .then(shop => {
+            if (!shop) {
+                return res.status(404).json({
+                    message: "Shop not found"
+                });
+            }
+            const branch = new Branch({
+                _id: Math.random()
+                    .toString(36)
+                    .substr(2, 9),
+                shop_id: req.body.shop_id,
+                branch_name: req.body.branch_name,
+                address: req.body.address,
+                location: {
+                    lat: req.body.lat,
+                    long: req.body.long
+                }
             });
-        })
-        .catch(err => {
-            console.log(err);
-            res.status(500).json({
-                error: err
-            });
+            return branch.save()
+                .then(result => {
+                    console.log(result);
+                    res.status(201).json({
+                        message: "Handling POST requests to /branch",
+                        createdBranch: result
+                    });
+                })
+
+                .catch(err => {
+                    console.log(err);
+                    res.status(500).json({
+                        error: err
+                    });
+                });
         });
 });
-
 //PATCH - Update an specific Branch
 
 router.patch("/:branchId", (req, res, next) => {

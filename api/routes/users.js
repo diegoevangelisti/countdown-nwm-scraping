@@ -90,7 +90,7 @@ router.post("/", (req, res, next) => {
 //PATCH - Update an specific user
 
 router.patch("/:userId", (req, res, next) => {
-    const id = req.params.userId;
+    const id = req.params.user_id;
     const updateOps = {};
     for (const ops of req.body) {
         updateOps[ops.propName] = ops.value;
@@ -116,7 +116,7 @@ router.patch("/:userId", (req, res, next) => {
 //DESTROY - Delete an specific user
 
 router.delete("/:userId", (req, res, next) => {
-    const id = req.params.userId;
+    const id = req.params.user_id;
     User.remove({
             _id: id
         })
