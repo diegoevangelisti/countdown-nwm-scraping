@@ -70,7 +70,6 @@ router.post("/", (req, res, next) => {
             }
             if (product.product_price.offer_price == null) {
                 var price = product.product_price.normal_price * req.body.quantity;
-                
             } else {
                 var price = product.product_price.offer_price * req.body.quantity;
             }
@@ -133,7 +132,7 @@ router.patch("/:listId", (req, res, next) => {
 //DESTROY - Delete an specific list
 
 router.delete("/:listId", (req, res, next) => {
-    const id = req.params.listId;
+    const id = req.params.list_id;
     List.remove({
             _id: id
         })

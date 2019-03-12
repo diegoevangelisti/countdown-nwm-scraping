@@ -75,9 +75,7 @@ app.listen(process.env.PORT || 5000, async function () {
 });
 
 //MLAB HEROKU
-mongoose.connect("mongodb://diego-re:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0", {
-  autoIndex: false
-});
+mongoose.connect("mongodb://diego-re:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0");
 
 mongoose.Promise = global.Promise;
 //MONGO ATLAS DATABASE
