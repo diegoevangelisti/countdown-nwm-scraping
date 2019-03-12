@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./partials/head %>
+</head>
+
+<body class="container">
+  <header>
+    <% include ./partials/header %>
+  </header>
+  <main>
+    <div class="jumbotron" style="text-align: left; width: 60%">
+      <p>Countdown branches</p>
+    <div class="locations-map">
+      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDOWfa4dhJJ9WH3vIJnTrXQDM6Tgjv60R0'></script>
+      <div style='overflow:hidden;height:400px;width:520px;'>
+        <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+      </div> <a href='https://mapswebsite.net/'>google maps html widget</a>
+      <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=ddc4cff3ce98adf146c15f3d2c4f45e6b3a5f66e'></script>
+      <script type='text/javascript'>
+        function init_map() {
+          var myOptions = {
+            zoom: 12,
+            center: new google.maps.LatLng(-36.864502610809524, 174.77677686767586),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+          marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(-36.864502610809524, 174.77677686767586)
+          });
+          infowindow = new google.maps.InfoWindow({
+            content: '<strong>Countdown branches in Auckland</strong><br>5C, 8 Scotia Place<br>1010 Auckland Central<br>'
+          });
+          google.maps.event.addListener(marker, 'click', function () {
+            infowindow.open(map, marker);
+          });
+          infowindow.open(map, marker);
+        }
+        google.maps.event.addDomListener(window, 'load', init_map);
+      </script>
+    </div>
+    </div>
+
+  </main>
+</body>
+
+</html>

@@ -51,6 +51,7 @@ const scrapingRoutes = require('./api/routes/scrap');
 const landingRoutes = require('./api/routes/landing');
 const optionsRoutes = require('./api/routes/options');
 const authRoutes = require('./api/routes/auth');
+const locationsRoutes = require('./api/routes/locations');
 
 
 
@@ -62,6 +63,7 @@ app.use('/shops', shopsRoutes);
 app.use('/branches', branchesRoutes);
 app.use('/scrap', scrapingRoutes);
 app.use('/', landingRoutes);
+app.use('/locations', locationsRoutes);
 app.use('/options', optionsRoutes);
 app.use('/auth', authRoutes);
 
