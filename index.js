@@ -75,15 +75,13 @@ app.listen(process.env.PORT || 5000, async function () {
 });
 
 //MLAB HEROKU
-mongoose.connect("mongodb://diego-re:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0");
+mongoose.connect("mongodb://diego:diego1985@ds245234.mlab.com:45234/heroku_44n62dw0");
 
-mongoose.Promise = global.Promise;
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
 //   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //LOCAL HOSTING
-
 //mongoose.connect("mongodb://localhost/SSA");
 
 
@@ -104,7 +102,8 @@ app.use((error, req, res, next) => {
 
 //
 // Jobs
-//
+///
+/*
 cron.schedule("* 1 * * *", async function () {
   const {
     scrapCategories
@@ -123,5 +122,5 @@ cron.schedule("* 1 * * *", async function () {
   res.send("SAVED TO JSON");
   console.log("Importing products");
 });
-
+*/
 module.exports = app;
