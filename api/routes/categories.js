@@ -14,7 +14,7 @@ function isLoggedIn(req, res, next){
 }
 
 //Get all categories from database
-router.get("/", isLoggedIn, (req, res, next) => {
+router.get("/", (req, res, next) => {
     Category.find()
         .exec()
         .then(docs => {

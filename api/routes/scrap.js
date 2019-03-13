@@ -16,7 +16,7 @@ router.post("/direct", async function (req, res) {
         const $ = cheerio.load(response.data);
 
         // slice(0,2) to just scrape two categories
-        $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0, 3).map((item, el) => {
+        $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0, 4).map((item, el) => {
             category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
             var count = item;
             const category_n = $(el)

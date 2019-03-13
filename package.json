@@ -32,6 +32,7 @@
     "mongoose": "^5.4.17",
     "morgan": "^1.9.1",
     "node-cron": "^2.0.3",
+    "nodemon": "^1.18.10",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1"

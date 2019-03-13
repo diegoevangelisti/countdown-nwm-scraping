@@ -9,11 +9,8 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
-
-
-//ejs views
+//ejs view
 app.set("view engine", "ejs");
-
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
@@ -31,7 +28,6 @@ app.use(require("express-session")({
 //Seting Passport up
 app.use(passport.initialize());
 app.use(passport.session());
-
 
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
@@ -75,16 +71,8 @@ app.listen(process.env.PORT || 5000, async function () {
 });
 
 
-var mongooseOptions = { 
-  reconnectInterval: 10000,
-  reconnectTries: Number.MAX_VALUE 
-};
-
-
 //MLAB HEROKU
-mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", mongooseOptions)
-
-    // what to do here? - process.exit(0); maybe?
+mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true})
 
 
 //MONGO ATLAS DATABASE
@@ -112,7 +100,7 @@ app.use((error, req, res, next) => {
 
 //
 // Jobs
-///
+//
 /*
 cron.schedule("* 1 * * *", async function () {
   const {
