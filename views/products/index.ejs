@@ -14,34 +14,35 @@
       <h3>Products</h3>
       <p>List of products</p>
       <nav class="navbar navbar-light bg-light">
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </nav>
+        <form class="form-inline" action="/products" method="GET">
+          <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search a product..." aria-label="Search">
+          <input type="submit" value="Search" class="btn btn-default">
+        </form>
+      </nav>
     </div>
     <% docs.map((product) => { %>
-      <div class="list-group-flush" style="width:50%; margin: 5px;">
-    Name:
-    <%= product.product_name %> </br>
-    ID:
-    <%= product._id %><br /></br>
-    <% if(product.product_price.offer_price !== null){ %>
-    Price: $
-    <%= product.product_price.normal_price %> </br>
-    Offer price: $
-    <%= product.product_price.offer_price %><br />
-    <% }else{ %>
-    Price: $
-    <%= product.product_price.normal_price %> </br>
-    Offer price: - <br />
-    <% } %></br>
-    Latest update:
-    <%= product.last_update %></br>
-    <button style="margin-top:10px"; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View in Countdown</a></button>
-    </p>
-    <hr />
-  </div>
+    <div class="list-group-flush" style="width:50%; margin: 5px;">
+      Name:
+      <%= product.product_name %> </br>
+      ID:
+      <%= product._id %><br /></br>
+      <% if(product.product_price.offer_price !== null){ %>
+      Price: $
+      <%= product.product_price.normal_price %> </br>
+      Offer price: $
+      <%= product.product_price.offer_price %><br />
+      <% }else{ %>
+      Price: $
+      <%= product.product_price.normal_price %> </br>
+      Offer price: - <br />
+      <% } %></br>
+      Latest update:
+      <%= product.last_update %></br>
+      <button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View in
+          Countdown</a></button>
+      </p>
+      <hr />
+    </div>
     <% }) %>
   </main>
   <footer>

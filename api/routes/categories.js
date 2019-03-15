@@ -13,8 +13,8 @@ function isLoggedIn(req, res, next){
     res.redirect("./auth/login");
 }
 
-//Get all categories from database
-router.get("/", (req, res, next) => {
+//Get all categories from database and render a view page
+router.get("/", isLoggedIn,(req, res, next) => {
     Category.find()
         .exec()
         .then(docs => {
@@ -33,16 +33,37 @@ router.get("/", (req, res, next) => {
                 error: err
             });
         });
+});
 
 
-  //const categories = require("./json/categories.json");
-  //res.render("categories/index", { categories: categories });
+//GET all categories in json formalt
+router.get("/all", (req, res, next) => {
+    Category.find()
+        .exec()
+        .then(doc => {
+            console.log("All categories", doc);
+            if (doc) {
+                res.status(200).json(doc);
+            } else {
+                res
+                    .status(404)
+                    .json({
+                        message: "Error in getting all categories"
+                    });
+            }
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
 });
 
 
 //GET an specific category from database
-router.get("/:categoryId", (req, res, next) => {
-    const id = req.params.categoryId;
+router.get("/:category_id", (req, res, next) => {
+    const id = req.params.category_id;
     Category.findById(id)
         .exec()
         .then(doc => {

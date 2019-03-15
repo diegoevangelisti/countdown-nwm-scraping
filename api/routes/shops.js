@@ -5,7 +5,6 @@ const Shop = require("../models/shops");
 
 //Shops: Just get all products or get an specific products
 
-
 //GET - all shops from database
 router.get("/", (req, res, next) => {
     Shop.find()
