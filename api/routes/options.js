@@ -18,9 +18,9 @@ router.get("/", isLoggedIn, async function(req,res){
     res.render("options/index");
 });
 
-router.delete("/deleteall", async function(req,res){
+router.delete("/countdown", async function(req,res){
     Category
-    .find()
+    .find( { shop_id: "y6ssalsn6"} )
     .remove()
     .exec()
     .then(result => {
@@ -33,7 +33,35 @@ router.delete("/deleteall", async function(req,res){
         });
     });
     Product
-    .find()
+    .find( { shop_id: "y6ssalsn6"} )
+    .remove()
+    .exec()
+    .then(result => {
+        res.status(200).json(result);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+});
+router.delete("/nwm", async function(req,res){
+    Category
+    .find( { shop_id: "7i9jnzypf"} )
+    .remove()
+    .exec()
+    .then(result => {
+        res.status(200).json(result);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+    Product
+    .find( { shop_id: "7i9jnzypf"} )
     .remove()
     .exec()
     .then(result => {

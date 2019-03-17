@@ -17,20 +17,44 @@
     <p style="text-align: center; font-size: 18px; margin-bottom: 20px;">WARNING: Don't press this button unless
       checking before. The scraping section is still under construction. Before scraping all data must be deleted</p>
     <ul class="list-group">
-      <a href="/scrap/direct" id="scrape-now" class="list-group-item options-list" onclick="event.preventDefault(); document.getElementById('scraping').submit();window.open('/');">Scrape
-        now</a>
-      <a href="/" class="list-group-item list-group-item-action options-list" id="delete-all">
-        Delete all
+      <a href="/scrap/coutndown" id="scrape-countdown" class="list-group-item options-list" onclick="event.preventDefault(); document.getElementById('scraping-countdown').submit();window.open('/');">Get Countdown data</a>
+      <a href="/scrap/nwm" id="scrape-nwm" class="list-group-item options-list" onclick="event.preventDefault(); document.getElementById('scraping-nwm').submit();window.open('/');">Get NWM data</a>
+      <a href="/" class="list-group-item list-group-item-action options-list" id="delete-countdown">
+        Delete Countdown data
+      </a>
+      <a href="/" class="list-group-item list-group-item-action options-list" id="delete-nwm">
+        Delete NWM data
       </a>
     </ul>
-    <form id="scraping" action="/scrap/direct" method="POST">
-      <input type="hidden" name="scrape-now" value="" />
+    <form id="scraping-countdown" action="/scrap/countdown" method="POST">
+      <input type="hidden" name="scrape-countdown" value="" />
+    </form>
+    <form id="scraping-nwm" action="/scrap/nwm" method="POST">
+      <input type="hidden" name="scrape-nwm" value="" />
     </form>
 
     <script>
-      var del = document.getElementById('delete-all')
+      //DELETE COUNTDOWN DATA
+      var del = document.getElementById('delete-countdown')
       del.addEventListener('click', function () {
-        fetch('/options/deleteall', {
+        fetch('/options/countdown', {
+            method: 'DELETE'
+          })
+          .then(function (response) {
+            if (response.ok) {
+              console.log('All categories and products deleted');
+              return;
+            }
+            throw new Error('Request failed.');
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      });
+      //DELETE NWM DATA
+      var del_nwm = document.getElementById('delete-nwm')
+      del_nwm.addEventListener('click', function () {
+        fetch('/options/nwm', {
             method: 'DELETE'
           })
           .then(function (response) {
