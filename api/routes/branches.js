@@ -74,10 +74,9 @@ router.post("/", (req, res, next) => {
                 shop_id: req.body.shop_id,
                 branch_name: req.body.branch_name,
                 address: req.body.address,
-                location: {
-                    lat: req.body.lat,
-                    long: req.body.long
-                }
+                lat: req.body.lat,
+                long: req.body.long
+                
             });
             return branch.save()
                 .then(result => {

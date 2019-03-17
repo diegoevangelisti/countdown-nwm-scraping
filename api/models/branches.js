@@ -6,7 +6,8 @@ const branchSchema = mongoose.Schema({
     shop_id: String,
     branch_name: String,
     address: String,
-    location: { lat: String, long: String}
+    lat: String, 
+    long: String
 });
 
 module.exports = mongoose.model('Branch', branchSchema);

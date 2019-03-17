@@ -7,7 +7,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const cat_url = "https://shop.countdown.co.nz/shop/";
-
+const cat_url_nwm = "https://www.ishopnewworld.co.nz/";
 
 //Scarping data from Countdown
 
@@ -159,17 +159,17 @@ router.post("/countdown", async function (req, res) {
 
 //Scarping data from New World Metro
 router.post("/nwm", async function (req, res) {
-    scrapeCat = async cat_url => {
-        const response = await axios.get(cat_url);
+    scrapeCatNWM = async cat_url_nwm => {
+        const response = await axios.get(cat_url_nwm);
         const $ = cheerio.load(response.data);
 
-        // slice(0,2) to just scrape two categories
-        $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0, 4).map((item, el) => {
-            category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
+        // Add slice(0,2).map(...) to just scrape 2 categories
+
+        $("a.fs-home-category-tiles__tile").slice(0,1).map((item, el) => {
+            category_url = "https://www.ishopnewworld.co.nz" + $(el).attr("href");
             var count = item;
-            const category_n = $(el)
-                .text()
-                .trim();
+            const category_n = $(el).children("span").text()
+            //  .trim();
 
             //Add category directly to database
             const category = new Category({
@@ -177,6 +177,7 @@ router.post("/nwm", async function (req, res) {
                     .toString(36)
                     .substr(2, 9),
                 category_name: category_n,
+                shop_id: "9q21y2f3q",
                 url: category_url,
                 last_update: new Date().toLocaleString()
             });
@@ -186,7 +187,7 @@ router.post("/nwm", async function (req, res) {
                     console.log(result);
                     res.status(201).json({
                         message: "Handling POST requests to /categories",
-                        createdList: result
+                        createdCategory: result
                     });
                 })
                 .catch(err => {
@@ -198,55 +199,55 @@ router.post("/nwm", async function (req, res) {
             //
             //scraping products here
             //
-            const scrapProd = async category => {
-                let pageCounter = 0;
-                let pageLimit = 1;
-                const url = category.url + "?page=" + pageCounter;
+            const scrapProdNWM = async category => {
+                let pageCounterNWM = 0;
+                let pageLimitNWM = 1;
+                const url = category.url + "?pg=" + (pageCounterNWM+1);
                 const response_p = await axios.get(url);
 
                 const $ = cheerio.load(response_p.data);
-                /*pageLimit = $("ul.paging.pull-left.hidden-phone")
-                  .find("li.page-number")
-                  .last()
-                  .find("a._jumpTop")
-                  .text()
-                  .trim();*/
+                /* pageLimit = $("ul.fs-pagination__items.u-margin-bottom-x4")
+                   .find("li.fs-pagination__item")
+                   .last()
+                   .attr("a")
+                   .text()
+                   .trim();*/
 
-                const pages = await Promise.all(
-                    [...Array(parseInt(pageLimit))].map(async (item, i) => {
+                const pagesNWM= await Promise.all(
+                    [...Array(parseInt(pageLimitNWM))].map(async (item, i) => {
                         const p = i + 1;
-                        const pageUrl = category.url + "?page=" + p;
+                        const pageUrl = category.url + "?pg=" + p;
                         const response = await axios.get(pageUrl);
                         console.log(
-                            `Processing ${category.category_name}: ${i} out of ${pageLimit}`
+                            `Processing ${category.category_name}: ${p} out of ${pageLimitNWM}`
                         );
                         if (response.status !== 200) {
                             return null;
                         }
 
-                        return parsePa(response, category, pageUrl);
+                        return parsePaNWM(response, category, pageUrl);
                     })
                 );
             };
 
-            function parsePa(response, category, pageUrl) {
+            function parsePaNWM(response, category, pageUrl) {
                 //Scraping products
                 const $ = cheerio.load(response.data);
 
-                return $("div.gridProductStamp-product")
+                return $("div.fs-product-card")
                     .map((i, el) => {
                         var offer_p = (offer_price = null);
                         let unit = null;
 
                         const name = $(el)
-                            .find("h3.gridProductStamp-name")
+                            .find("h3.u-p2")
                             .text()
                             .trim();
-                        var normal_p = $(el)
-                            .find("div.gridProductStamp-price.din-medium")
+                        var normal_p = $("div.fs-price-lockup")
+                            .children("span")
                             .text()
-                            .trim();
-
+                           // .trim();
+                        /*
                         if (normal_p != "") {
                             normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
                         } else {
@@ -262,16 +263,17 @@ router.post("/nwm", async function (req, res) {
                                 offer_price = (offer_p.replace(/\D+/g, "") / 100).toFixed(2);
                                 normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
                             }
-                        }
+                        }*/
                         //SAVE new product here
                         const product = new Product({
                             _id: Math.random()
                                 .toString(36)
                                 .substr(2, 9),
+                            shop_id: "9q21y2f3q",
                             category_id: category._id,
                             product_name: name,
                             product_price: {
-                                normal_price: normal_price,
+                                normal_price: normal_p,
                                 offer_price: offer_price
                             },
                             measure_unit: unit,
@@ -296,10 +298,10 @@ router.post("/nwm", async function (req, res) {
                     })
                     .get();
             }
-            scrapProd(category);
+            scrapProdNWM(category);
         });
     };
-    await scrapeCat(cat_url);
+    await scrapeCatNWM(cat_url_nwm);
 })
 
 
