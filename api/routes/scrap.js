@@ -17,7 +17,7 @@ router.post("/countdown", async function (req, res) {
         const $ = cheerio.load(response.data);
 
         // slice(0,2) to just scrape two categories
-        $("#BrowseSlideBox a.toolbar-slidebox-link").slice(0, 4).map((item, el) => {
+        $("#BrowseSlideBox a.toolbar-slidebox-link").map((item, el) => {
             category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
             var count = item;
             const category_n = $(el)
@@ -29,7 +29,7 @@ router.post("/countdown", async function (req, res) {
                 _id: Math.random()
                     .toString(36)
                     .substr(2, 9),
-                shop_id: "61tlu0gjf",
+                shop_id: "y6ssalsn6",
                 category_name: category_n,
                 url: category_url,
                 last_update: new Date().toLocaleString()
@@ -54,7 +54,7 @@ router.post("/countdown", async function (req, res) {
             //
             const scrapProd = async category => {
                 let pageCounter = 0;
-                let pageLimit = 1;
+                let pageLimit = 2;
                 const url = category.url + "?page=" + pageCounter;
                 const response_p = await axios.get(url);
 
@@ -123,7 +123,7 @@ router.post("/countdown", async function (req, res) {
                                 .toString(36)
                                 .substr(2, 9),
                             category_id: category._id,
-                            shop_id: "61tlu0gjf",
+                            shop_id: "y6ssalsn6",
                             product_name: name,
                             product_price: {
                                 normal_price: normal_price,
@@ -177,7 +177,7 @@ router.post("/nwm", async function (req, res) {
                     .toString(36)
                     .substr(2, 9),
                 category_name: category_n,
-                shop_id: "9q21y2f3q",
+                shop_id: "7i9jnzypf",
                 url: category_url,
                 last_update: new Date().toLocaleString()
             });
@@ -269,7 +269,7 @@ router.post("/nwm", async function (req, res) {
                             _id: Math.random()
                                 .toString(36)
                                 .substr(2, 9),
-                            shop_id: "9q21y2f3q",
+                            shop_id: "7i9jnzypf",
                             category_id: category._id,
                             product_name: name,
                             product_price: {
