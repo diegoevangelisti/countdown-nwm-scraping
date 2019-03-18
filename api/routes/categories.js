@@ -60,6 +60,49 @@ router.get("/all", (req, res, next) => {
         });
 });
 
+router.get("/all/countdown", (req, res, next) => {
+    Category.find( {shop_id: "y6ssalsn6"})
+        .exec()
+        .then(docs=> {
+            console.log(docs);
+            if (docs.length >= 0) {
+              res.render("categories/index_countdown", {docs: docs});
+            } else {
+                res.status(404).json({
+                    message: 'No entries found'
+                });
+            }
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+});
+
+router.get("/all/nwm", (req, res, next) => {
+    Category.find( {shop_id: "7i9jnzypf"})
+        .exec()
+        .then(docs => {
+            console.log(docs);
+            if (docs.length >= 0) {
+              res.render("categories/index_nwm", {docs: docs});
+            } else {
+                res.status(404).json({
+                    message: 'No entries found'
+                });
+            }
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+});
+
+
 
 //GET an specific category from database
 router.get("/:category_id", (req, res, next) => {
