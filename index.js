@@ -49,8 +49,6 @@ const optionsRoutes = require('./api/routes/options');
 const authRoutes = require('./api/routes/auth');
 const locationsRoutes = require('./api/routes/locations');
 
-
-
 app.use('/products', productsRoutes);
 app.use('/categories', categoriesRoutes);
 app.use('/users', usersRoutes);
@@ -63,17 +61,13 @@ app.use('/locations', locationsRoutes);
 app.use('/options', optionsRoutes);
 app.use('/auth', authRoutes);
 
-
-
-
 app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
 
 //MLAB HEROKU
-mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true}, { "textIndexVersion": 3 })
-
+mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true})
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
@@ -81,7 +75,6 @@ mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62
 
 //LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");
-
 
 app.use((req, res, next) => {
   const error = new Error('Not found');

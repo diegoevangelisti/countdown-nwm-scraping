@@ -91,7 +91,7 @@ router.post("/countdown", async function (req, res) {
                     .map((i, el) => {
                         var offer_p = (offer_price = null);
                         let unit = null;
-
+                        var img_url = null;
                         const name = $(el)
                             .find("h3.gridProductStamp-name")
                             .text()
@@ -100,6 +100,9 @@ router.post("/countdown", async function (req, res) {
                             .find("div.gridProductStamp-price.din-medium")
                             .text()
                             .trim();
+                        img_url = "https://shop.countdown.co.nz"+ $(el)
+                            .find("img.gridProductStamp-image")
+                            .attr("src");
 
                         if (normal_p != "") {
                             normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
@@ -130,6 +133,7 @@ router.post("/countdown", async function (req, res) {
                                 offer_price: offer_price
                             },
                             measure_unit: unit,
+                            image_url: img_url,
                             url: pageUrl,
                             last_update: new Date().toLocaleString()
                         })
@@ -165,11 +169,10 @@ router.post("/nwm", async function (req, res) {
 
         // Add slice(0,2).map(...) to just scrape 2 categories
 
-        $("a.fs-home-category-tiles__tile").slice(0,1).map((item, el) => {
+        $("a.fs-home-category-tiles__tile").slice(0, 1).map((item, el) => {
             category_url = "https://www.ishopnewworld.co.nz" + $(el).attr("href");
             var count = item;
             const category_n = $(el).children("span").text()
-            //  .trim();
 
             //Add category directly to database
             const category = new Category({
@@ -202,7 +205,7 @@ router.post("/nwm", async function (req, res) {
             const scrapProdNWM = async category => {
                 let pageCounterNWM = 0;
                 let pageLimitNWM = 1;
-                const url = category.url + "?pg=" + (pageCounterNWM+1);
+                const url = category.url + "?pg=" + (pageCounterNWM + 1);
                 const response_p = await axios.get(url);
 
                 const $ = cheerio.load(response_p.data);
@@ -212,8 +215,7 @@ router.post("/nwm", async function (req, res) {
                    .attr("a")
                    .text()
                    .trim();*/
-
-                const pagesNWM= await Promise.all(
+                const pagesNWM = await Promise.all(
                     [...Array(parseInt(pageLimitNWM))].map(async (item, i) => {
                         const p = i + 1;
                         const pageUrl = category.url + "?pg=" + p;
@@ -224,7 +226,6 @@ router.post("/nwm", async function (req, res) {
                         if (response.status !== 200) {
                             return null;
                         }
-
                         return parsePaNWM(response, category, pageUrl);
                     })
                 );
@@ -233,37 +234,30 @@ router.post("/nwm", async function (req, res) {
             function parsePaNWM(response, category, pageUrl) {
                 //Scraping products
                 const $ = cheerio.load(response.data);
-
                 return $("div.fs-product-card")
                     .map((i, el) => {
-                        var offer_p = (offer_price = null);
-                        let unit = null;
-
+                        var normal_p = null ;
+                        var measure_u = null;
                         const name = $(el)
+                            .children("a.fs-product-card__details.u-color-black.u-no-text-decoration.u-cursor")
+                            .children("div.fs-product-card__description")
                             .find("h3.u-p2")
                             .text()
                             .trim();
-                        var normal_p = $("div.fs-price-lockup")
-                            .children("span")
+                        measure_u = $(el)
+                            .children("a.fs-product-card__details.u-color-black.u-no-text-decoration.u-cursor")
+                            .children("div.fs-product-card__description")
+                            .find("p.u-color-half-dark-grey.u-p3")
                             .text()
-                           // .trim();
-                        /*
-                        if (normal_p != "") {
-                            normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
-                        } else {
-                            if (normal_p == "") {
-                                offer_p = $(el)
-                                    .find("span.gridProductStamp-price.savings-text.din-medium")
-                                    .text()
-                                    .trim();
-                                normal_p = $(el)
-                                    .find("span.gridProductStamp-subPrice")
-                                    .text()
-                                    .trim();
-                                offer_price = (offer_p.replace(/\D+/g, "") / 100).toFixed(2);
-                                normal_price = (normal_p.replace(/\D+/g, "") / 100).toFixed(2);
-                            }
-                        }*/
+                        normal_p = $(el)
+                            .find("div.fs-price-lockup")
+                            .find("span")
+                            .text()
+                        var img_url = $(el)
+                            .find("div.fs-product-card__product-image")
+                            .css('background-image')
+                            img_url = img_url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+
                         //SAVE new product here
                         const product = new Product({
                             _id: Math.random()
@@ -274,10 +268,11 @@ router.post("/nwm", async function (req, res) {
                             product_name: name,
                             product_price: {
                                 normal_price: normal_p,
-                                offer_price: offer_price
+                                offer_price: null,
                             },
-                            measure_unit: unit,
+                            measure_unit: measure_u,
                             url: pageUrl,
+                            image_url: img_url,
                             last_update: new Date().toLocaleString()
                         })
                         product

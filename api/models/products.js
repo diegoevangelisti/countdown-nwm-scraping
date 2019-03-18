@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-var textSearch = require('mongoose-text-search')
 
 const productSchema = mongoose.Schema({
     _id: String,
@@ -11,13 +10,9 @@ const productSchema = mongoose.Schema({
         offer_price: String
     },
     measure_unit: String,
+    image_url: String,
     url: String,
     last_update: String
 })
-
-productSchema.plugin(textSearch);
-//to implement text search
-productSchema.index({"$**": 'text'});
-
 
 module.exports = mongoose.model('Product', productSchema);

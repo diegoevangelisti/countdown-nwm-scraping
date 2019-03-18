@@ -5,7 +5,7 @@
   <% include ../partials/head %>
 </head>
 
-<body class="container">
+<body class="container" style="background: white">
   <header>
     <% include ../partials/header %>
   </header>
@@ -13,37 +13,39 @@
     <div class="jumbotron">
       <h3>Products</h3>
       <p>List of products</p>
-      <nav class="navbar navbar-light bg-light">
-        <form class="form-inline" action="/products" method="GET">
-          <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search a product..." aria-label="Search">
-          <input type="submit" value="Search" class="btn btn-default">
-        </form>
-      </nav>
     </div>
     <% docs.map((product) => { %>
-    <div class="list-group-flush" style="width:50%; margin: 5px;">
-      Name:
-      <%= product.product_name %> </br>
-      ID:
-      <%= product._id %><br /></br>
-      <% if(product.product_price.offer_price !== null){ %>
-      Price: $
-      <%= product.product_price.normal_price %> </br>
-      Offer price: $
-      <%= product.product_price.offer_price %><br />
-      <% }else{ %>
-      Price: $
-      <%= product.product_price.normal_price %> </br>
-      Offer price: - <br />
-      <% } %></br>
-      Latest update:
-      <%= product.last_update %></br>
-      <button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View in
-          Countdown</a></button>
-      </p>
-      <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="<%= product.image_url %>" alt="product-image" style="text-align: left">
+        </div>
+        <div class="col-sm">
+          Name:
+          <%= product.product_name %> </br>
+          ID:
+          <%= product._id %><br /></br>
+          <% if(product.product_price.offer_price !== null){ %>
+          Price: $
+          <%= product.product_price.normal_price %> </br>
+          Offer price: $
+          <%= product.product_price.offer_price %><br />
+          <% }else{ %>
+          Price: $
+          <%= product.product_price.normal_price %> </br>
+          Offer price: - <br />
+          <% } %></br>
+          Latest update:
+          <%= product.last_update %></br>
+          <button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View
+              in
+              Countdown</a></button>
+          <hr />
+          <% }) %>
+          <!-- </div> -->
+        </div>
+      </div>
     </div>
-    <% }) %>
   </main>
   <footer>
     <% include ../partials/footer %>
