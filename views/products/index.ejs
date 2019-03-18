@@ -22,10 +22,8 @@
           <hr />
         </div>
         <div class="col-lg-6 col-xl-6 col-ms-6 col-ms-6 col-12">
-          Name:
-          <%= product.product_name %> </br>
-          ID:
-          <%= product._id %><br /></br>
+          <p style="font-size: 20px"><%= product.product_name %></p>
+          (ID: <%= product._id %>)</br></br>
           <% if(product.product_price.offer_price !== null){ %>
           Price: $
           <%= product.product_price.normal_price %> </br>
@@ -39,9 +37,7 @@
           Latest update:
           <%= product.last_update %></br>
           <button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="<%= product.url%>">View
-              in
-              Countdown</a></button>
-          <hr />
+              in shop</a></button>
         </div>
       </div>
     </div>
