@@ -100,7 +100,7 @@ router.post("/countdown", async function (req, res) {
                             .find("div.gridProductStamp-price.din-medium")
                             .text()
                             .trim();
-                        img_url = "https://shop.countdown.co.nz"+ $(el)
+                        img_url = "https://shop.countdown.co.nz" + $(el)
                             .find("img.gridProductStamp-image")
                             .attr("src");
 
@@ -216,7 +216,7 @@ router.post("/nwm", async function (req, res) {
                    .text()
                    .trim();*/
                 const pagesNWM = await Promise.all(
-                    [...Array(parseInt(pageLimitNWM))].map(async (item, i) => {
+                    [...Array(parseInt(pageLimitNWM))].slice.map(async (item, i) => {
                         const p = i + 1;
                         const pageUrl = category.url + "?pg=" + p;
                         const response = await axios.get(pageUrl);
@@ -236,8 +236,16 @@ router.post("/nwm", async function (req, res) {
                 const $ = cheerio.load(response.data);
                 return $("div.fs-product-card")
                     .map((i, el) => {
-                        var normal_p = null ;
+                        //var normal_p = null ;
                         var measure_u = null;
+                        var normal_price = $(el)
+                            .find("div.js-product-card-footer.fs-product-card__footer-container")
+                            .attr("data-options");
+                        
+                        normal_price = normal_price.replace(/[\r\n]/g, '');
+                        var price = JSON.parse(normal_price);
+                        normal_price = price.ProductDetails.PricePerItem;
+
                         const name = $(el)
                             .children("a.fs-product-card__details.u-color-black.u-no-text-decoration.u-cursor")
                             .children("div.fs-product-card__description")
@@ -249,14 +257,13 @@ router.post("/nwm", async function (req, res) {
                             .children("div.fs-product-card__description")
                             .find("p.u-color-half-dark-grey.u-p3")
                             .text()
-                        normal_p = $(el)
-                            .find("div.fs-price-lockup")
-                            .find("span")
-                            .text()
+
                         var img_url = $(el)
                             .find("div.fs-product-card__product-image")
                             .css('background-image')
-                            img_url = img_url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+                        
+                            //to clean the image url   
+                        img_url = img_url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
 
                         //SAVE new product here
                         const product = new Product({
@@ -267,7 +274,7 @@ router.post("/nwm", async function (req, res) {
                             category_id: category._id,
                             product_name: name,
                             product_price: {
-                                normal_price: normal_p,
+                                normal_price: normal_price,
                                 offer_price: null,
                             },
                             measure_unit: measure_u,
