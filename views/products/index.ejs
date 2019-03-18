@@ -17,10 +17,11 @@
     <% docs.map((product) => { %>
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <img src="<%= product.image_url %>" alt="product-image" style="text-align: left">
+        <div class="col-sm-6">
+          <img src="<%= product.image_url %>" alt="product-image" style="display:block; margin:auto">
+          <hr />
         </div>
-        <div class="col-sm">
+        <div class="col-lg-6 col-xl-6 col-ms-6 col-ms-6 col-12">
           Name:
           <%= product.product_name %> </br>
           ID:
@@ -41,11 +42,10 @@
               in
               Countdown</a></button>
           <hr />
-          <% }) %>
-          <!-- </div> -->
         </div>
       </div>
     </div>
+    <% }) %>
   </main>
   <footer>
     <% include ../partials/footer %>

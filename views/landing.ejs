@@ -5,22 +5,40 @@
   <% include ./partials/head %>
 </head>
 
-<body class="container"; style="margin-bottom: 10px">
+<body class="container" ; style="margin-bottom: 10px">
   <header>
     <% include ./partials/header %>
   </header>
   <main>
-    <div class="jumbotron" style="text-align: center">
+    <div class="jumbotron" style="text-align: center; background: white">
       <p><i class="fas fa-mug-hot"></i></p>
       <h3>Back office for Smart Shopping Application</h3>
-      <p style="font-size: 18px; margin-bottom:40px;">Categories and Products from Countdown</p>
+      <p style="font-size: 18px; margin-bottom:40px;">Categories and Products from Countdown and New World Metro</p>
+      <div class="row">
+        <div class="col-lg-6 col-xl-6 col-ms-6 col-ms-6 col-12">
+          <div class="img-fluid">
+            <img style="width:250px; height: 44px;" src="https://www.newworld.co.nz/media/6926832/nw-logo_aug2015.jpg"
+              alt="nwm">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-ms-6 col-ms-6 col-12">
+          <div class="img-fluid">
+            <img style="width:250px; height: 44px;" src="https://www.countdown.co.nz/media/9936/new-cd-logo_1000x176.png"
+              alt="countdown">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" style="margin-top:30px">
+          <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/categories">Categories</a></button>
+          <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/options">Options</a></button>
+          <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="https://github.com/diegoevangelisti/countdown-scraping">Git
+              hub repo</a></button>
+          <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/locations">Countdown branches</a></button>
+          <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/auth/logout">Logout</a></button>
+        </div>
+      </div>
 
-      <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/categories">Categories</a></button>
-      <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/options">Options</a></button>
-      <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="https://github.com/diegoevangelisti/countdown-scraping">Git
-          hub repo</a></button>
-      <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/locations">Countdown branches</a></button>
-      <button type="button" class="btn btn-lg btn-secondary margin-10"><a href="/auth/logout">Logout</a></button>
     </div>
   </main>
 </body>

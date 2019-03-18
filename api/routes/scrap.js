@@ -230,7 +230,6 @@ router.post("/nwm", async function (req, res) {
                     })
                 );
             };
-
             function parsePaNWM(response, category, pageUrl) {
                 //Scraping products
                 const $ = cheerio.load(response.data);
@@ -305,6 +304,5 @@ router.post("/nwm", async function (req, res) {
     };
     await scrapeCatNWM(cat_url_nwm);
 })
-
 
 module.exports = router;
