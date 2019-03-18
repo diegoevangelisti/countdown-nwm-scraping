@@ -169,7 +169,7 @@ router.post("/nwm", async function (req, res) {
 
         // Add slice(0,2).map(...) to just scrape 2 categories
 
-        $("a.fs-home-category-tiles__tile").slice(0, 1).map((item, el) => {
+        $("a.fs-home-category-tiles__tile").map((item, el) => {
             category_url = "https://www.ishopnewworld.co.nz" + $(el).attr("href");
             var count = item;
             const category_n = $(el).children("span").text()
@@ -216,7 +216,7 @@ router.post("/nwm", async function (req, res) {
                    .text()
                    .trim();*/
                 const pagesNWM = await Promise.all(
-                    [...Array(parseInt(pageLimitNWM))].slice.map(async (item, i) => {
+                    [...Array(parseInt(pageLimitNWM))].map(async (item, i) => {
                         const p = i + 1;
                         const pageUrl = category.url + "?pg=" + p;
                         const response = await axios.get(pageUrl);
