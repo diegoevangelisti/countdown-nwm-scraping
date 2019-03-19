@@ -1,4 +1,5 @@
 // External dependencies
+
 const express = require("express");
 const router = express.Router();
 const Category = require("../models/categories");
@@ -6,8 +7,10 @@ const Product = require("../models/products");
 const axios = require("axios");
 const cheerio = require("cheerio");
 
+//countdown and NWM on line shopping web-site index page
 const cat_url = "https://shop.countdown.co.nz/shop/";
 const cat_url_nwm = "https://www.ishopnewworld.co.nz/";
+
 
 //Scarping data from Countdown
 
@@ -26,9 +29,7 @@ router.post("/countdown", async function (req, res) {
 
             //Add category directly to database
             const category = new Category({
-                _id: Math.random()
-                    .toString(36)
-                    .substr(2, 9),
+                _id: Math.random().toString(36).substr(2, 9),
                 shop_id: "y6ssalsn6",
                 category_name: category_n,
                 url: category_url,

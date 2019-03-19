@@ -36,7 +36,7 @@ router.get("/", isLoggedIn, (req, res, next) => {
         });
 })
 
-//GET all categories in json formalt
+//GET all categories in json format
 router.get("/all", (req, res, next) => {
     Product.find()
         .exec()
