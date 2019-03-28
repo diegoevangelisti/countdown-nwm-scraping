@@ -1,0 +1,150 @@
+[
+	{
+		"branch_name": "New World Metro Queen Street",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.848640000000003",
+		"long": "174.76464000000001"
+	},
+	{
+		"branch_name": "Auckland Quay Street",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.845019999999998",
+		"long": "174.77287000000001"
+	},
+	{
+		"branch_name": "Grey Lynn",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.854349999999997",
+		"long": "174.73186999999999"
+	},
+	{
+	
+		"branch_name": "Gey Lynn(2)",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.864649999999997",
+		"long": "174.73833999999999"
+	},
+	{
+	
+		"branch_name": "Mount Eden",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.875999999999998",
+		"long": "174.75102000000001"
+	},
+	{
+	
+		"branch_name": "St Lukes Shopping Centre",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.878300000000003",
+		"long": "174.72789"
+	},
+	{
+	
+		"branch_name": "Greenlane",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.88973",
+		"long": "174.79347000000001"
+	},
+	{
+	
+		"branch_name": "Point Chevalier",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.869900000000001",
+		"long": "174.71012999999999"
+	},
+	{
+	
+		"branch_name": "Northcote",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.801090000000002",
+		"long": "174.74484000000001"
+	},
+	{
+	
+		"branch_name": "Birkenhead",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.810470000000002",
+		"long": "174.72565"
+	},
+	{
+	
+		"branch_name": "Takapuna",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.793410000000002",
+		"long": "174.76514"
+	},
+	{
+	
+		"branch_name": "Meadowbank",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.876629999999999",
+		"long": "174.82575"
+	},
+	{
+		
+		"branch_name": "Three Kings",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.90934",
+		"long": "174.75473"
+	},
+	{
+		
+		"branch_name": "Mount Roskill",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.903829999999999",
+		"long": "174.72701000000001"
+	},
+	{
+	
+		"branch_name": "Lynnmall Shopping Centre",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.798220000000001",
+		"long": "174.75578999999999"
+	},
+	{
+		
+		"branch_name": "Glenfield Shopping Centre",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.783389999999997",
+		"long": "174.72385"
+	},
+	{
+	
+		"branch_name": "Onehunga",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.923110000000001",
+		"long": "174.78313"
+	},
+	{
+		
+		"branch_name": "Westfield Glenfield",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.782130000000002",
+		"long": "174.72599"
+	},
+	{
+		"branch_name": "Milford Shopping Centre",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.770200000000003",
+		"long": "174.76760999999999"
+	},
+	{
+	
+		"branch_name": "Lynfield",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.924520000000001",
+		"long": "174.72265999999999"
+	},
+	{
+		"branch_name": "Te Atatu",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.871259999999999",
+		"long": "174.64019999999999"
+	},
+	{
+		"branch_name": "Sunnynook",
+		"shop_id":"y6ssalsn6",
+		"lat": "-36.759070000000001",
+		"long": "174.74114"
+	}
+]

@@ -6,33 +6,36 @@
 </head>
 
 <body class="container" style="background: white">
-    <header>
-      <% include ../partials/header %>
-    </header>
-    <main>
-      <div class="jumbotron">
-        <h3>New World Metro Categories</h3>
-        <p>List of categories</p>
-      </div>
-      <% docs.map((category) => { %>
-      <div class="list-group-flush" style="width:50%; margin: 5px;">
-        <p>
-          Name:
-          <%= category.category_name %> </br>
-          ID:
-          <%= category._id %><br /></br>
-          URL:
-          <%= category.url %><br />
-          Latest update:
-          <%= category.last_update %></br>
-          <button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="/products?category_id=<%= category._id %>">View</a></button>
-        </p>
-    </div>
-    <% }) %>
-
-
+  <header>
+    <% include ../partials/header %>
+  </header>
+  <main>
+      <h3 style="text-align: center; margin:30px">New World Categories</h3>
+      <table class="table">
+          <thead>
+            <tr>
+                <th scope="col">#</th>
+              <th scope="col">Category name</th>
+              <th scope="col">category_id</th>
+              <th scope="col">link</th>
+              <th scope="col">Last update date</th>
+              <th scope="col">View products</th>
+            </tr>
+          </thead>
+          <tbody>
+              <% docs.map((category, i) => { %>
+              <tr>
+              <th scope="row"><%= i+1 %></th> 
+              <td><%= category.category_name %></td>
+              <td><%= category._id %></td>
+              <td><%= category.url %></td>
+              <td><%= category.last_update %></td>
+              <td><button style="margin-top:10px" ; type="button" class="btn btn-outline-info"><a href="/products?category_id=<%= category._id %>">View</a></button></td>
+            </tr>
+            <% }) %>
+          </tbody>
+        </table>
   </main>
-
   <footer>
     <% include ../partials/footer %>
   </footer>
