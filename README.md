@@ -7,3 +7,6 @@ Get all categories, products and prices
 * cheerio
 * fs
 * chalk
+* body-parser
+* mongoose
+* passport
