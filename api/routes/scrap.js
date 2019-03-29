@@ -19,7 +19,7 @@ router.post("/countdown", async function (req, res) {
         const response = await axios.get(cat_url);
         const $ = cheerio.load(response.data);
 
-        // slice(0,2) to just scrape two categories
+        // example: slice(0,2) before map to just scrape two categories
         $("#BrowseSlideBox a.toolbar-slidebox-link").map((item, el) => {
             category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
             var count = item;
@@ -30,7 +30,7 @@ router.post("/countdown", async function (req, res) {
             //Add category directly to database
             const category = new Category({
                 _id: Math.random().toString(36).substr(2, 9),
-                shop_id: "y6ssalsn6",
+                shop_id: "y6ssalsn6", //countdown shop_id
                 category_name: category_n,
                 url: category_url,
                 last_update: new Date().toLocaleString()
@@ -55,11 +55,14 @@ router.post("/countdown", async function (req, res) {
             //
             const scrapProd = async category => {
                 let pageCounter = 0;
-                let pageLimit = 2;
+                let pageLimit = 2; //change this value to manage the number of pages per category
                 const url = category.url + "?page=" + pageCounter;
                 const response_p = await axios.get(url);
 
                 const $ = cheerio.load(response_p.data);
+
+                //if it is not comment, we get all pages
+                
                 /*pageLimit = $("ul.paging.pull-left.hidden-phone")
                   .find("li.page-number")
                   .last()
