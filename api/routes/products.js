@@ -88,6 +88,42 @@ router.get("/:productId", (req, res, next) => {
         });
 });
 
+router.get("/json/nwm", (req, res, next) => {
+    Product.find( {shop_id: "7i9jnzypf"})
+    .exec()
+    .then(doc => {
+        console.log("NWM categories in json format", doc);
+        if (doc) {
+            res.status(200).json(doc);
+        } else {
+            res
+                .status(404)
+                .json({
+                    message: "No valid entry found for provided ID"
+                });
+        }
+    })
+});
+
+router.get("/json/countdown", (req, res, next) => {
+    Product.find( {shop_id: "y6ssalsn6"})
+        .exec()
+        .then(doc => {
+        console.log("COUNTDOWN products in json format", doc);
+        if (doc) {
+            res.status(200).json(doc);
+        } else {
+            res
+                .status(404)
+                .json({
+                    message: "No valid entry found for provided ID"
+                });
+        }
+    })
+});
+
+
+
 //TEST POR TEXT SEARCH
 
 
