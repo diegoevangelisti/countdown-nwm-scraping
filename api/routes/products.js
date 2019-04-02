@@ -92,7 +92,7 @@ router.get("/json/nwm", (req, res, next) => {
     Product.find( {shop_id: "7i9jnzypf"})
     .exec()
     .then(doc => {
-        console.log("NWM categories in json format", doc);
+        console.log("NWM products in json format", doc);
         if (doc) {
             res.status(200).json(doc);
         } else {
