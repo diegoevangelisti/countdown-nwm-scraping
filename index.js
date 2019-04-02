@@ -71,7 +71,7 @@ mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
-//   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+// '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");
