@@ -55,7 +55,7 @@ router.post("/countdown", async function (req, res) {
             //
             const scrapProd = async category => {
                 let pageCounter = 0;
-                let pageLimit = 2;
+                let pageLimit = 5;
                 const url = category.url + "?page=" + pageCounter;
                 const response_p_c= await axios.get(url);
 
@@ -205,7 +205,7 @@ router.post("/nwm", async function (req, res) {
             //
             const scrapProdNWM = async category => {
                 let pageCounterNWM = 0;
-                let pageLimitNWM = 2;
+                let pageLimitNWM = 5;
                 const url = category.url + "?pg=" + (pageCounterNWM + 1);
                 const response_p = await axios.get(url);
 
