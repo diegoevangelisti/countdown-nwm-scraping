@@ -60,8 +60,8 @@ router.get("/:shopId", (req, res, next) => {
 router.post("/", (req, res, next) => {
     const shop = new Shop({
         _id: Math.random()
-            .toString(36)
-            .substr(2, 9),
+        .toString(36)
+        .substr(2, 9),
         shop_name: req.body.shop_name
     });
     shop
