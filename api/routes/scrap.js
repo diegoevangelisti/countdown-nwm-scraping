@@ -71,7 +71,7 @@ router.post("/countdown", async function (req, res) {
                     [...Array(parseInt(pageLimit))].map(async (item, i) => {
                         const p = i + 1;
                         const pageUrl = category.url + "?page=" + p;
-                        const response_p_all = await axios.get(pageUrl);
+                        const response = await axios.get(pageUrl);
                         console.log(
                             `Processing ${category.category_name}: ${i} out of ${pageLimit}`
                         );
@@ -79,7 +79,7 @@ router.post("/countdown", async function (req, res) {
                             return null;
                         }
 
-                        return parsePa(response_p_all, category, pageUrl);
+                        return parsePa(response, category, pageUrl);
                     })
                 );
             };
@@ -87,6 +87,7 @@ router.post("/countdown", async function (req, res) {
             function parsePa(response, category, pageUrl) {
                 //Scraping products
                 const $ = cheerio.load(response.data);
+
                 return $("div.gridProductStamp-product")
                     .map((i, el) => {
                         var offer_p = (offer_price = null);
