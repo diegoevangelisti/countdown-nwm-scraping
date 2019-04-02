@@ -30,8 +30,8 @@ router.post("/countdown", async function (req, res) {
             //Add category directly to database
             const category = new Category({
                 _id: Math.random().toString(36).substr(2, 9),
-                category_name: category_n,
                 shop_id: "y6ssalsn6",
+                category_name: category_n,
                 url: category_url,
                 last_update: new Date().toLocaleString()
             });
