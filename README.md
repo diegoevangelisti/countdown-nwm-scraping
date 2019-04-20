@@ -34,7 +34,7 @@ Run the following statement:
 `` npm start ``
 
 
-### 4 - Installing packages with npm
+### 4 -  Installing packages with npm
 
 Now all the external dependencies should be installed. Run the following statement in the terminal:
 
