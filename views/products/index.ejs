@@ -11,7 +11,13 @@
   </header>
   <main>
       <h3 style="text-align: center; margin: 30px">Products</h3>
-      <table class="table">
+   
+      <div class="form-group input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+          <input name="query" id="txt_query" placeholder="Search" type="text" class="form-control" style="width:300px;"> 
+        </div>
+
+      <table class="table" id="table">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -44,42 +50,10 @@
           </tbody>
         </table>
 
-
-
-
-<!-- 
-    <div class="jumbotron">
-      <h3>Products</h3>
-      <p>List of products</p>
-    </div>
-    <% docs.map((product) => { %>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="<%= product.image_url %>" alt="product-image" style="display:block; margin:auto">
-          <hr />
-        </div>
-        <div class="col-lg-6 col-xl-6 col-ms-6 col-ms-6 col-12">
-          <p style="font-size: 20px"><%= product.product_name %></p>
-          (ID: <%= product._id %>)</br></br>
-          <% if(product.product_price.offer_price !== null){ %>
-          Price: $
-          <%= product.product_price.normal_price %> </br>
-          Offer price: $
-          <%= product.product_price.offer_price %><br />
-          <% }else{ %>
-          Price: $
-          <%= product.product_price.normal_price %> </br>
-          Offer price: - <br />
-          <% } %></br>
-          Latest update:
-          <%= product.last_update %></br>
-          
-        </div>
-      </div>
-    </div>
-    <% }) %>
-  </main> -->
+        <script>
+            $('input#txt_query').quicksearch('table#table tbody tr');
+          </script>
+        
   <footer>
     <% include ../partials/footer %>
   </footer>

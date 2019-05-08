@@ -9,14 +9,19 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
+
 //ejs view
 app.set("view engine", "ejs");
+
+//initialize body parser and morgan
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
+
+//Magic word for passport 
 
 app.use(require("express-session")({
   secret: "My dear Gandalf from The Lord of the Rings",
@@ -25,7 +30,8 @@ app.use(require("express-session")({
 }));
 
 
-//Seting Passport up
+//Seting Passport for authentification
+
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -71,7 +77,7 @@ mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
-//   '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+// '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");

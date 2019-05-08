@@ -81,6 +81,23 @@ router.get("/all/countdown", (req, res, next) => {
         });
 });
 
+router.get("/json/countdown", (req, res, next) => {
+    Category.find( {shop_id: "y6ssalsn6"})
+        .exec()
+        .then(doc => {
+        console.log("COUNTDOWN categories in json format", doc);
+        if (doc) {
+            res.status(200).json(doc);
+        } else {
+            res
+                .status(404)
+                .json({
+                    message: "No valid entry found for provided ID"
+                });
+        }
+    })
+});
+
 router.get("/all/nwm", (req, res, next) => {
     Category.find( {shop_id: "7i9jnzypf"})
         .exec()
@@ -88,6 +105,7 @@ router.get("/all/nwm", (req, res, next) => {
             console.log(docs);
             if (docs.length >= 0) {
               res.render("categories/index_nwm", {docs: docs});
+    
             } else {
                 res.status(404).json({
                     message: 'No entries found'
@@ -102,6 +120,22 @@ router.get("/all/nwm", (req, res, next) => {
         });
 });
 
+router.get("/json/nwm", (req, res, next) => {
+    Category.find( {shop_id: "7i9jnzypf"})
+    .exec()
+    .then(doc => {
+        console.log("NWM categories in json format", doc);
+        if (doc) {
+            res.status(200).json(doc);
+        } else {
+            res
+                .status(404)
+                .json({
+                    message: "No valid entry found for provided ID"
+                });
+        }
+    })
+});
 
 
 //GET an specific category from database
