@@ -16,8 +16,8 @@ const cat_url_nwm = "https://www.ishopnewworld.co.nz/";
 
 router.post("/countdown", async function (req, res) {
     scrapeCat = async cat_url => {
-        const response = await axios.get(cat_url);
-        const $ = cheerio.load(response.data);
+        const response_countdown = await axios.get(cat_url);
+        const $ = cheerio.load(response_countdown.data);
 
         // slice(0,2) to just scrape two categories
         $("#BrowseSlideBox a.toolbar-slidebox-link").map((item, el) => {
@@ -55,11 +55,11 @@ router.post("/countdown", async function (req, res) {
             //
             const scrapProd = async category => {
                 let pageCounter = 0;
-                let pageLimit = 2;
+                let pageLimit = 5;
                 const url = category.url + "?page=" + pageCounter;
-                const response_p = await axios.get(url);
+                const response_p_c= await axios.get(url);
 
-                const $ = cheerio.load(response_p.data);
+                const $ = cheerio.load(response_p_c.data);
                 /*pageLimit = $("ul.paging.pull-left.hidden-phone")
                   .find("li.page-number")
                   .last()
@@ -126,8 +126,8 @@ router.post("/countdown", async function (req, res) {
                             _id: Math.random()
                                 .toString(36)
                                 .substr(2, 9),
-                            category_id: category._id,
                             shop_id: "y6ssalsn6",
+                            category_id: category._id,
                             product_name: name,
                             product_price: {
                                 normal_price: normal_price,
@@ -205,7 +205,7 @@ router.post("/nwm", async function (req, res) {
             //
             const scrapProdNWM = async category => {
                 let pageCounterNWM = 0;
-                let pageLimitNWM = 1;
+                let pageLimitNWM = 5;
                 const url = category.url + "?pg=" + (pageCounterNWM + 1);
                 const response_p = await axios.get(url);
 
