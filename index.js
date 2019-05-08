@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+require('dotenv').config()
 var passport = require("passport");
 var User = require("./api/models/users");
 var LocalStrategy = require("passport-local");
@@ -8,6 +9,18 @@ const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+
+//for hiding credentials
+
+
+app.use(require('forest-express-mongoose').init({
+  modelsDir: __dirname + '/api/models',
+  envSecret: process.env.FOREST_ENV_SECRET,
+  authSecret: process.env.FOREST_AUTH_SECRET,
+  mongoose: require('mongoose'),
+}));
+
+
 
 //ejs view
 app.set("view engine", "ejs");
@@ -23,6 +36,9 @@ app.use(require("express-session")({
   resave: false,
   saveUninitialized: false
 }));
+
+//Forest Liana middleware
+
 
 
 //Seting Passport up
