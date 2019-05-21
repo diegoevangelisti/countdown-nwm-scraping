@@ -633,6 +633,6 @@
     "database_type": "MongoDB",
     "liana": "forest-express-mongoose",
     "liana_version": "3.1.0",
-    "orm_version": "5.4.17"
+    "orm_version": "5.5.10"
   }
 }
