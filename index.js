@@ -4,7 +4,6 @@ require('dotenv').config()
 var passport = require("passport");
 var User = require("./api/models/users");
 var LocalStrategy = require("passport-local");
-var PassportLocalMongoose = require("passport-local-mongoose");
 const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -19,7 +18,6 @@ app.use(require('forest-express-mongoose').init({
   authSecret: process.env.FOREST_AUTH_SECRET,
   mongoose: require('mongoose'),
 }));
-
 
 
 //ejs view
@@ -40,9 +38,6 @@ app.use(require("express-session")({
   resave: false,
   saveUninitialized: false
 }));
-
-//Forest Liana middleware
-
 
 
 //Seting Passport for authentification
@@ -91,7 +86,7 @@ app.listen(process.env.PORT || 5000, async function () {
 mongoose.connect("mongodb://"+process.env.MLAB_USER+":"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
 
 //LOCAL HOSTING
-mongoose.connect("mongodb://localhost/SSA");
+//mongoose.connect("mongodb://localhost/SSA");
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
@@ -108,27 +103,4 @@ app.use((error, req, res, next) => {
   })
 });
 
-//
-// Jobs
-//
-/*
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapCategories
-  } = require("./categories.js");
-  const cat_url = "https://shop.countdown.co.nz/shop/";
-
-  const scrappedCategories = await scrapCategories(cat_url);
-  console.log("Importing categories");
-});
-
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapProducts
-  } = require("./products.js");
-  const scrappedProducts = await scrapProducts();
-  res.send("SAVED TO JSON");
-  console.log("Importing products");
-});
-*/
 module.exports = app;
