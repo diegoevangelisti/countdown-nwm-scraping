@@ -88,14 +88,14 @@ app.listen(process.env.PORT || 5000, async function () {
 
 
 //MLAB HEROKU
-mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true})
+mongoose.connect("mongodb://"+process.env.MLAB_USER+":"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true})
 
 //MONGO ATLAS DATABASE
 // mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
 // '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
 
 //LOCAL HOSTING
-//mongoose.connect("mongodb://localhost/SSA");
+mongoose.connect("mongodb://localhost/SSA");
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
