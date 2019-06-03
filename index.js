@@ -86,7 +86,7 @@ app.listen(process.env.PORT || 5000, async function () {
 
 //Connect to MLAB database
 
-mongoose.connect("mongodb://"+process.env.MLAB_USER+":"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
+mongoose.connect("mongodb://diego:"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
 
 //Connect to local database
 
