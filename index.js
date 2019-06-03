@@ -4,14 +4,13 @@ require('dotenv').config()
 var passport = require("passport");
 var User = require("./api/models/users");
 var LocalStrategy = require("passport-local");
-var PassportLocalMongoose = require("passport-local-mongoose");
 const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
-//for hiding credentials
 
+//Forest admin panel
 
 app.use(require('forest-express-mongoose').init({
   modelsDir: __dirname + '/api/models',
@@ -21,8 +20,8 @@ app.use(require('forest-express-mongoose').init({
 }));
 
 
-
 //ejs view
+
 app.set("view engine", "ejs");
 
 //initialize body parser and morgan
@@ -41,11 +40,8 @@ app.use(require("express-session")({
   saveUninitialized: false
 }));
 
-//Forest Liana middleware
 
-
-
-//Seting Passport for authentification
+//Seting Passport for authentication
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -82,20 +78,20 @@ app.use('/locations', locationsRoutes);
 app.use('/options', optionsRoutes);
 app.use('/auth', authRoutes);
 
+
 app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
 
-//MLAB HEROKU
-mongoose.connect("mongodb://diego:diego1234@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true})
+//Connect to MLAB database
 
-//MONGO ATLAS DATABASE
-// mongoose.connect('mongodb+srv://diego-re:' + process.env.MONGO_ATLAS_PW +
-// '@cluster0-y9ijb.mongodb.net/test?retryWrites=true');
+mongoose.connect("mongodb://"+process.env.MLAB_USER+":"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
 
-//LOCAL HOSTING
+//Connect to local database
+
 //mongoose.connect("mongodb://localhost/SSA");
+
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
@@ -112,27 +108,4 @@ app.use((error, req, res, next) => {
   })
 });
 
-//
-// Jobs
-//
-/*
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapCategories
-  } = require("./categories.js");
-  const cat_url = "https://shop.countdown.co.nz/shop/";
-
-  const scrappedCategories = await scrapCategories(cat_url);
-  console.log("Importing categories");
-});
-
-cron.schedule("* 1 * * *", async function () {
-  const {
-    scrapProducts
-  } = require("./products.js");
-  const scrappedProducts = await scrapProducts();
-  res.send("SAVED TO JSON");
-  console.log("Importing products");
-});
-*/
 module.exports = app;
