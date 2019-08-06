@@ -32,6 +32,15 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", '*');
+  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept, Authorization');
+  if (req.method === 'OPTIONS') {
+    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, PATCH');
+    return res.status(200).json({});
+  }
+});
+
 //Magic word for passport 
 
 app.use(require("express-session")({
@@ -86,7 +95,9 @@ app.listen(process.env.PORT || 5000, async function () {
 
 //Connect to MLAB database
 
-mongoose.connect("mongodb://diego:"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
+mongoose.connect("mongodb://diego:" + process.env.MLAB_PASSWORD + "@ds245234.mlab.com:45234/heroku_44n62dw0", {
+  useNewUrlParser: true
+});
 
 //Connect to local database
 
@@ -108,11 +119,5 @@ app.use((error, req, res, next) => {
   })
 });
 
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", '*');
-  res.header("Access-Control-Allow-Credentials", true);
-  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept,content-type,application/json');
-  next();
-});
+
 module.exports = app;
