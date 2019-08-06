@@ -9,8 +9,8 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 
-//for hiding credentials
 
+//Forest admin panel
 
 app.use(require('forest-express-mongoose').init({
   modelsDir: __dirname + '/api/models',
@@ -21,6 +21,7 @@ app.use(require('forest-express-mongoose').init({
 
 
 //ejs view
+
 app.set("view engine", "ejs");
 
 //initialize body parser and morgan
@@ -40,7 +41,7 @@ app.use(require("express-session")({
 }));
 
 
-//Seting Passport for authentification
+//Seting Passport for authentication
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -77,18 +78,20 @@ app.use('/locations', locationsRoutes);
 app.use('/options', optionsRoutes);
 app.use('/auth', authRoutes);
 
+
 app.listen(process.env.PORT || 5000, async function () {
   console.log("listening on port " + (process.env.PORT || 5000));
 });
 
 
-//MLAB HEROKU
-mongoose.connect("mongodb://" + process.env.MLAB_USER + ":" + process.env.MLAB_PASSWORD + "@ds245234.mlab.com:45234/heroku_44n62dw0", {
-  useNewUrlParser: true
-});
+//Connect to MLAB database
 
-//LOCAL HOSTING
+mongoose.connect("mongodb://diego:"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
+
+//Connect to local database
+
 //mongoose.connect("mongodb://localhost/SSA");
+
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
