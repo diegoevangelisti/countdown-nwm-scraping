@@ -83,7 +83,9 @@ app.listen(process.env.PORT || 5000, async function () {
 
 
 //MLAB HEROKU
-mongoose.connect("mongodb://"+process.env.MLAB_USER+":"+process.env.MLAB_PASSWORD+"@ds245234.mlab.com:45234/heroku_44n62dw0", {useNewUrlParser: true});
+mongoose.connect("mongodb://" + process.env.MLAB_USER + ":" + process.env.MLAB_PASSWORD + "@ds245234.mlab.com:45234/heroku_44n62dw0", {
+  useNewUrlParser: true
+});
 
 //LOCAL HOSTING
 //mongoose.connect("mongodb://localhost/SSA");
@@ -101,6 +103,12 @@ app.use((error, req, res, next) => {
       message: error.message
     }
   })
+});
+
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "YOUR-DOMAIN.TLD"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
 });
 
 module.exports = app;
