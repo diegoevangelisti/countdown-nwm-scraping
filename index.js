@@ -10,7 +10,16 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 
 
+
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 //Forest admin panel
+
+
 
 app.use(require('forest-express-mongoose').init({
   modelsDir: __dirname + '/api/models',
@@ -32,14 +41,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", '*');
-  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept, Authorization');
-  if (req.method === 'OPTIONS') {
-    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, PATCH');
-    return res.status(200).json({});
-  }
-});
+
 
 //Magic word for passport 
 
@@ -58,6 +60,8 @@ app.use(passport.session());
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
+
+
 
 //
 // Routes
@@ -100,9 +104,9 @@ mongoose.connect("mongodb://diego:" + process.env.MLAB_PASSWORD + "@ds245234.mla
 });
 
 //Connect to local database
-
-//mongoose.connect("mongodb://localhost/SSA");
-
+/*
+mongoose.connect("mongodb://localhost/SSA");
+*/
 
 app.use((req, res, next) => {
   const error = new Error('Not found');
