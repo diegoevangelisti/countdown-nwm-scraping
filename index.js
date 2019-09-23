@@ -4,44 +4,26 @@ require('dotenv').config()
 var passport = require("passport");
 var User = require("./api/models/users");
 var LocalStrategy = require("passport-local");
-const cron = require("node-cron");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-
-
-
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
 });
 
-//Forest admin panel
-
-
-
-app.use(require('forest-express-mongoose').init({
-  modelsDir: __dirname + '/api/models',
-  envSecret: process.env.FOREST_ENV_SECRET,
-  authSecret: process.env.FOREST_AUTH_SECRET,
-  mongoose: require('mongoose'),
-}));
-
-
-//ejs view
-
+//ejs engine template
 app.set("view engine", "ejs");
 
-//initialize body parser and morgan
+app.use(express.static('views' + '/static'));
 
+//initialize body parser and morgan
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
-
-
 
 //Magic word for passport 
 
@@ -52,21 +34,15 @@ app.use(require("express-session")({
 }));
 
 
-//Seting Passport for authentication
-
+//Passport for authentication
 app.use(passport.initialize());
 app.use(passport.session());
-
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 
-
-//
 // Routes
-//
-
 const productsRoutes = require('./api/routes/products');
 const categoriesRoutes = require('./api/routes/categories');
 const usersRoutes = require('./api/routes/users');
@@ -98,7 +74,6 @@ app.listen(process.env.PORT || 5000, async function () {
 
 
 //Connect to MLAB database
-
 mongoose.connect("mongodb://diego:" + process.env.MLAB_PASSWORD + "@ds245234.mlab.com:45234/heroku_44n62dw0", {
   useNewUrlParser: true
 });
@@ -123,5 +98,4 @@ app.use((error, req, res, next) => {
   })
 });
 
-
-module.exports = app;
+module.exports = app; 
