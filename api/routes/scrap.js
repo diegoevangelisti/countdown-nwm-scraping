@@ -19,7 +19,7 @@ router.post("/countdown", async function (req, res) {
         const response_countdown = await axios.get(cat_url);
         const $ = cheerio.load(response_countdown.data);
 
-        // slice(0,2) to just scrape two categories
+        // add slice(0,2) before to just scrape two categories
         $("#BrowseSlideBox a.toolbar-slidebox-link").map((item, el) => {
             category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
             var count = item;
@@ -39,10 +39,7 @@ router.post("/countdown", async function (req, res) {
                 .save()
                 .then(result => {
                     console.log(result);
-                    res.status(201).json({
-                        message: "Handling POST requests to /categories",
-                        createdList: result
-                    });
+                    res.status(200).json(result);
                 })
                 .catch(err => {
                     console.log(err);
@@ -78,7 +75,6 @@ router.post("/countdown", async function (req, res) {
                         if (response.status !== 200) {
                             return null;
                         }
-
                         return parsePa(response, category, pageUrl);
                     })
                 );
@@ -142,10 +138,7 @@ router.post("/countdown", async function (req, res) {
                             .save()
                             .then(result => {
                                 console.log(result);
-                                res.status(201).json({
-                                    message: "Handling POST requests to /products",
-                                    createdProduct: result
-                                });
+                                res.status(200).json(result);
                             })
                             .catch(err => {
                                 console.log(err);
@@ -189,10 +182,7 @@ router.post("/nwm", async function (req, res) {
                 .save()
                 .then(result => {
                     console.log(result);
-                    res.status(201).json({
-                        message: "Handling POST requests to /categories",
-                        createdCategory: result
-                    });
+                    res.status(200).json(result);
                 })
                 .catch(err => {
                     console.log(err);
@@ -286,10 +276,7 @@ router.post("/nwm", async function (req, res) {
                             .save()
                             .then(result => {
                                 console.log(result);
-                                res.status(201).json({
-                                    message: "Handling POST requests to /products",
-                                    createdProduct: result
-                                });
+                                res.status(200).json(result);
                             })
                             .catch(err => {
                                 console.log(err);
