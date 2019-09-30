@@ -1,5 +1,4 @@
 // External dependencies
-
 const express = require("express");
 const router = express.Router();
 const Category = require("../models/categories");
@@ -11,15 +10,13 @@ const cheerio = require("cheerio");
 const cat_url = "https://shop.countdown.co.nz/shop/";
 const cat_url_nwm = "https://www.ishopnewworld.co.nz/";
 
-
 //Scarping data from Countdown
-
 router.post("/countdown", async function (req, res) {
     scrapeCat = async cat_url => {
         const response_countdown = await axios.get(cat_url);
         const $ = cheerio.load(response_countdown.data);
 
-        // add slice(0,2) to just scrape two categories
+        // add slice(0,2) before map to just get 2 categories
         $("#BrowseSlideBox a.toolbar-slidebox-link").map((item, el) => {
             category_url = "https://shop.countdown.co.nz" + $(el).attr("href");
             var count = item;
@@ -50,9 +47,7 @@ router.post("/countdown", async function (req, res) {
                         error: err
                     });
                 });
-            //
             //scraping products here
-            //
             const scrapProd = async category => {
                 let pageCounter = 0;
                 let pageLimit = 5;
@@ -60,13 +55,14 @@ router.post("/countdown", async function (req, res) {
                 const response_p_c= await axios.get(url);
 
                 const $ = cheerio.load(response_p_c.data);
+
+                //pageLimit disable. Now scraping just 5 pages per category
                 /*pageLimit = $("ul.paging.pull-left.hidden-phone")
                   .find("li.page-number")
                   .last()
                   .find("a._jumpTop")
                   .text()
                   .trim();*/
-
                 const pages = await Promise.all(
                     [...Array(parseInt(pageLimit))].map(async (item, i) => {
                         const p = i + 1;
@@ -168,8 +164,7 @@ router.post("/nwm", async function (req, res) {
         const response = await axios.get(cat_url_nwm);
         const $ = cheerio.load(response.data);
 
-        // Add slice(0,2).map(...) to just scrape 2 categories
-
+        // Add slice(0,2).map(...) to just get 2 categories
         $("a.fs-home-category-tiles__tile").map((item, el) => {
             category_url = "https://www.ishopnewworld.co.nz" + $(el).attr("href");
             var count = item;
@@ -200,16 +195,16 @@ router.post("/nwm", async function (req, res) {
                         error: err
                     });
                 });
-            //
             //scraping products here
-            //
             const scrapProdNWM = async category => {
                 let pageCounterNWM = 0;
                 let pageLimitNWM = 5;
-                const url = category.url + "?pg=" + (pageCounterNWM + 1);
-                const response_p = await axios.get(url);
+                const url = category.url + "?pg=" + (pageCounterNWM + 1)
+                const response_p = await axios.get(url)
 
-                const $ = cheerio.load(response_p.data);
+                const $ = cheerio.load(response_p.data)
+                
+                //pageLimit disable. Now scraping just 5 pages per category
                 /* pageLimit = $("ul.fs-pagination__items.u-margin-bottom-x4")
                    .find("li.fs-pagination__item")
                    .last()
@@ -218,9 +213,9 @@ router.post("/nwm", async function (req, res) {
                    .trim();*/
                 const pagesNWM = await Promise.all(
                     [...Array(parseInt(pageLimitNWM))].map(async (item, i) => {
-                        const p = i + 1;
+                        const p = i + 1
                         const pageUrl = category.url + "?pg=" + p;
-                        const response = await axios.get(pageUrl);
+                        const response = await axios.get(pageUrl)
                         console.log(
                             `Processing ${category.category_name}: ${p} out of ${pageLimitNWM}`
                         );
@@ -233,38 +228,33 @@ router.post("/nwm", async function (req, res) {
             };
             function parsePaNWM(response, category, pageUrl) {
                 //Scraping products
-                const $ = cheerio.load(response.data);
+                const $ = cheerio.load(response.data)
                 return $("div.fs-product-card")
                     .map((i, el) => {
                         //var normal_p = null ;
-                        var measure_u = null;
+                        var measure_u = null
                         var normal_price = $(el)
                             .find("div.js-product-card-footer.fs-product-card__footer-container")
-                            .attr("data-options");
-                        
-                        normal_price = normal_price.replace(/[\r\n]/g, '');
+                            .attr("data-options")
+                        normal_price = normal_price.replace(/[\r\n]/g, '')
                         var price = JSON.parse(normal_price);
-                        normal_price = price.ProductDetails.PricePerItem;
-
+                        normal_price = price.ProductDetails.PricePerItem
                         const name = $(el)
                             .children("a.fs-product-card__details.u-color-black.u-no-text-decoration.u-cursor")
                             .children("div.fs-product-card__description")
                             .find("h3.u-p2")
                             .text()
-                            .trim();
+                            .trim()
                         measure_u = $(el)
                             .children("a.fs-product-card__details.u-color-black.u-no-text-decoration.u-cursor")
                             .children("div.fs-product-card__description")
                             .find("p.u-color-half-dark-grey.u-p3")
                             .text()
-
                         var img_url = $(el)
                             .find("div.fs-product-card__product-image")
                             .css('background-image')
-                        
-                            //to clean the image url   
-                        img_url = img_url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
-
+                        //to clean the image url   
+                        img_url = img_url.replace(/^url\(["']?/, '').replace(/["']?\)$/, '')
                         //SAVE new product here
                         const product = new Product({
                             _id: Math.random()
@@ -295,15 +285,15 @@ router.post("/nwm", async function (req, res) {
                                 console.log(err);
                                 res.status(500).json({
                                     error: err
-                                });
-                            });
+                                })
+                            })
                     })
-                    .get();
+                    .get()
             }
-            scrapProdNWM(category);
+            scrapProdNWM(category)
         });
     };
-    await scrapeCatNWM(cat_url_nwm);
+    await scrapeCatNWM(cat_url_nwm)
 })
 
 module.exports = router;

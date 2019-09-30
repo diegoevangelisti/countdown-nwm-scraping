@@ -1,19 +1,20 @@
+//External dependencies
 var express = require("express");
 var app = express();
 require('dotenv').config()
 var passport = require("passport");
-var User = require("./api/models/users");
 var LocalStrategy = require("passport-local");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+var User = require("./api/models/users");
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
 });
 
-//ejs engine template
+//ejs template engine
 app.set("view engine", "ejs");
 
 app.use(express.static('views' + '/static'));
@@ -26,7 +27,6 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 //Magic word for passport 
-
 app.use(require("express-session")({
   secret: "My dear Gandalf from The Lord of the Rings",
   resave: false,
