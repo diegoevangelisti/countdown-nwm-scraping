@@ -1,4 +1,4 @@
-## Steps for seting up the back end for Smart Shopping App and run the application locally
+## Steps for setting up the back end for Smart Shopping App and run the application locally
 
 ### 1 - Node.js installation
 
