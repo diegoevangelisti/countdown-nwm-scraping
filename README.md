@@ -1,3 +1,12 @@
+## Smart Shopping Application. Web scraping + RESTful API + Server + Admin Panel
+
+This app performs web scraping to collect information related with products from two big New Zealand supermarkets.
+Uses cheerio.js to perform DOM manipulation on the server side and get data about their categories, product names, prices, offers, etc.
+The database in NoSQL (MongoDB), the main server side programming language is Node.js. Also a little bit of EJS (template enginee) and the classic (bad still alive) HTML+CSS+JavaScript+jQuery approach for the Admin Panel (FrontEnd).
+Last, but not least, the RESTful API that feed the main FrontEnd (a beatiful iOS app that is not hosted here) is deplayed in Heroku.
+Enjoy!
+
+
 ## Setting up the server, database and admin panel to run the app locally 
 
 ### 1, 2 and 3- Node.js, MongoDB Community Server and Robo3T installation
