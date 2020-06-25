@@ -1,7 +1,6 @@
 ## Setting up the server, database and admin panel to run the app locally 
 
 ### 1, 2 and 3- Node.js, MongoDB Community Server and Robo3T installation
-
 Download their latest versions according to your OS version:
 
 - https://nodejs.org/en/download/
@@ -11,7 +10,6 @@ Download their latest versions according to your OS version:
 Then open the exe files, install the applications, and follow the instructions
 
 ### 4 - Close this repository and prepare de Node server
-
 In the terminal run:
 
 `` git clone https://github.com/diegoevangelisti/countdown-nwm-scraping ``
@@ -25,7 +23,6 @@ Run the following statement:
 `` npm install --save``
 
 ### 5 - Set up mongodb server
-
 Open another terminal and go to the folder where Mongodb server is installed - in windows:
 ``C:\Program Files\MongoDB\Server\4.0\bin``
 
@@ -34,26 +31,21 @@ Then run: ``./mongod``
 After that the server should be properly running and we can connect our app to mongodb
 
 ### 6 - Robo3T setup
-
 Open the Robo3T application nd create a new database named SSA and then connect to it
 
 ### 7 - Run application
-
 In the terminal type:
 
 ``node index.js``
 
 ### 8 - Back office login
-
 Open the browser and go to: 
 ``http://localhost:5000/``
 
 Then enter the following credentials:
 
 username: backend
-
 password: backend
-
 
 After login the app won't show data in Countdown and NWM because there is no data in the database
 
@@ -63,7 +55,6 @@ That data can be visualized in the back office going to:  `Options -> COUNTDOWN 
 Can be checked in Robo3T as well.
 
 ### 9 - Extra notes
-
 Now the application is configured to perform web scraping in Countdown and New World shops.
 Setup: Takes all the categories, and scrapes 5 pages of 24 and 20 products from each supermarket respectively.
 
