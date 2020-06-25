@@ -1,68 +1,51 @@
-## Steps for setting up the back end for Smart Shopping App and run the application locally
+## Setting up the server, database and admin panel to run the app locally 
 
-### 1 - Node.js installation
+### 1, 2 and 3- Node.js, MongoDB Community Server and Robo3T installation
 
-Download the latest version according to your OS version here: https://nodejs.org/en/download/
+Download their latest versions according to your OS version:
 
-Then open the exe file and install the application following the instructions
+- https://nodejs.org/en/download/
+- https://www.mongodb.com/download-center/community
+- https://robomongo.org/download
 
-### 2 - MongoDB Community Server installation
+Then open the exe files, install the applications, and follow the instructions
 
-Download the latest version according to your OS version here: https://www.mongodb.com/download-center/community
+### 4 - Close this repository and prepare de Node server
 
-Then open the exe file and install the application following the instructions
+In the terminal run:
 
-### 3 - Robo3T installation
-
-Download the latest version according to your OS version here: https://robomongo.org/download
-
-Then open the exe file and install the application following the instructions
-
-Robo3T allows us to manage MondoDB databases locally
-
-
-### 4 - Node.js first steps
-
-Open the back-end-code folder in Visual Studio Code or similar source-code editor (download VSC here: https://code.visualstudio.com/download)
-
-Open a new terminal inside Visual Studio Code
-
-Delete the ``package.json`` file situated in the main folder
+`` git clone https://github.com/diegoevangelisti/countdown-nwm-scraping ``
 
 Run the following statement:
 
-`` npm start ``
+`` cd countdown-nwm-scraping ``
 
+`` npm init ``
 
-### 4 -  Installing packages with npm
-
-Now all the external dependencies should be installed. Run the following statement in the terminal:
-
-``npm install nodemon mongoose express passport passport-local passport-local-mongoose node-cron body-parser morgan method-override axios cheerio --save``
+`` npm install --save``
 
 ### 5 - Set up mongodb server
 
-Open another terminal and go to the folder where Mongodb server is install, specifically to this location:
+Open another terminal and go to the folder where Mongodb server is installed - in windows:
 ``C:\Program Files\MongoDB\Server\4.0\bin``
 
-Then run the following: ``./mongod``
+Then run: ``./mongod``
 
-After that the server should be initiated properly and we can connect our app with mongodb
+After that the server should be properly running and we can connect our app to mongodb
 
 ### 6 - Robo3T setup
 
-Open the Robo3T application nd create a new database named SSA and the connect to it
-
+Open the Robo3T application nd create a new database named SSA and then connect to it
 
 ### 7 - Run application
 
-Write the following statement in the first terminal:
-``nodemon index.js``
+In the terminal type:
 
+``node index.js``
 
 ### 8 - Back office login
 
-Open the browser (chrome is the best option) and go to: 
+Open the browser and go to: 
 ``http://localhost:5000/``
 
 Then enter the following credentials:
@@ -71,18 +54,17 @@ username: backend
 
 password: backend
 
+
 After login the app won't show data in Countdown and NWM because there is no data in the database
 
-Go to Options -> Press the button GET DATA from Countdown and GET DATA from NWM
+Go to `Options -> Get Data` (Countown and New World)
 
-Now the application should create all the categories collections and products from both shops.
-
-That data can be access in the back office going to -> COUNTDOWN DATA and NEW WORLD DATA (access from the navigation bar)
-
-Can be access in Robo3T as well.
+That data can be visualized in the back office going to:  `Options -> COUNTDOWN DATA` and `NEW WORLD DATA` 
+Can be checked in Robo3T as well.
 
 ### 9 - Extra notes
 
-Now the application is set up to perform web scraping in COUNTDOWN and NWM shops, taking all the categories names and 5 pages of 24 and 20 products from each one respectively.
+Now the application is configured to perform web scraping in Countdown and New World shops.
+Setup: Takes all the categories, and scrapes 5 pages of 24 and 20 products from each supermarket respectively.
 
 ### Created by Diego Evangelisti. April, 2019
